@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?oxygen RNGSchema="../schema/wwp-store.rnc" type="compact"?>
+<!-- $Header: /tmp/improvement/RCS/anger.protection.xml,v 1.46 2010-01-24 20:54:14-05 sbauman Exp $ -->
+<TEI xmlns="http://www.wwp.brown.edu/ns/textbase/storage/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<himom>yo</himom>
+  <teiHeader xml:id="TR00003.hdr">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Jane Anger Her Protection for Women, 1589</title>
+        <author>
+          <persName ref="personography.xml#janger.uys" type="person-female">Anger, Jane</persName>
+        </author>
+        <sponsor>Brown University</sponsor>
+        <funder>U.S. National Endowment for the Humanities</funder>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2.0">Second edition: version 2.0</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Brown University Women Writers Project</publisher>
+        <address>
+          <addrLine>Box 1841</addrLine>
+          <addrLine>Brown University</addrLine>
+          <addrLine>Providence, RI  02912-1841</addrLine>
+          <addrLine>USA</addrLine>
+          <addrLine>url:mailto:WWP@brown.edu</addrLine>
+          <addrLine>url:http://www.wwp.brown.edu</addrLine>
+          <addrLine>401-863-3619</addrLine>
+        </address>
+        <idno type="WWP">TR00003</idno>
+        <idno type="URL">http://www.wwp.brown.edu/texts/anger.protection.html</idno>
+        <xi:include href="availability.xml"/>
+        <date when="2001-04-23"/>
+      </publicationStmt>
+      <sourceDesc n="OT00003">
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName ref="personography.xml#janger.uys" type="titlePage">Jane Anger</persName>
+              <persName ref="personography.xml#janger.uys" type="regularized">Anger, Jane</persName>
+            </author>
+            <title>Jane Anger her protection for women</title>
+            <edition>First edition</edition>
+            <imprint>
+              <pubPlace>London</pubPlace>
+              <publisher>
+                <persName ref="personography.xml#unknown.zzx" type="person">s.n.</persName>
+              </publisher>
+              <date when="1589">1589</date>
+            </imprint>
+            <extent>
+              <measure unit="page" quantity="23"/>
+            </extent>
+            <extent>
+              <dimensions>
+                <format>quarto</format>
+              </dimensions>
+            </extent>
+          </monogr>
+          <idno type="CH">49047</idno>
+          <idno type="STC">644</idno>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <xi:include href="projectDesc.xml"/>
+      <xi:include href="samplingDecl.xml"/>
+      <xi:include href="editorialDecl.xml"/>
+      <tagsDecl>
+        <rendition xml:id="rend.right">align(right)break(yes)face(roman)</rendition>
+        <rendition xml:id="rend.trailer">align(center)case(allcaps)break(yes)face(roman)</rendition>
+        <rendition xml:id="rend.roman">face(roman)</rendition>
+        <rendition xml:id="rend.head">face(roman)align(center)</rendition>
+        <rendition xml:id="rend.emph">case(allcaps)</rendition>
+        <rendition xml:id="rend.fw">break(yes)face(blackletter)</rendition>
+        <rendition xml:id="rend.p">break(yes)first-indent(1)</rendition>
+        <namespace name="http://www.wwp.brown.edu/ns/textbase/storage/1.0">
+          <tagUsage gi="closer" render="#rend.right"/>
+          <tagUsage gi="emph" render="#rend.emph"/>
+          <tagUsage gi="foreign" render="#rend.roman"/>
+          <tagUsage gi="mw" render="#rend.fw"/>
+          <tagUsage gi="head" render="#rend.head"/>
+          <tagUsage gi="lg" render="#rend.roman"/>
+          <tagUsage gi="persName" render="#rend.roman"/>
+          <tagUsage gi="placeName" render="#rend.roman"/>
+          <tagUsage gi="q" render="#rend.roman"/>
+          <tagUsage gi="quote" render="#rend.roman"/>
+          <tagUsage gi="mcr" render="#rend.roman"/>
+          <tagUsage gi="title" render="#rend.roman"/>
+          <tagUsage gi="titlePart" render="#rend.roman"/>
+          <tagUsage gi="trailer" render="#rend.trailer"/>
+          <tagUsage gi="p" render="#rend.p"/>
+        </namespace>
+      </tagsDecl>
+      <classDecl>
+        <xi:include href="taxonomy.xml"/>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef type="main" target="#G.non-fiction"/>
+        <catRef type="other" target="#G.non-fiction.essay"/>
+        <catRef type="other" target="#G.verse.lyric"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change n="RCS:1.41" when="2009-07-31" who="personography.xml#npeterson.gwx">validated name keys except s.n.</change>
+      <change n="RCS:1.39" when="2008-12-19" who="personography.xml#npeterson.gwx">added name keys</change>
+      <change n="RCS:1.38" when="2008-10-10" who="personography.xml#lmanders.vko">nested placeName in persName for Francis Sforce Duke of Millaine (Milan)</change>
+      <change n="RCS:1.37" when="2008-09-23" who="personography.xml#npeterson.gwx">improvement, validation</change>
+      <change n="RCS:1.25" when="1999-10-13" who="personography.xml#jrussom.zxg">Corrected capitalization in vuji.</change>
+      <change n="RCS:1.23" when="1999-08-16" who="personography.xml#pcaton.xzc">Added EXTENT tag for pagination.</change>
+      <change n="RCS:1.22" when="1999-08-14" who="personography.xml#jflanders.lfw">updated header names</change>
+      <change n="RCS:1.20" when="1999-08-11" who="personography.xml#jrussom.zxg">Tagged vuji words by pattern matching.</change>
+      <change n="RCS:1.11" when="1999-06-04" who="personography.xml#cgoodall.nez">Added n= values to PBs. Removed PERSNAME from references to God. Changed occurrences of RS to MCR. Fixed renditional attributes from old system. Added wrapper-LG elements. Ran spam and caseFix and fixed case of attribute values. Valid against 1.1.29a. Supravalid except for header and one outstanding comment. Printed for proofing.</change>
+      <change n="RCS:1.10" when="1999-06-03" who="personography.xml#cgoodall.nez">Moved last 3 DIVs to BODY, removed BACK.</change>
+      <change when="1999-04-05" who="personography.xml#jrussom.zxg">Changed source publisher from n.p. to s.n. per AACR2.</change>
+      <change when="1999-03-17" who="personography.xml#pcaton.xzc">Fixed SIGNEDs and CLOSERs. Validated against DTD 1.1.27a</change>
+      <change when="1999-01-19" who="personography.xml#jrussom.zxg">Revised TEI header FILEDESC element names, ordering, and contents.</change>
+      <change when="1999-01-11" who="personography.xml#pcaton.xzc">Changed RS type="printer" to DOCROLE. For last paragraph in the text, moved the rend="ALIGN(CENTER) from the P tag to the last six LB tags.</change>
+      <change when="1998-04-09" who="personography.xml#pcaton.xzc">Removed a lot of redundancies from the TAGSDECL; moved PB and MILESTONE tags to within appropriate DIV boundaries. Tagged some couplets as such. Validated against DTD version 1.1.9a</change>
+      <change when="1997-10-14" who="personography.xml#sbauman.emt">Transfered default renditions for DOCAUTHOR and DOCIMPRINT to the only instances.</change>
+      <change when="1997-04-16" who="personography.xml#fhalpern.ahl">Fixed a few errors caught in an encoding check (emph's to persName's; Br to B1r, etc.). File validates.</change>
+      <change when="1997-02-26" who="personography.xml#fhalpern.ahl">Fixed teiheader to conform to current standards; made sure no fw's fell outside any div's. File validates.</change>
+      <change when="1997-01-29" who="personography.xml#jrowley.bri">Removed redundant paragraph tags in TEI Header, checked abbreviations w/ Jacque.</change>
+      <change when="1996-12-09" who="personography.xml#jrowley.bri">Removed 2 sic tags, transferred file to swansong, validated against version 1.011a wwp-store.dtd; supra-SGML validated.</change>
+      <change when="1996-11-26" who="personography.xml#jrowley.bri">Entered final corrections.</change>
+      <change when="1996-11-19" who="personography.xml#jrowley.bri">Finished Renovation.</change>
+      <change when="1996-11-07" who="personography.xml#jrowley.bri">Imported file to Author/Editor v. 3.1 on Mac with version 1.0.10a of wwpstore-rls, began Renovation.</change>
+      <change n="SGMWWP91" when="1996-01-19" who="personography.xml#jrussom.zxg">Expanded vowel macrons; corrected incidental transcription errors.</change>
+      <change n="SGMWWP04" when="1995-07-14" who="personography.xml#emcnulty.dav">2nd DTD validation</change>
+      <change n="SGMWWP03" when="1995-06-19" who="personography.xml#jatlee.awv">Added tei header</change>
+      <change n="SGMWWP03" when="1995-04-14" who="personography.xml#mcastella.poz">Converted change log to conform with P3.</change>
+      <change n="SGMWWP03" when="1995-01-31" who="personography.xml#emcnulty.dav">Successfully validated file against first DTD.</change>
+      <change n="WWPPRF03" when="1994-11-30" who="personography.xml#lnoveck.yhx">Modified title page to conform with P3.</change>
+      <change n="WWPPRF03" when="1994-10-27" who="personography.xml#aporter.hyu">Changed the 'tPage.p' tag to 'titlePart type="sub"'.</change>
+      <change n="WWPPRF03" when="1994-09-06" who="personography.xml#crounds.bzq">Reencoded erratum at end of text to conform with P3.</change>
+      <change n="WWPPRF02" when="1994-08-26" who="personography.xml#kbordner.fqd">Added end stanza tags where needed.</change>
+      <change n="WWPPRF02" when="1994-08-05" who="personography.xml#kbordner.fqd">Added /l tags where appropriate.</change>
+      <change n="WWPPRF02" when="1994-07-07" who="personography.xml#pcaton.xzc">Entered :front, :body, and :back tags.</change>
+      <change n="WWPPRF02" when="1993-12-01" who="personography.xml#cmah.dci">Conversion to pointy tags.</change>
+      <change when="1991-04-29" who="personography.xml#ebrennan.gxl">Brought to current "." standard.</change>
+      <change when="1991-04-17" who="personography.xml#cmah.dci">Corrections to electronic text completed.</change>
+      <change when="1991-04-10" who="personography.xml#cmah.dci">Proofreading.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="TR00003" rend="face(blackletter)">
+    <front>
+      <pb n="1"/>
+      <milestone n="A1r" unit="sig"/>
+      <titleBlock rend="align(center)face(roman)">
+        <titlePart><persName rend="case(allcaps)" ref="personography.xml#janger.uys"><vuji>I</vuji>ane Anger</persName><lb/>her Protection
+			<lb/>for <vuji>VV</vuji>omen.</titlePart>
+        <titlePart type="sub">To defend them againſt the
+			<lb/><hi rend="case(allcaps)">scandalo<vuji>v</vuji>s  reportes of</hi>
+			<lb/>a late Surfeiting Lo<vuji>u</vuji>er, and all other like
+			<lb/>Venerians that complaine ſo to bee
+			<lb/>o<vuji>u</vuji>ercloyed with womens
+			<lb/>kindneſſe.</titlePart>
+        <respLine rend="break(yes)face(blackletter)">Written by
+	  <docRole><persName rend="face(blackletter)" ref="personography.xml#janger.uys"><vuji>I</vuji>a: A. Gent.</persName></docRole></respLine>
+        <docImprint rend="pre(#ornament)break(yes)">At
+		  <pubPlace>London</pubPlace>
+		  <lb/>Printed by
+		  <docRole type="printer"><persName ref="personography.xml#rjones.neb">Richard <vuji>I</vuji>ones</persName></docRole>, and
+		  <docRole><persName ref="personography.xml#torwin.mko">Thomas
+			  <lb/>Orwin</persName></docRole>.
+		  <docDate rend="break(no)" when="1589">1589</docDate>.
+		</docImprint>
+      </titleBlock>
+      <pb n="2"/>
+      <milestone n="A1v" unit="sig"/>
+      <pb n="3"/>
+      <milestone n="A2r" unit="sig"/>
+      <div rend="face(roman)" type="prefatory">
+        <head>To the Gentlewomen
+		  <lb/>of
+		  <placeName rend="case(allcaps)">England</placeName>, health.</head>
+        <p rend="indent(0)"><hi rend="class(#DIC)">G</hi><hi rend="case(allcaps)">e</hi>ntlewom<choice><abbr>ē</abbr><expan>en</expan></choice>, though it is to be feared that your
+		  <lb/>ſetled wits wil ad<vuji>u</vuji>iſedly c<choice><abbr>ō</abbr><expan>on</expan></choice>demne <choice><abbr><g ref="#ysupt"/></abbr><expan>that</expan></choice>, which my
+		  <lb/>cholloricke vaine hath raſhly ſet downe, and ſo
+	  <lb/>perchance, <persName ref="personography.xml#janger.uys" rend="case(allcaps)">Anger</persName> ſhal reape anger for not
+		  <lb/>agreeing with diſeaſed persons: Yet (if with indiffe­
+		  <lb/>rencie of cenſure, you conſider of the head of the qua­
+		  <lb/>rell)  I hope you will rather ſhew your ſel<vuji>u</vuji>es defen­
+		  <lb/>dantes of the defenders title, then complainantes of
+		  <lb/>the plaintifes wrong. I doubt <vuji>i</vuji>udgement before trial,
+		  <lb/>which were in<vuji>i</vuji>urious to the Law, and I confeſſe that
+		  <lb/>my raſhneſſe deſer<vuji>u</vuji>eth no leſſe, which was a fit of my
+		  <lb/>extremitie. I will not <vuji>v</vuji>rge reaſons becauſe your wits
+		  <lb/>are ſharp and will ſoone concei<vuji>u</vuji>e my meaning, ne
+		  <lb/>will I be tedious leaſt I proo<vuji>u</vuji>e too too troubleſome,
+		  <lb/>nor o<vuji>u</vuji>er darke in my writing, for feare of the name
+		  <lb/>of a Ridler. But (in a worde) for my preſumption I
+	  <lb/>cra<vuji>u</vuji>e pardon, becauſe it was <persName ref="personography.xml#janger.uys" rend="case(allcaps)">Anger</persName> that did
+		  <lb/>write it: committing your protection, and my ſelfe, to
+		  <lb/>the protection of your ſel<vuji>u</vuji>es, and the <vuji>i</vuji>udgement of
+		  <lb/>the cauſe to the cenſures of your <vuji>i</vuji>uſt mindes.
+		</p>
+        <closer>Yours e<vuji>u</vuji>er at commandement,
+  <signed rend="break(yes)right-indent(1)"><persName ref="personography.xml#janger.uys"><vuji>I</vuji>a: A.</persName></signed></closer>
+      </div>
+      <pb n="4"/>
+      <milestone n="A2v" unit="sig"/>
+      <div rend="face(blackletter)" type="prefatory">
+        <head rend="face(roman)">To all <vuji>VV</vuji>omen in gene­
+		  <lb/><choice><sic>ne</sic><corr/></choice>rall, and gentle Reader whatſoe<vuji>u</vuji>er.</head>
+        <p rend="indent(0)"><hi rend="class(#DIC)">F</hi><hi rend="case(allcaps)">ie</hi> on the falſhoode of men, whoſe
+		  <lb/>minds goe oft a madding, ; whoſe
+		  <lb/>tongues can not ſo ſoone bee wag­
+		  <lb/>ging, but ſtraight they fal a railing<choice><sic/><corr>.</corr></choice>
+		  <lb/>Was there e<vuji>u</vuji>er any ſo abuſed, ſo
+		  <lb/>ſlaundered, ſo railed <vuji>v</vuji>p<choice><abbr>ō</abbr><expan>on</expan></choice>, or ſo wic­
+		  <lb/>kedly handeled <vuji>v</vuji>ndeſer<vuji>u</vuji>edly, as are we women?
+		  <lb/>Will the Gods permit it, the Goddeſſes ſtay theyr
+		  <lb/>puniſhing <vuji>i</vuji>udgments, and we ourſel<vuji>u</vuji>es not pur­
+		  <lb/>ſue their <vuji>v</vuji>ndoinges for ſuch di<vuji>u</vuji>eliſh practiſes? O
+		  <lb/>
+		  <placeName>Paules ſteeple</placeName> and
+		  <placeName>Charing Croſſe</placeName>. A halter hold al
+		  <lb/>ſuch perſons. Let the ſtreames of the channels in
+		  <lb/>
+		  <placeName>London</placeName> ſtreates run ſo ſwiftly, as they may be a­
+		  <lb/>ble alone to carrie them from that ſanctuarie. Let
+		  <lb/>the ſtones be as Ice, the ſoales of their ſhooes as
+		  <lb/>Glaſſe, the waies ſteep like
+		  <placeName>Ætna</placeName>, ; e<vuji>u</vuji>ery blaſt a
+		  <lb/>Whyrl-wind puffed out of
+		  <persName ref="personography.xml#boreas.yex">Boreas</persName> his long throat,
+		  <lb/>that theſe may haſten their paſſage to the De<vuji>u</vuji>ils
+		  <lb/>ha<vuji>u</vuji>en. Shal Surfeiters raile on our kindnes, you
+		  <lb/>ſtand ſtil ; ſay nought, and ſhall not <persName ref="personography.xml#janger.uys" rend="case(mixed)face(roman)">Anger</persName> ſtretch
+		  <lb/>the vaines of her braines, the ſtringes of her fin­
+		  <lb/>gers, and the liſtes of her modeſtie, to anſwere
+		  <lb/>their Surfeitings? Yes truely. And herein I con­
+		  <lb/><vuji>i</vuji>ure all you to aide and aſſiſt me in defence of my
+		  <lb/>willingnes, which ſhall make me reſt at your com<choice><sic/><corr>­</corr></choice>
+		  <lb/>maundes. Fare you well.</p>
+        <closer>Your friend,
+		  <signed rend="break(yes)right-indent(1)"><persName ref="personography.xml#janger.uys"><vuji>I</vuji>a. A.</persName></signed></closer>
+      </div>
+    </front>
+    <body>
+      <pb n="5"/>
+      <milestone n="B1r" unit="sig"/>
+      <div type="section" rend="face(blackletter)">
+        <head rend="face(blackletter)">A Protection for
+		<lb/>Women. ;c.</head>
+        <p rend="indent(0)"><hi rend="class(#DIC)face(roman)">T</hi><hi rend="case(allcaps)">he</hi> deſire that e<vuji>u</vuji>ery man hath to ſhewe his true vaine
+		<lb/>in writing is <vuji>v</vuji>nſpeakable, and their mindes are ſo cari­
+		<lb/>ed away with the manner, as no care at all is had of the
+		<lb/>matter: they run ſo into Rethorick, as often times they
+		<lb/>o<vuji>u</vuji>errun the boundes of their own wits, and goe they knowe
+		<lb/>not whether. If they ha<vuji>u</vuji>e ſtretched their in<vuji>u</vuji>ention ſo hard on
+		<lb/>a laſt, as it is at a ſtand, there remaines but one help, which is,
+		<lb/>to write of <vuji>v</vuji>s wom<choice><abbr>ē</abbr><expan>en</expan></choice>: If they may once encroch ſo far into our
+		<lb/>preſence, as they may but ſee the lyning of our outermoſt gar­
+		<lb/>ment, they ſtraight think that
+		<persName ref="personography.xml#apollo.sfl">Apollo</persName> honours them, in yeel­
+		<lb/>ding ſo good a ſupply to refreſh their ſore o<vuji>u</vuji>erburdened heads,
+		<lb/>through ſtudying for matters to indite off. And therfore <choice><abbr><g ref="#ysupt"/></abbr><expan>that</expan></choice> the
+		<lb/>God may ſee how thankfully they recei<vuji>u</vuji>e his liberality, (their
+		<lb/>wits whetted, and their braines almoſt broken with botching
+		<lb/>his bountie) they fall ſtraight to diſpraising and ſlaundering
+		<lb/>our ſilly ſex. But <vuji>i</vuji>udge what the cauſe ſhould be, of this their
+		<lb/>ſo great malice towards ſimple women. Doubtles the weak­
+		<lb/>neſſe of our wits, and our honeſt baſhfulneſſe, by reaſon wher­
+		<lb/>of they ſuppoſe that there is not one amongſt <vuji>v</vuji>s who can, or
+		<lb/>dare reproo<vuji>u</vuji>e their ſlanders and falſe reproches: their ſlaunde­
+		<lb/>rous tongues are ſo ſhort, and the time wherin they ha<vuji>u</vuji>e la<vuji>u</vuji>i­
+		<lb/>ſhed out their wordes freely, hath bene ſo long, that they know
+		<lb/>we cannot catch hold of them to pull them out, and they think
+		<lb/>we wil not write to reproo<vuji>u</vuji>e their lying lips: which conceites
+		<lb/>ha<vuji>u</vuji>e already made them cockes and wolde (ſhould they not be
+		<lb/>cra<vuji>u</vuji>ened) make themſel<vuji>u</vuji>es among themſel<vuji>u</vuji>es bee thought to
+		<lb/>be of the game. They ha<vuji>u</vuji>e bene ſo daintely fed with our good
+		<lb/>natures, that like <vuji>i</vuji>ades (their ſtomackes are grown ſo queſie)
+		<lb/>they ſurfeit of our kindnes. If we wil not ſuffer them to ſmell
+		<lb/>on our ſmockes, they will ſnatch at our peticotes: but if our
+		<lb/>honeſt natures cannot away with that <vuji>v</vuji>nci<vuji>u</vuji>il kinde of <vuji>i</vuji>eſting
+		<mw rend="align(center)" type="sig">B</mw>
+		<mw rend="align(right)break(no)" type="catch">then</mw>
+		<pb n="6"/>
+		<milestone n="B1v" unit="sig"/>
+		<lb/>then we are coy: yet if we beare with their rudenes, and be ſom<choice><sic/><corr>­</corr></choice>
+		<lb/>what modeſtly familiar with them, they will ſtraight make
+		<lb/>matter of nothing, blazing abroad that they ha<vuji>u</vuji>e ſurfeited with
+		<lb/>lo<vuji>u</vuji>e, and then their wits muſt be ſhowen in telling the maner
+		<lb/>how.</p>
+        <p>Among the innumerable number of bookes to that purpoſe,
+		<lb/>of late (<vuji>v</vuji>nlooked for) the newe ſurfeit of an olde Lo<vuji>u</vuji>er (ſent a­
+		<lb/>broad to warne thoſe which are of his own kind, from catching
+		<lb/>the like diſeaſe) came by chance to my handes: which, becauſe
+		<lb/>aſ well women as men are deſirous of no<vuji>u</vuji>elties, I willinglie
+		<lb/>read o<vuji>u</vuji>er: neither did the ending thereof leſſe please me then <choice><abbr><g ref="#ysupe"/></abbr><expan>the</expan></choice>
+		<lb/>beginning, for I was ſo carried away with the conceit of the
+		<lb/><choice><abbr>Gent.</abbr><expan>Gentleman</expan></choice> as that I was quite out of the booke before I thought
+		<lb/>I had bene in the middeſt thereof: So pithie were his ſenten­
+		<lb/>ces, ſo pure his wordes, and ſo pleaſing his stile. The chiefe
+		<lb/>matters therein contained were of two ſortes: the one in the diſ<choice><sic/><corr>­</corr></choice>
+		<lb/>praiſe of mans follie, and the other, in<vuji>u</vuji>ecti<vuji>u</vuji>e againſt our ſex,
+		<lb/>their folly proceeding of their own flatterie <vuji>i</vuji>oined <choice><abbr><g ref="#wsupt"/></abbr><expan>with</expan></choice> fancie, ;
+		<lb/>our faultes are through our follie, with which is ſome faith.</p>
+        <p>The bounteous wordes written o<vuji>u</vuji>er the laſci<vuji>u</vuji>ious kinge
+		<lb/>
+		<persName ref="personography.xml#ninus.mds">Ninus</persName> his head, ſet down
+		in this olde Lo<vuji>u</vuji>er his
+		<mcr>Surfeit</mcr> to be
+		<lb/>theſe (<mcr>Demaund and ha<vuji>u</vuji>e</mcr>:) do plainly ſhew the flatterie of
+		<lb/>mens falſe heartes: for knowing that we women, are weake
+		<lb/>veſſels ſoone o<vuji>u</vuji>erwhelmed, and that
+		<mcr>Bountie</mcr> bendeth e<vuji>u</vuji>erie
+		<lb/>thing to his becke, they take him for their instrument (too too
+		<lb/>ſtrong) to aſſay the pulling downe of <vuji>v</vuji>s ſo weake. If we ſtand
+		<lb/>faſt, they ſtri<vuji>u</vuji>e: if we totter (though but a little) they will ne­
+		<lb/><vuji>u</vuji>er lea<vuji>u</vuji>e til they ha<vuji>u</vuji>e o<vuji>u</vuji>erturned <vuji>v</vuji>s.
+		<persName ref="personography.xml#semiramis.cdz">Semeramis</persName> demaun­
+		<lb/>ded: and who would not if courteſie ſhould be ſo freely offered?
+		<lb/>
+		<persName ref="personography.xml#ninus.mds">Ninus</persName> ga<vuji>u</vuji>e all to his kingdome, and that at the laſt: the more
+		<lb/>foole he: and of him this ſhal be my cenſure (agreeing with the
+		<lb/>verdict of the ſurfaiting lo<vuji>u</vuji>er, ſa<vuji>u</vuji>e onely that he hath miſpla­
+		<lb/>ced and miſtaken certaine wordes) in this maner.</p>
+        <lg type="poem" subtype="indeterminate">
+          <lg type="quatrain">
+            <l>Fooles force ſuch flatterie, and men of dull conceite:</l>
+            <l>Such phrenſie oft doth hant the wise (Nurſe Wiſedom once re<vuji>i</vuji>ected)</l>
+            <l>Though lo<vuji>u</vuji>e be ſure and firme: yet Luſt fraught with deceit,</l>
+            <l>And mens fair wordes do worke great wo, <vuji>v</vuji>nleſſe they be ſuſpected.</l>
+          </lg>
+          <mw rend="align(right)face(roman)" type="catch">Then</mw>
+          <pb n="7"/>
+          <milestone n="B2r" unit="sig"/>
+          <lg type="sestet">
+            <l>Then fooliſh
+		  <persName rend="case(smallcaps)" ref="personography.xml#ninus.mds">Nin<vuji>v</vuji>s</persName>  had but due, if I his <vuji>i</vuji>udge might be,</l>
+            <l>Vilde are mens luſtes, falſe are their lips, besmer'd with flatterie:</l>
+            <l>Himſelfe and Crowne he brought to thrall which paſſed all the reſt</l>
+            <l>His foot-ſtoole match he made his head, and therefore was a beaſt.</l>
+            <l>Then all such beaſtes ſuch beaſtly endes, I wiſh the Gods to ſend,</l>
+            <l>And worſer too if woorſe may be: like his my cenſure end.</l>
+          </lg>
+        </lg>
+        <p rend="indent(0)">The ſlouthful king
+		<persName ref="personography.xml#sardanapa.hjn">Sardanapalus</persName>
+		with his beaſtlike and licen<choice><sic/><corr>­</corr></choice>
+		<lb/>tious deedes are ſo plainly diſciphered, and his bad end well
+		<lb/>deſer<vuji>u</vuji>ed, ſo truly ſet down in that Surfeit, as both our <vuji>i</vuji>udg­
+		<lb/>ments agree in one.</p>
+        <p>But that
+		<persName ref="personography.xml#menelaus.znt">Menalaus</persName> was ſer<vuji>u</vuji>ed with ſuch ſauce it is a won­
+		<lb/>der: yet truely their Sex are ſo like to Buls, that it is no mar­
+		<lb/><vuji>u</vuji>ell though the Gods do metamorphoze ſome of them, to gi<vuji>u</vuji>e
+		<lb/>warning to the reſt, if they coulde think ſo of it, for ſome of
+		<lb/>them wil follow the ſmocke as Tom Bull will runne after a
+		<lb/>towne Cowe. But, leaſt they ſhould running ſlip and breake
+		<lb/>their pates, the Gods pro<vuji>u</vuji>ident of their welfare, ſet a paire of
+		<lb/>tooters on their foreheades, to keepe it from the ground, for
+		<lb/>doubtles ſo ſtood the caſe with
+		<persName ref="personography.xml#menelaus.znt">Menalus</persName>, hee running abroade
+		<lb/>as a Smel-ſmocke, got the habit of a Coockold, of whom thus
+		<lb/>ſhall go my verdicte.</p>
+        <lg type="poem" subtype="stanzaic">
+          <lg type="sestet">
+            <l>The Gods moſt <vuji>i</vuji>uſt doe <vuji>i</vuji>uſtly puniſh ſinne</l>
+            <l>with thoſe ſame plagues which men do moſt forlorn,</l>
+            <l>If filthy luſt in men to ſpring begin,</l>
+            <l>That monſtrous ſin he plagueth with the horne.</l>
+            <lg type="couplet" rend="indent(1)">
+              <l>their wiſdome great wherby they men forewarne,</l>
+              <l>to ſhun vild luſt, leſt they wil weare the horne.</l>
+            </lg>
+          </lg>
+          <lg type="sestet">
+            <l>Deceitfull men with guile muſt be repaid,</l>
+            <l>And blowes for blowes who renders not againe?</l>
+            <l>The man that is of Coockolds lot affraid,</l>
+            <l>From Lechery he ought for to refraine.</l>
+            <lg type="couplet" rend="indent(1)">
+              <l>Els ſhall he ha<vuji>u</vuji>e the plague he doth forlorne:</l>
+              <l>and ought <choice><sic>(</sic><corr/></choice>perforce conſtrain'd to wear the horne.</l>
+            </lg>
+          </lg>
+          <mw rend="align(center)face(roman)" type="sig">B2</mw>
+          <mw rend="align(right)break(no)face(roman)" type="catch">The</mw>
+          <pb n="8"/>
+          <milestone n="B2v" unit="sig"/>
+          <lg type="sestet">
+            <l>The <name>Greeke</name>,
+		  <persName ref="personography.xml#actaeon.zvu">Acteons</persName> badge did weare, they ſay,</l>
+            <l>And worthy too, he lo<vuji>u</vuji>ed the ſmocke ſo wel,</l>
+            <l>That e<vuji>u</vuji>erie man may be a Bull I pray,</l>
+            <l>Which lo<vuji>u</vuji>es to follow luſt (his game) ſo well.</l>
+            <lg type="couplet" rend="indent(1)">
+              <l>For by that meanes poore women ſhall ha<vuji>u</vuji>e peace</l>
+              <l>and want theſe <vuji>i</vuji>arres. Thus doth my cenſure ceaſe.</l>
+            </lg>
+          </lg>
+        </lg>
+        <p>The greateſt fault that doth remaine in <vuji>v</vuji>s women is, that
+		<lb/>we are too credulous, for could we flatter as they can diſſem­
+		<lb/>ble, and <vuji>v</vuji>ſe our wittes well, as they can their tongues ill, then
+		<lb/>ne<vuji>u</vuji>er would any of them complaine of ſurfeiting. But if we
+		<lb/>women be ſo ſo perillous cattell as they terme <vuji>v</vuji>s, I mar<vuji>u</vuji>ell
+		<lb/>that the Gods made not
+		<mcr>Fidelitie</mcr> as well a man, as they cre­
+		<lb/>ated her a woman, and all the morall vertues of their maſcu­
+		<lb/>line ſex, as of the feminine kinde, except their Deities knewe
+		<lb/>that there was ſome ſo<vuji>u</vuji>erainty in <vuji>v</vuji>s women, which could not
+		<lb/>be in them men. But leaſt ſome ſnatching fellow ſhould catch
+		<lb/>me before I fall to the grounde, (and ſay they will adorne my
+		<lb/>head with a feather, affirming that I rome beyond reaſon, ſee­
+		<lb/>ing it is moſt manifeſt that the man is the head of the woman,
+		<lb/>and that therfore we ought to be guided by them,) I pre<vuji>u</vuji>ent
+		<lb/>them with this anſwere. The Gods knowing that the mindes
+		<lb/>of mankind would be aſpiring, and ha<vuji>u</vuji>ing throughly viewed
+		<lb/>the wonderfull vertues wherewith women are inriched, leaſt
+		<lb/>they ſhould pro<vuji>u</vuji>oke <vuji>v</vuji>s to pride, and ſo confound <vuji>v</vuji>s with
+		<persName ref="personography.xml#satan.inz">Lu­
+		  <lb/>cifer</persName>,
+		they beſtowed the ſupremacy o<vuji>u</vuji>er <vuji>v</vuji>s to m<choice><abbr>ā</abbr><expan>an</expan></choice>, that of that
+		<lb/>Cockſcombe he might onely boaſt, and therfore for Gods ſake
+		<lb/>let them keepe it. But wee returne to the Surfeit.</p>
+        <p>Ha<vuji>u</vuji>ing made a long diſcourſe of the Gods cenſure concer­
+		<lb/>ning lo<vuji>u</vuji>e, he lea<vuji>u</vuji>es th<choice><abbr>ē</abbr><expan>em</expan></choice>
+		(; I th<choice><abbr>ē</abbr><expan>em</expan></choice> with him) and comes to the
+		<lb/>principall ob<vuji>i</vuji>ect and generall foundation of lo<vuji>u</vuji>e, which he af­
+		<lb/>firmeth to be grounded on women: ; now beginning to ſearch
+		<lb/>his ſcroule, wherein are tauntes againſt <vuji>v</vuji>s, he beginneth and
+		<lb/>saieth that we allure their hearts to <vuji>v</vuji>s: wherin he ſaieth more
+		<lb/>truly then he is aware off: for we woo them with our vertues,
+		<lb/>; they wed <vuji>v</vuji>s with vanities, and men being of wit ſufficient
+		<mw rend="align(right)" type="catch">to</mw>
+		<pb n="9"/>
+		<milestone n="B3r" unit="sig"/>
+		<lb/>to c<choice><abbr>ō</abbr><expan>on</expan></choice>ſider of <choice><abbr><g ref="#ysupe"/></abbr><expan>the</expan></choice>
+		vertues which are in <vuji>v</vuji>s women, are ra<vuji>u</vuji>iſhed <choice><abbr><g ref="#wsupt"/></abbr><expan>with</expan></choice>
+		<lb/><choice><abbr><g ref="#ysupe"/></abbr><expan>the</expan></choice> delight of thoſe dainties, which allure ; draw the ſences of
+		<lb/>them to ſer<vuji>u</vuji>e <vuji>v</vuji>s, wherby they become ra<vuji>u</vuji>enous haukes, who
+		<lb/>doe not onely ſeize <vuji>v</vuji>pon <vuji>v</vuji>s, but de<vuji>u</vuji>our <vuji>v</vuji>s. Our good toward
+		<lb/>them is the deſtruction of our ſel<vuji>u</vuji>es, we being wel formed,
+		<lb/>are by them fouly deformed: of our true meaning they make
+		<lb/>mockes, rewarding our lo<vuji>u</vuji>ing follies with diſdainful floutes:
+		<lb/>we are the griefe of man, in that wee take all the griefe from
+		<lb/>man: we languiſh when they laugh, we lie ſighing when they
+		<lb/>ſit ſinging, and ſit ſobbing when they lie ſlugging and ſlee­
+		<lb/>ping.
+		<foreign xml:lang="la">Mulier eſt hominis confuſio</foreign>, becauſe her kinde heart
+		<lb/>cannot ſo ſharply reproo<vuji>u</vuji>e their franticke fits, as thoſe madde
+		<lb/>frenſies deſer<vuji>u</vuji>e.
+		<foreign xml:lang="la">Aut amat, aut odit, non eſt in tertio</foreign>: ſhe lo­
+		<lb/><vuji>u</vuji>eth good thinges, and hateth that which is e<vuji>u</vuji>ill: ſhee lo<vuji>u</vuji>eth
+		<lb/><vuji>i</vuji>uſtice and hateth iniquitie: ſhe lo<vuji>u</vuji>eth trueth and true dealing,
+		<lb/>and hateth lies and falſhood: ſhe lo<vuji>u</vuji>eth man for his vertues, ;
+		<lb/>hateth him for his vices: to be ſhort, there is no
+		<mcr>Medium</mcr> be­
+		<lb/>tween good and bad, and therefore ſhe can be,
+		<foreign xml:lang="la">In nullo tertio</foreign>.
+		<lb/>
+		<persName ref="personography.xml#plato.vdk">Plato</persName> his anſwere to a Viccar of fooles which aſked the que­
+		<lb/>ſtion, being, that he knew not whether to place women among
+		<lb/>thoſe creatures which were reaſonable or <vuji>v</vuji>nreaſonable, did as
+		<lb/>much beautifie his de<vuji>u</vuji>ine knowledge, as all the bookes he did
+		<lb/>write: for knowing that women are the greateſt help that men
+		<lb/>ha<vuji>u</vuji>e, without whoſe aide ; aſſiſtance it is as poſſible for them
+		<lb/>to li<vuji>u</vuji>e, as if they wanted meat, drinke, clothing, or any other
+		<lb/>neceſſary: and knowing alſo that e<vuji>u</vuji>en then in his age, much
+		<lb/>more in thoſe ages which ſhold after follow, men were grown
+		<lb/>to be ſo <vuji>v</vuji>nreaſonable, as he could not diſcide whether men or
+		<lb/>bruite beaſtes were more reaſonable: their eies are ſo curious,
+		<lb/>as be not all women equall with
+		<persName ref="personography.xml#venus.qis">Venus</persName> for beautie, they can­
+		<lb/>not abide the ſight of them: their ſtomackes ſo queaſie, as doe
+		<lb/>they taſt but twiſe of one diſh they ſtraight ſurfeit, and needes
+		<lb/>muſt a new diet be pro<vuji>u</vuji>ided for them. Wee are contrary to
+		<lb/>men, becauſe they are contrarie to that which is good: becauſe
+		<lb/>they are ſpurblind, they cannot ſee into our natures, and we
+		<lb/>too well (though we had but halfe an eie) into their conditions,
+		<lb/>becauſe they are ſo bad: our beha<vuji>u</vuji>iours alter daily, becauſe
+		<mw rend="align(center)" type="sig">B3</mw>
+		<mw rend="align(right)break(no)" type="catch">mens</mw>
+		<pb n="10"/>
+		<milestone n="B3v" unit="sig"/>
+		<lb/>mens vertues decay hourely. If
+		<persName ref="personography.xml#hesiod.jxh">Heſiodus</persName> had with equity as
+		<lb/>well looked into the life of man, as he did preſiſely ſearch out
+		<lb/>the qualities of <vuji>v</vuji>s women, he would ha<vuji>u</vuji>e ſaid, that if a woman
+		<lb/>truſt <vuji>v</vuji>nto a man, it ſhal fare as well with her, as if ſhe had a
+		<lb/>waight of a thouſand pounds tied about her neck, and then caſt
+		<lb/>into the bottomles ſeas: for by men are we confounded though
+		<lb/>they by <vuji>v</vuji>s are ſometimes croſſed. Our tongues are light, be­
+		<lb/>cauſe earneſt in reproo<vuji>u</vuji>ing mens filthy vices, and our good
+		<lb/>counſel is termed nipping in<vuji>i</vuji>urie, in that it accordes not with
+		<lb/>their fooliſh fancies. Our boldneſſe raſh, for gi<vuji>u</vuji>ing  Noddies
+		<lb/>nipping anſweres, our diſpoſitions naughtie, for not agreeing
+		<lb/>with their vilde mindes, and our furie dangerous, becauſe it
+		<lb/>will not beare with their kna<vuji>u</vuji>iſh beha<vuji>u</vuji>iours. If our frownes
+		<lb/>be ſo terrible, and our anger ſo deadly, men are too fooliſh in of­
+		<lb/>fering occaſions of hatred, which ſhunned, a terrible death is
+		<lb/>pre<vuji>u</vuji>ented. There is a continuall deadly hatred betweene the
+		<lb/>wilde boare and tame hounds, I would there were the like be­
+		<lb/>twixt women and men <vuji>v</vuji>nles they amend their maners, for ſo
+		<lb/>ſtrength ſhould predominate, where now flattery and diſſimu­
+		<lb/>lation hath the <vuji>v</vuji>pper hand. The Lion rageth when he is hun­
+		<lb/>grie, but man raileth when he is glutted. The Tyger is rob­
+		<lb/>bed of her young ones, when ſhe is ranging abroad, but men
+		<lb/>rob women of their honour <vuji>v</vuji>ndeſer<vuji>u</vuji>edlye <vuji>v</vuji>nder their noſes.
+		<lb/>The Viper ſtormeth when his taile is trodden on, ; may not
+		<lb/>we fret when al our bodie is a footſtoole to their vild luſt: their
+		<lb/><vuji>v</vuji>nreaſonable mindes which knowe not what reaſon is, make
+		<lb/>them nothing better then bruit beaſtes. But let <vuji>v</vuji>s graunt that
+		<lb/>
+		<persName ref="personography.xml#clytemnes.puk">Cletemneſtra</persName>,
+		<persName ref="personography.xml#ariadne.wry">Ariadna</persName>,
+		<persName ref="personography.xml#delila.tps">Dalila</persName>, and
+		<persName ref="personography.xml#jezebel.kje"><vuji>I</vuji>eſabell</persName> were ſpotted
+		<lb/>with crimes: ſhal not
+		<persName ref="personography.xml#nero.kmt">Nero</persName> with others innumerable, ; there­
+		<lb/>fore <vuji>v</vuji>nnameable <vuji>i</vuji>oine handes with them and lead the daunce?
+		<lb/>yet it gree<vuji>u</vuji>es me that faithful
+		<persName ref="personography.xml#deianira.tkp">Deianira</persName>
+		ſhould be falſely accu<choice><sic/><corr>­</corr></choice>
+		<lb/>ſed of her huſband
+		<persName ref="personography.xml#hercules.fye">Hercules</persName> death, ſeeing ſhe was <vuji>v</vuji>tterly guilt­
+		<lb/>leſſe (e<vuji>u</vuji>en of thought) concerning any ſuch crime, for had not
+		<lb/>the Centaures falſhood exceeded the ſimplicitie of her too too
+		<lb/>credulous heart,
+		<persName ref="personography.xml#hercules.fye">Hercules</persName> had not died ſo cruelly tormented,
+		<lb/>nor the monſters treaſon bene ſo <vuji>v</vuji>nhappely exec<choice><sic><g ref="#invertedu"/></sic><corr>u</corr></choice>ted. But we
+		<lb/>muſt beare with theſe faultes, and with gr<choice><sic>r</sic><corr>e</corr></choice>ater then theſe,
+		<mw rend="align(right)" type="catch">eſpecially</mw>
+		<pb n="11"/>
+		<milestone n="B4r" unit="sig"/>
+		<lb/>eſpeciallye ſeeing that hee which ſet it downe for a
+		<mcr>Maxime</mcr>
+		<lb/>was dri<vuji>u</vuji>en into a mad mood through a ſurfeit, which made
+		<lb/>him run quite beſides his booke, and miſtake his caſe: for wher
+		<lb/>he accuſed
+		<persName ref="personography.xml#deianira.tkp">Deianira</persName> falſely, he woulde ha<vuji>u</vuji>e had condemned
+		<lb/>
+		<persName ref="personography.xml#hercules.fye">Hercules</persName> deſer<vuji>u</vuji>edly.</p>
+        <p><persName ref="personography.xml#marius.utp">Marius</persName> daughter indued with ſo many excellent vertues,
+		<lb/>was too good either for
+		<persName ref="personography.xml#metellus.yaq">Metellus</persName>, or any
+		m<choice><abbr>ā</abbr><expan>an</expan></choice> li<vuji>u</vuji>ing: for thogh
+		<lb/>perad<vuji>u</vuji>enture ſhe had ſome ſmal fault, yet doubtles he had de­
+		<lb/>teſtable crimes. On the ſame place where
+		<mcr>Doun</mcr> is on the
+		<lb/>hens head, the
+		<mcr>Combe</mcr> grows on the Cocks pate. If women
+		<lb/>breede woe to men, they bring care, po<vuji>u</vuji>ertie, griefe, and conti­
+		<lb/>nual feare to women, which if they be not woes they are wor­
+		<lb/>ſer.</p>
+        <p><persName ref="personography.xml#euthydemu.mnv">Euthydomus</persName> made ſixe kinde of women, and I will ap­
+		<lb/>proo<vuji>u</vuji>e that there are ſo many of men: which be, poore and
+		<lb/>rich, bad and good, foule and faire. The great Patrimonies
+		<lb/>that wealthy men lea<vuji>u</vuji>e their children after their death, make
+		<lb/>them rich: but dice and other marthriftes happening into their
+		<lb/>companies, ne<vuji>u</vuji>er lea<vuji>u</vuji>e them til they bee at the beggers buſh,
+		<lb/>wher I can aſſure you they become poore. Great eaters bee­
+		<lb/>ing kept at a ſlender diet ne<vuji>u</vuji>er diſtemper their bodies but re­
+		<lb/>maine in good case: but afterwards once turned foorth to
+		<rs>Li­
+		  <lb/>berties</rs> paſture, they graze ſo greedilie, as they become ſurfei­
+		<lb/>ting <vuji>i</vuji>ades, and alwaies after are good for nothing. There are
+		<lb/>men which are ſnout-faire, whose faces looke like a creame-
+		<lb/>pot, and yet thoſe not the faire men I ſpeake of, but I meane
+		<lb/>thoſe whoſe conditions are free from kna<vuji>u</vuji>erie, and I tearme
+		<lb/>thoſe foule, that ha<vuji>u</vuji>e neither ci<vuji>u</vuji>ilitie nor ho<choice><sic><g ref="#invertedn"/></sic><corr>n</corr></choice>eſtie: of theſe
+		<lb/>ſorts there are none good, none rich or faire long. But if wee
+		<lb/>doe deſire to ha<vuji>u</vuji>e them good, we muſt alwaies tie them to the
+		<lb/>manger and diet their greedy panches, other wiſe they wil ſur­
+		<lb/>feit. What, ſhal I ſay? wealth makes them la<vuji>u</vuji>iſh, wit kna<vuji>u</vuji>iſh,
+		<lb/>beautie effeminate, po<vuji>u</vuji>ertie deceitfull, and deformitie uglie.
+		<lb/>Therefore of me take this counſell</p>
+        <lg type="poem" subtype="indeterminate">
+          <lg rend="indent(1)" type="couplet-heroic">
+            <l>Eſteeme of men as of a broken Reed,</l>
+            <l>Miſtruſt them ſtill, and then you wel ſhall ſpeede.</l>
+          </lg>
+        </lg>
+        <mw rend="align(center)face(roman)" type="sig">B4</mw>
+        <mw rend="align(right)break(no)" type="catch">I</mw>
+        <pb n="12"/>
+        <milestone n="B4v" unit="sig"/>
+        <p>I pray you then (if this be true, as it truely cannot bee de­
+		<lb/>nied) ha<vuji>u</vuji>e not they reaſon who affirme that a gooſe ſtanding
+		<lb/>before a ra<vuji>u</vuji>enous Fox, is in as good caſe, as the woman that
+		<lb/>truſteth to a mans fidelitie: for as the one is ſure to looſe his
+		<lb/>head, ſo the other is moſt certaine to be berea<vuji>u</vuji>ed of her good
+		<lb/>name, if there be any ſmall cauſe of ſuſpition. The fellow that
+		<lb/>tooke his wife for his croſſe, was an Aſſe, and ſo we will lea<vuji>u</vuji>e
+		<lb/>him: for he lo<vuji>u</vuji>ed well to ſweare on an ale pot, and becauſe
+		<lb/>his wife, keeping him from his dronken vain, put his noſe out
+		<lb/>of his ſocket, he thereby was brought into a mad moode, in
+		<lb/>which he did he could not tell what.</p>
+        <p>When pro<vuji>u</vuji>ender prickes, the <vuji>i</vuji>ade will winch, but keepe
+		<lb/>him at a ſlender ordinarie, and he will be milde ynough. The
+		<lb/>
+		<mcr>Dictators</mcr> ſonne was cranke as long as his cocke was crow­
+		<lb/>ing, but proo<vuji>u</vuji>ing a cra<vuji>u</vuji>in, hee made his maiſter hang downe
+		<lb/>his head.</p>
+        <p><persName ref="personography.xml#thales.gpd">Thales</persName> was ſo maried to ſhamefull luſt as hee cared not a
+		<lb/>ſtraw for lawfull lo<vuji>u</vuji>e, wherby he ſhewed himſelfe to be indued
+		<lb/>with much vice and no vertue: for a man doth that often times
+		<lb/>ſtanding, of which he repenteth ſitting. The <name>Romain</name> coulde
+		<lb/>not (as now men cannot) abide to heare women praiſed, and
+		<lb/>themſel<vuji>u</vuji>es diſpraiſed, and therfore it is beſt for men to follow
+		<lb/>
+		<persName ref="personography.xml#alfonzo.jsu">Alphonſo</persName> his rule: let them be deafe and mary wi<vuji>u</vuji>es, that
+		<lb/>are blind, ſo ſhal they not grie<vuji>u</vuji>e to heare their wi<vuji>u</vuji>es comm<choice><abbr>ē</abbr><expan>en</expan></choice>­
+		<lb/>ded nor their monſtrous miſdoing ſhall offend their wi<vuji>u</vuji>es eie­
+		<lb/>ſight.</p>
+        <p><persName ref="personography.xml#tibullus.lxa">Tibullus</persName> ſetting down a rule for women to follow, might
+		<lb/>ha<vuji>u</vuji>e proportioned this platform for men to reſt in. And might
+		<lb/>ha<vuji>u</vuji>e said, E<vuji>u</vuji>ery honeſt man ought to ſhun that which detrac­
+		<lb/>teth both health and ſafety from his owne perſon, and ſtri<vuji>u</vuji>e to
+		<lb/>bridle his ſlanderous tongue. Then muſt he be modeſt, ; ſhew
+		<lb/>his modeſtie by his vertuous and ci<vuji>u</vuji>il beha<vuji>u</vuji>iours: and not dis­
+		<lb/>play his beaſtlines through his wicked and filthy wordes. For
+		<lb/>lying lips and deceitful tongues are abhominable before God.
+		<lb/>It is an eaſie matter to intreate a Cat to catch a Mouſe, and
+		<lb/>more eaſie to perſwade a deſperate man to kil him ſelfe. What
+		<lb/>
+		<mcr>Nature</mcr> hath made,
+		<mcr>Art</mcr> cannot marre, (and as this ſurfeiting
+		<mw rend="align(right)" type="catch">lo<vuji>u</vuji>er</mw>
+		<pb n="13"/>
+		<milestone n="C1r" unit="sig"/>
+		<lb/>lo<vuji>u</vuji>er ſaith) that which is bred in the bone, will not be brought
+		<lb/>out of the fleſh. If we cloath our ſelves in ſackcloth, and truſſe
+		<lb/><vuji>v</vuji>p our haire in diſhclouts,
+		<mcr>Venerians</mcr> wil ne<vuji>u</vuji>ertheles purſue
+		<lb/>their paſtime. If we hide our breaſtes, it muſt be with leather,
+		<lb/>for no cloath can keep their long nailes out of our boſomes.</p>
+        <p>We ha<vuji>u</vuji>e rowling eies, and they railing tongues: our eies
+		<lb/>cauſe th<choice><abbr>ē</abbr><expan>em</expan></choice> to look
+		laſci<vuji>u</vuji>iouſly, ; why? becauſe they are ge<vuji>u</vuji>en to
+		<lb/>lecherie. It is an eaſie matter to finde a ſtaffe to beate a Dog,
+		<lb/>and a burnt finger gi<vuji>u</vuji>eth ſound counsel. If men would as well
+		<lb/>imbrace counſel as they can gi<vuji>u</vuji>e it,
+		<persName ref="personography.xml#socrates.oda">Socrates</persName> rule wold be bet­
+		<lb/>ter follewed. But let
+		<persName ref="personography.xml#socrates.oda">Socrates</persName>, hea<vuji>u</vuji>en and earth ſay what they
+		<lb/>wil,
+		<said>Mans face is worth a glaſſe of diſſembling water</said>: and
+		<lb/>therfore to conclude with a pro<vuji>u</vuji>erbe,
+		<said>Write e<vuji>u</vuji>er, and yet ne­
+		  <lb/><vuji>u</vuji>er write ynough of mans falſhoode</said>, I meane thoſe that
+		<lb/><vuji>v</vuji>se it. I would that ancient writers would as well ha<vuji>u</vuji>e buſi­
+		<lb/>ed their heades about diſciphering the deceites of their owne
+		<lb/>Sex, as they ha<vuji>u</vuji>e about ſetting downe our follies: and I wold
+		<lb/>ſome would call in queſtion that nowe, which hath e<vuji>u</vuji>er bene
+		<lb/>queſtionleſſe: but ſithence all their wittes ha<vuji>u</vuji>e bene bent to
+		<lb/>write of the contrarie, I lea<vuji>u</vuji>e them to a contrary vaine, and
+		<lb/>the ſurfaiting Lo<vuji>u</vuji>er, who returnes to his diſcourſe of lo<vuji>u</vuji>e.</p>
+        <p>Nowe while this greedye grazer is about his intreatie of
+		<lb/>lo<vuji>u</vuji>e, which nothing belongeth to our matter: let <vuji>v</vuji>s ſecretlye
+		<lb/>our ſel<vuji>u</vuji>es with our ſel<vuji>u</vuji>es, conſider howe and in what, they
+		<lb/>that are our worſt enemies, are both inferiour <vuji>v</vuji>nto <vuji>v</vuji>s, ; moſt
+		<lb/>beholden <vuji>v</vuji>nto our kindenes.</p>
+        <p>The creation of man and woman at the firſt, hee being for­
+		<lb/>med
+		<foreign xml:lang="la">In principio</foreign> of droſſe and filthy clay, did ſo remaine <vuji>v</vuji>ntil
+		<lb/>
+		God ſaw that in him his workmanſhip was good, and therfore
+		<lb/>by the tranſformation of the duſt which was loathſome <vuji>v</vuji>nto
+		<lb/>fleſh,
+		<ref xml:id="er01" type="error" target="#ec01">it became putrified.</ref> Then lacking a help for him,
+		<mcr rend="case(allcaps)">God</mcr>
+		<lb/>making woman of mans fleſhe, that ſhe might bee purer then
+		<lb/>he, doth e<vuji>u</vuji>idently ſhowe, how far we women are more excel­
+		<lb/>lent then men. Our bodies are fruitefull, wherby the world
+		<lb/>encreaſeth, and our care wonde<choice><sic/><corr>r</corr></choice>ful, by which man is preſer<vuji>u</vuji>ed.
+		<lb/>Fr<choice><abbr>ō</abbr><expan>om</expan></choice> woman ſprang mans ſal<vuji>u</vuji>ation. A woman was the firſt
+		<lb/>that belee<vuji>u</vuji>ed, ; a woman likewiſe the firſt that rep<choice><abbr>ē</abbr><expan>en</expan></choice>ted of ſin.
+		<mw rend="align(center)" type="sig">C</mw>
+		<mw rend="align(right)break(no)" type="catch">In</mw>
+		<pb n="14"/>
+		<milestone n="C1v" unit="sig"/>
+		<lb/>In women is onely true <mcr>Fidelity</mcr>: (except in her) there is con­
+		<lb/>ſtancie, and without her no <mcr>Huſwifery</mcr>. In the time of their
+		<lb/>ſicknes we cannot be wanted, ; wh<choice><abbr>ē</abbr><expan>en</expan></choice> they are in health we for
+		<lb/>th<choice><abbr>ē</abbr><expan>em</expan></choice> are moſt neceſſary.
+		They are c<choice><abbr>ō</abbr><expan>om</expan></choice>forted by our means: they
+		<lb/>nouriſhed by the meats we dreſſe: their bodies freed from diſ­
+		<lb/>eaſes by our cleanlines, which otherwiſe would ſurfeit <vuji>v</vuji>nrea­
+		<lb/>ſonably through their own noiſomnes. Without our care they
+		<lb/>lie in their beds as dogs in litter, ; goe like lowſie Mackarell
+		<lb/>ſwimming in the heat of ſommer. They lo<vuji>u</vuji>e to go hanſomly
+		<lb/>in their apparel, and re<vuji>i</vuji>oice in the pride thereof, yet who is the
+		<lb/>cauſe of it, but our carefulnes, to ſee <choice><abbr><g ref="#ysupt"/></abbr><expan>that</expan></choice> e<vuji>u</vuji>ery thing about th<choice><abbr>ē</abbr><expan>em</expan></choice>
+		<lb/>be curious. Our virginitie makes <vuji>v</vuji>s vertuous, our c<choice><abbr>ō</abbr><expan>on</expan></choice>ditions
+		<lb/>curteous, ; our chaſtitie maketh our trueneſse of lo<vuji>u</vuji>e mani­
+		<lb/>feſt. They confeſſe we are neceſſarie, but they would ha<vuji>u</vuji>e <vuji>v</vuji>s
+		<lb/>likewiſe e<vuji>u</vuji>il. That they cannot want <vuji>v</vuji>s I grant: yet e<vuji>u</vuji>ill I
+		<lb/>denie: except onely in the reſpect of man, who (hating all good
+		<lb/>things, is onely deſirous of that which is ill, through whoſe de<choice><sic/><corr>­</corr></choice>
+		<lb/>ſire, in eſtimation of conceit we are made ill. But leaſt some
+		<lb/>ſhuld ſnarle on me, barking out this reaſon: that
+		<said>none is good
+		  <lb/>but
+		  God, and therfore women are ill</said>.  I muſt yeeld that in <choice><abbr><g ref="#ysupt"/></abbr><expan>that</expan></choice>
+		<lb/>reſpect we are il, ; affirm that men are no better, ſeeing we are
+		<lb/>ſo neceſſarie <vuji>v</vuji>nto them. It is moſt certain, that if we be il, they
+		<lb/>are worſe: for
+		<foreign xml:lang="la">Malum malo additum efficit malum peius</foreign>: ;
+		<lb/>they that <vuji>v</vuji>ſe il worſe then it ſhold be, are worſe then the il. And
+		<lb/>therefore if they wil correct
+		<mcr>Magnificat</mcr>, they muſt firſt learn
+		<lb/>the ſignification therof. That we are liberal, they wil not deny
+		<lb/>ſithence that many of them ha<vuji>u</vuji>e (<foreign xml:lang="la">ex confeſsio</foreign>) recei<vuji>u</vuji>ed more
+		<lb/>kindnes in one day at our hands, th<choice><abbr>ē</abbr><expan>en</expan></choice> they can repay in a whole
+		<lb/>yeare: ; some ha<vuji>u</vuji>e so glutted th<choice><abbr>ē</abbr><expan>em</expan></choice>ſel<vuji>u</vuji>es with our liberality as
+		<lb/>they cry
+		<said>No more</said>. But if they ſhal a<vuji>u</vuji>ow <choice><abbr><g ref="#ysupt"/></abbr><expan>that</expan></choice> women are fooles,
+		<lb/>we may ſafely gi<vuji>u</vuji>e th<choice><abbr>ē</abbr><expan>em</expan></choice> the lie: for my ſelfe ha<vuji>u</vuji>e heard ſome of
+		<lb/>them confeſſe that we ha<vuji>u</vuji>e more wiſdome then need is, ; ther<choice><sic/><corr>­</corr></choice>
+		<lb/>fore no fooles: ; they leſſe
+		th<choice><abbr>ē</abbr><expan>en</expan></choice> they ſhold ha<vuji>u</vuji>e, ; therfore fooles.
+		<lb/>It hath bene affirmed by ſome of their ſex, that to ſhun a ſhow­
+		<lb/>er of rain, ; to know the way to our huſbands bed is wiſedome
+		<lb/>ſufficient for <vuji>v</vuji>s wom<choice><abbr>ē</abbr><expan>en</expan></choice>: but in this yeare of <date when="1588">88</date>, men are grown
+		<lb/>ſo fantaſtical, that <vuji>v</vuji>nles we can make them fooles, we are ac­
+		<mw rend="align(right)" type="catch">counted</mw>
+		<pb n="15"/>
+		<milestone n="C2r" unit="sig"/>
+		<lb/>counted <vuji>v</vuji>nwiſe. And now (ſeeing I ſpeake to none but to you
+		<lb/>which are of mine owne Sex,) gi<vuji>u</vuji>e me lea<vuji>u</vuji>e like a ſcoller to
+		<lb/>proo<vuji>u</vuji>e our wiſdome more excell<choice><abbr>ē</abbr><expan>en</expan></choice>t then theirs, though I ne<vuji>u</vuji>er
+		<lb/>knew what ſophiſtry ment. Ther is no wiſdome but it comes
+		<lb/>by grace, this is a principle, ;
+		<foreign xml:lang="la">Contra principi<choice><abbr>ū</abbr><expan>um</expan></choice> non eſt diſ­
+		  <lb/>putand<choice><abbr>ū</abbr><expan>um</expan></choice></foreign>: but grace was firſt gi<vuji>u</vuji>en to a woman, becauſe to our
+		<lb/>lady: which premiſes c<choice><abbr>ō</abbr><expan>on</expan></choice>clude <choice><abbr><g ref="#ysupt"/></abbr><expan>that</expan></choice> women are wiſe.
+		Now
+		<foreign xml:lang="la">Prim<choice><abbr>ū</abbr><expan>um</expan></choice>
+		  <lb/>eſt optim<choice><abbr>ū</abbr><expan>um</expan></choice></foreign>, ; therefore women are wiſer then men. That we
+		<lb/>are more witty which comes by nature, it c<choice><abbr>ā</abbr><expan>an</expan></choice>not better be
+		proo<choice><sic/><corr>­</corr></choice>
+		<lb/><vuji>u</vuji>ed, then <choice><abbr><g ref="#ysupt"/></abbr><expan>that</expan></choice> by our anſwers, men are often dro<vuji>u</vuji>en to
+		<foreign xml:lang="la">N<choice><abbr>ō</abbr><expan>on</expan></choice> plus</foreign>,
+		<lb/>; if their talk be of worldly affaires, with our reſolutions they
+		<lb/>muſt either reſt ſatiſfied, or proo<vuji>u</vuji>e
+		th<choice><abbr>ē</abbr><expan>em</expan></choice>ſel<vuji>u</vuji>es fooles in the end.</p>
+        <p>It was my chance to hear a prety ſtory of two wiſe m<choice><abbr>ē</abbr><expan>en</expan></choice> who
+		<lb/>(being coſen germane to <choice><abbr><g ref="#ysupe"/></abbr><expan>the</expan></choice> town of
+		<placeName>Gotam</placeName>) proo<vuji>u</vuji>ed
+		th<choice><abbr>ē</abbr><expan>em</expan></choice>ſel<vuji>u</vuji>es
+		<lb/>as very aſſes, as they wer fooles: ; it was this. The ſtelth of a
+		<lb/>ring out of a wiſe mans ch<choice><abbr>ā</abbr><expan>am</expan></choice>ber, afflicted <choice><abbr><g ref="#ysupe"/></abbr><expan>the</expan></choice>
+		looſers mind, with so
+		<lb/>grie<vuji>u</vuji>ous paſſions, as he could take no reſt, til he went to aſke
+		<lb/>a friends counſel, how he might reco<vuji>u</vuji>er his loſſe. Into whoſe
+		<lb/>preſence being once entered, his clothes <vuji>v</vuji>nbuttened, made paſ<choice><sic/><corr>­</corr></choice>
+		<lb/>ſage for his friends eieſight <vuji>v</vuji>nto his boſome: who ſeeing him
+		<lb/>in ſuch a taking, <vuji>i</vuji>udging by his looks <choice><abbr><g ref="#ysupt"/></abbr><expan>that</expan></choice> ſome qualme had riſen
+		<lb/>on his ſtomack, the extremity wherof might make his head to
+		<lb/>ake, offered him a kertcher. This diſtreſſed man halfe beſides
+		<lb/>himſelfe, howled bitterly <choice><abbr><g ref="#ysupt"/></abbr><expan>that</expan></choice> he did miſtake his caſe, ; falling in­
+		<lb/>to a ra<vuji>u</vuji>ing vain, began to curſe <choice><abbr><g ref="#ysupe"/></abbr><expan>the</expan></choice> day of his birth, ; the
+		<rs>Deſti­
+		  <lb/>nies</rs> for ſuffering him to li<vuji>u</vuji>e. His fellow wiſe-man, miſtaking
+		<lb/>this fit, fearing <choice><abbr><g ref="#ysupt"/></abbr><expan>that</expan></choice> ſome de<vuji>u</vuji>il had poſſeſſed him,
+		beg<choice><abbr>ā</abbr><expan>an</expan></choice> to betake
+		<lb/>him to his heeles: but being ſtopped fr<choice><abbr>ō</abbr><expan>om</expan></choice>
+		running by his c<choice><abbr>ō</abbr><expan>om</expan></choice>pa­
+		<lb/>nion, did likewiſe ban <choice><abbr><g ref="#ysupe"/></abbr><expan>the</expan></choice> cauſe of this ſuddain change, ; the mo<choice><sic/><corr>­</corr></choice>
+		<lb/>tion that moo<vuji>u</vuji>ed the other to enter his preſence: yet ſeing how
+		<lb/>daungerouſly he was diſturbed, ; knowing that by no meanes
+		<lb/>he could ſhun his company, calling his wittes together (which
+		<lb/>made him forget his paſſion) he demanded <choice><abbr><g ref="#ysupe"/></abbr><expan>the</expan></choice> cauſe of <choice><abbr><g ref="#ysupe"/></abbr><expan>the</expan></choice> others
+		<lb/>griefe: who taking a ſtoole ; a cuſhion ſate downe and decla­
+		<lb/>red that he was undone through the loſſe of a ring which was
+		<lb/>ſtolen out of his window: further ſaying, Sir, is it not beſt
+		<lb/>for mee to goe to a Wiſe-woman to knowe of her what is
+		<mw rend="align(center)" type="sig">C2</mw>
+		<mw rend="align(right)break(no)" type="catch">become</mw>
+		<pb n="16"/>
+		<milestone n="C2v" unit="sig"/>
+		<lb/>become of my ring? The other anſwering affirmati<vuji>u</vuji>ely, aſked
+		<lb/>this: if he know anye? betweene whom, many wiſe women
+		<lb/>reckoned, they both went together for company, wher we wil
+		<lb/>lea<vuji>u</vuji>e them.</p>
+        <p>Now I pray you tell me your fancie, were not theſe men
+		<lb/>very wiſe, but eſpecially did they not cunningly diſplay their
+		<lb/>wiſedome by this practiſe? Sithence that they hope to finde
+		<lb/>that through the wiſedome of a woman, which was loſt by the
+		<lb/>folly of a man. Wel, ſeeing according to the old pro<vuji>u</vuji>erb:
+		<said>The
+		  <lb/>wit of a woman is a great matter</said>: let men learne to be wiſer
+		<lb/>or account them ſel<vuji>u</vuji>es fooles: for they know by p<choice><sic/><corr>r</corr></choice>actize that
+		<lb/>we are none.</p>
+        <p>Now ſithence that this o<vuji>u</vuji>ercloied and ſurfeiting lo<vuji>u</vuji>er lea­
+		<lb/><vuji>u</vuji>eth his lo<vuji>u</vuji>e, and comes with a freſh aſſault againſt <vuji>v</vuji>s wom<choice><abbr>ē</abbr><expan>en</expan></choice>
+		<lb/>let <vuji>v</vuji>s arm our ſel<vuji>u</vuji>es with patience ; ſee the end of his tongue
+		<lb/>which explaineth his ſurfeit. But it was ſo lately printed, as <choice><abbr><g ref="#ysupt"/></abbr><expan>that</expan></choice>
+		<lb/>I ſhold do the Printer in<vuji>i</vuji>urie ſhould I recite but one of them,
+		<lb/>and therfore referring you to
+		<title>Boke his ſurfeit in lo<vuji>u</vuji>e</title>,  I come
+		<lb/>to my matter. If to in<vuji>i</vuji>oy a woman be to catch the De<vuji>u</vuji>ill by
+		<lb/>the foote, to obtaine the fa<vuji>u</vuji>our of a man is to holde faſt his
+		<lb/>damme by the middle: whereby the one may eaſily breake a­
+		<lb/>way, and the other cannot go without he carries the man with
+		<lb/>him.</p>
+        <p>The properties of the Snake and of the Eele are, the one
+		<lb/>to ſting, and the other not to be held: but mens tongues ſting
+		<lb/>againſt nature, and therefore they are <vuji>v</vuji>nnaturall. Let <vuji>v</vuji>s bear
+		<lb/>with them as much as may be, and yeeld to their willes more
+		<lb/>then is con<vuji>u</vuji>enient: yet if we caſt our reckoning at the end of
+		<lb/>the yeare, wee ſhall finde that our loſſes exceede their gaines,
+		<lb/>which are innumerable. The propertie of the
+		<mcr>Camelion</mcr> is to
+		<lb/>change himſelfe: But man alwaies remaineth at one ſtay,
+		<lb/>and is ne<vuji>u</vuji>er out of the predicamentes of
+		<mcr>Diſhoneſtie</mcr> and
+		<lb/>
+		<rs><vuji>v</vuji>nconſtancie</rs>.  The ſtinging of the
+		<mcr>Scorpion</mcr> is cured by the
+		<lb/>
+		<mcr>Scorpion</mcr>, wherby it ſeemes that there is ſome good nature in
+		<lb/>them. But men ne<vuji>u</vuji>er lea<vuji>u</vuji>e ſtinging till they ſee the death of
+		<lb/>
+		<mcr>honeſtie</mcr>.  The danger of prickes is ſhunned, by gathering ro­
+		<lb/>ſes glo<vuji>u</vuji>e fiſted: and the ſtinging of
+		<mcr>Bees</mcr> pre<vuji>u</vuji>ented through a
+		<mw rend="align(right)" type="catch">cloſe</mw>
+		<pb n="17"/>
+		<milestone n="C3r" unit="sig"/>
+		<lb/>cloſe hood. But naked
+		<mcr>Diſhoneſtie</mcr> and bare inconſtancie are
+		<lb/>alwaies plagued through their owne follie.</p>
+        <p>If mens folly be ſo <vuji>v</vuji>nreaſonable as it will ſtri<vuji>u</vuji>e againſt
+		<lb/>
+		<mcr>Nature</mcr>, it is no matter though ſhe rewardes them with croſ­
+		<lb/>ſes contrary to their expec<choice><sic/><corr>t</corr></choice>ations. For if
+		<mcr>Tom foole</mcr> will pre­
+		<lb/>ſume to ride on
+		<persName ref="personography.xml#alexander.neu">Alexanders</persName> horſe, he is not to be pittied thogh
+		<lb/>he get a foule knocke for his labour. But it ſeemes the Gentle­
+		<lb/>man hath had great experience of
+		<mcr>Italian</mcr> Curtizans, wherby
+		<lb/>his wiſedome is ſhewed. For
+		<foreign xml:lang="la">Experientia praeſtantior arte</foreign>:
+		<lb/>and hee that hath
+		<mcr>Experience</mcr> to proo<vuji>u</vuji>e his caſe, is in better
+		<lb/>caſe then they that ha<vuji>u</vuji>e al <vuji>v</vuji>nexperienced book caſes to defend
+		<lb/>their titles.</p>
+        <p>The ſmooth ſpeeches of men are nothing <vuji>v</vuji>nlike the vani­
+		<lb/>ſhing cloudes of the
+		<mcr>Aire</mcr>, which glide by degrees from place
+		<lb/>to place, till they ha<vuji>u</vuji>e filled themſel<vuji>u</vuji>es with raine, when
+		<lb/>breaking, they ſpit foorth terrible ſhowers: ſo men gloze, till
+		<lb/>they ha<vuji>u</vuji>e their anſweres, which are the end of their tra<vuji>u</vuji>ell, ;
+		<lb/>then they bid
+		<mcr>Modeſtie</mcr> adue, and entertaining
+		<mcr>Rage</mcr>, fal a rai­
+		<lb/>ling on <vuji>v</vuji>s which ne<vuji>u</vuji>er hurt them. The ranckneſſe of graſſe
+		<lb/>cauſeth ſuſpition of the ſerpents lurking, but his lying in the
+		<lb/>plaine path at the time when
+		<mcr>Woodcockes</mcr> ſhoote, maketh the
+		<lb/>pacient paſſionate through his ſting, becauſe no ſuch ill was
+		<lb/>ſuſpected. When men proteſt ſecrecie moſt ſolemnly, belee<vuji>u</vuji>e
+		<lb/>them leſt, for then ſurely there is a tricke of kna<vuji>u</vuji>ery to be diſ­
+		<lb/>carded, for in a Friers habite an olde Fornicator is alwaies
+		<lb/>clothed.</p>
+        <p>It is a wonder to ſee how men can flatter themſel<vuji>u</vuji>es with
+		<lb/>their own conceites: For let <vuji>v</vuji>s looke, they wil ſtraight affirm
+		<lb/>that we lo<vuji>u</vuji>e, and if then
+		<mcr>Luſt</mcr> pricketh them, they will ſweare
+		<lb/>that
+		<rs>Lo<vuji>u</vuji>e</rs> ſtingeth <vuji>v</vuji>s: which imagination onely is ſufficient
+		<lb/>to make them aſſay the ſcaling of halfe a dozen of <vuji>v</vuji>s in one
+		<lb/>night, when they will not ſtick to ſweare that if they ſhould be
+		<lb/>denied of their requeſtes, death muſt needes follow. Is it any
+		<lb/>mar<vuji>u</vuji>ell though they ſurfeit, when they are ſo greedy, but is it
+		<lb/>not pittie that any of them ſhould periſh, which will be ſo ſoon
+		<lb/>killed with <vuji>v</vuji>nkindnes? Yes truly. Well, the onſet gi<vuji>u</vuji>en, if
+		<lb/>we retire for a vantage, they will ſtraight affirme that they
+		<mw rend="align(center)" type="sig">C3</mw>
+		<mw rend="align(right)break(no)" type="catch">ha<vuji>u</vuji>e</mw>
+		<pb n="18"/>
+		<milestone n="C3v" unit="sig"/>
+		<lb/>ha<vuji>u</vuji>e got the victorie. Nay, ſome of them are ſo carried away
+		<lb/>with conceite, that ſhameles they wil blaze abroad am<choice><abbr>ō</abbr><expan>on</expan></choice>g their
+		<lb/>companions, that they ha<vuji>u</vuji>e obteined the lo<vuji>u</vuji>e of a woman,
+		<lb/><vuji>v</vuji>nto whom they ne<vuji>u</vuji>er ſpake abo<vuji>u</vuji>e once, if that: Are not theſe
+		<lb/>froward fellowes, you muſt beare with them, becauſe they
+		<lb/>dwell far from lying neighboures. They will ſay
+		<foreign xml:lang="la">Mentiri
+		  <lb/>non eſt noſtrum</foreign>, and yet you ſhall ſee true tales come from
+		<lb/>them, as wilde geeſe flie <vuji>v</vuji>nder
+		<placeName>London</placeName> bridge. Their faw­
+		<lb/>ning is but flattery: their faith falſhoode: their faire wordes
+		<lb/>allurements to deſtruction: and their large promiſes tokens
+		<lb/>of death, or of e<vuji>u</vuji>ils worſe then death. Their ſinging is a bayte
+		<lb/>to catch <vuji>v</vuji>s, and their playinges, plagues to torment <vuji>v</vuji>s: ; ther­
+		<lb/>fore take heede of them, and take this as an
+		<mcr>Axiom</mcr> in Logick
+		<lb/>and a
+		<mcr>Maxime</mcr> in the Law,
+		<foreign xml:lang="la">Nulla fides hominibus</foreign>.  Ther are
+		<lb/>three accidents to men, which of al are moſt <vuji>v</vuji>nſeperable.
+		<mcr>Luſt</mcr>
+		<lb/>
+		<mcr>Deceit</mcr>, and
+		<mcr>malice</mcr>.
+		Their glozing tongues, the preface to
+		<lb/>the execution of their vilde mindes, and their pennes the bloo­
+		<lb/>dy executioners of their barbarous maners. A little gaule ma­
+		<lb/>keth a great deale of ſweet, ſower: and a ſlaunderous tongue
+		<lb/>poyſoneth all the good partes in man.</p>
+        <p>Was not the follie of
+		<persName ref="personography.xml#vulcan.yed">Vulcan</persName> worthy of
+		<persName ref="personography.xml#venus.qis">Venus</persName> floutes,
+		<lb/>when ſhe tooke him with the maner, wooing
+		<persName ref="personography.xml#briceris.mds">Briceris</persName>?  And was
+		<lb/>it not the flatterye of
+		<persName ref="personography.xml#paris.ckw">Paris</persName> which intyſed
+		<persName ref="personography.xml#helen.inh">Hellen</persName> to falſhood?
+		<lb/>Yes trulie: and the late Surfeiter his remembrance in calling
+		<lb/>his pen fr<choice><abbr>ō</abbr><expan>om</expan></choice> raging againſt reaſon:
+		ſheweth that he is not quite
+		<lb/>without flatterie, for hee putteth the fault in his pen, when it
+		<lb/>was his paſſion that deſer<vuji>u</vuji>ed reproofe. The lo<vuji>u</vuji>e of
+		<persName ref="personography.xml#hipsicrat.znc">Hipſicra­
+		  <lb/>tes</persName> and
+		<persName ref="personography.xml#panthea.tqm">Panthea</persName>, the zeale of
+		<persName ref="personography.xml#artemisia.tuj">Artemiſia</persName> and
+		<persName ref="personography.xml#portia.vdn">Portia</persName>, the affec­
+		<lb/>tion of
+		<persName ref="personography.xml#sulpitia.qim">Sulpitia</persName> and
+		<persName ref="personography.xml#aria.jxe">Aria</persName>,
+		the true fancie of
+		<persName ref="personography.xml#hipparchi.nke">Hipparchia</persName> and
+		<lb/>
+		<persName ref="personography.xml#pisca.puk">Piſca</persName>, the lo<vuji>u</vuji>ing paſſions of
+		<persName ref="personography.xml#macrina.ywi">Macrina</persName> ; of the wife of
+		<persName ref="personography.xml#paudocrus.wrc">Paudo<choice><sic/><corr>­</corr></choice>
+		  <lb/>crus</persName> (al manifeſted in his Surfeit) ſhal
+		cond<choice><abbr>ē</abbr><expan>em</expan></choice>ne the <vuji>v</vuji>ndiſcreet­
+		<lb/>nes of mens minds: whoſe hearts delight in nought, ſa<vuji>u</vuji>e that
+		<lb/>only which is contrary to good. Is it not a fooliſh thing to bee
+		<lb/>ſorry for things <vuji>v</vuji>nreco<vuji>u</vuji>erable? Why then ſhold
+		<persName ref="personography.xml#sigismund.tpb">Sigiſmundus</persName>
+		<lb/>anſwer be ſo deſc<choice><abbr>ā</abbr><expan>an</expan></choice><choice><sic>n</sic><corr>t</corr></choice>ed <vuji>v</vuji>pon,
+		ſeeing her huſband was dead, ; ſhe
+		<lb/>therby free for any man. Of <choice><abbr><g ref="#ysupe"/></abbr><expan>the</expan></choice> aboundance of the hart, <choice><abbr><g ref="#ysupe"/></abbr><expan>the</expan></choice> mouth
+		<lb/>ſpeaketh, which is verified by <choice><abbr><g ref="#ysupe"/></abbr><expan>the</expan></choice> railing kind of mans writing.
+		<mw rend="align(right)" type="catch">Of</mw>
+		<pb n="19"/>
+		<milestone n="C4r" unit="sig"/>
+		<lb/>Of al kind of voluptuouſnes, they affirm
+		<mcr>Lechery</mcr>
+		to be <choice><abbr><g ref="#ysupe"/></abbr><expan>the</expan></choice> chee<choice><sic/><corr>­</corr></choice>
+		<lb/>feſt, ; yet ſome of th<choice><abbr>ē</abbr><expan>em</expan></choice>
+		are not aſhamed to confeſſe publiquely,
+		<lb/>that they ha<vuji>u</vuji>e ſurfeited therwith. It defileth the body, ; makes
+		<lb/>it ſtink, ; men <vuji>v</vuji>ſe it: I mar<vuji>u</vuji>el how we women can abide them
+		<lb/>but <choice><abbr><g ref="#ysupt"/></abbr><expan>that</expan></choice> they delude <vuji>v</vuji>s, as (they ſay) we decei<vuji>u</vuji>e
+		th<choice><abbr>ē</abbr><expan>em</expan></choice> <choice><abbr><g ref="#wsupt"/></abbr><expan>with</expan></choice> perfumes.
+	  </p>
+        <p><mcr>Voluptuouſnes</mcr> is a ſtrong beaſt, and hath many inſtru­
+		<lb/>ments to draw to
+		<mcr>Luſt</mcr>: but men are ſo forward of themſel<vuji>u</vuji>es
+		<lb/>thereto, as they neede none to haile them. His court is alrea­
+		<lb/>dy ſo full with them, that he hath more neede to make ſtronger
+		<lb/>gates to keepe them out, then to ſet them open that they may
+		<lb/>come in, except he wil be pulled out by <choice><abbr><g ref="#ysupe"/></abbr><expan>the</expan></choice> eares out of his king<choice><sic/><corr>­</corr></choice>
+		<lb/>dome. I woulde the abſtinence of King
+		<persName ref="personography.xml#cyrus.kje">Cyrus</persName>,
+		<persName ref="personography.xml#zenocrate.fvy">Zenocrates</persName>,
+		<lb/>
+		<persName ref="personography.xml#cgracchus.zdi">Caius Gracchus</persName>,
+		<persName ref="personography.xml#pompeius.fys">Pompeius</persName>
+		and of
+		<persName ref="personography.xml#fsforza.nwq">Francis Sforce Duke of
+		<lb/>
+		<placeName>Millaine</placeName></persName>, (recited in
+		<title>Boke his Surfeit in lo<vuji>u</vuji>e</title>) might be pre­
+		<lb/>ſidents for men to followe, and I warrant you then we ſhould
+		<lb/>ha<vuji>u</vuji>e no ſurfeiting. I pray
+		God that they may mend: but in the
+		<lb/>meane time, let them be ſure that raſhnes breedes repentance,
+		<lb/>and treacherous hearts, tragical endes: Falſe
+		<mcr>Flattery</mcr> is the
+		<lb/>meſſenger of foule
+		<mcr>Folly</mcr>, and a ſlaunderous tongue, the inſtru<choice><sic/><corr>­</corr></choice>
+		<lb/>ment of a diſſembling heart.</p>
+        <p>I ha<vuji>u</vuji>e ſet down <vuji>v</vuji>nto you (which are of mine owne Sex)
+		<lb/>the ſubtil dealings of <vuji>v</vuji>ntrue meaning men: not that you ſhould
+		<lb/>contemne al men, but to the end that you may take heed of the
+		<lb/>falſe hearts of al, ; ſtil reproo<vuji>u</vuji>e the flattery which remaines
+		<lb/>in all: for as it is reaſon that the Hennes ſhould be ſer<vuji>u</vuji>ed firſt,
+		<lb/>which both lay the egs, ; hatch the chickins: ſo it were <vuji>v</vuji>nrea­
+		<lb/>ſonable that the cockes which tread them, ſhould be kept clean
+		<lb/>without meat. As men are valiant, ſo are they vertuous: and
+		<lb/>thoſe that are borne honorably, cannot beare horrible diſſem­
+		<lb/>bling heartes. But as there are ſome which cannot lo<vuji>u</vuji>e harte<choice><sic/><corr>­</corr></choice>
+		<lb/>ly, ſo there are many who luſt <vuji>v</vuji>nceſſantly, ; as many of them
+		<lb/>wil deser<vuji>u</vuji>e wel, ſo moſt care not how il they ſpeed ſo they may
+		<lb/>get our company. Wherin they reſemble
+		<rs>En<vuji>u</vuji>ie</rs>, who will be
+		<lb/>contented to looſe one of his eies that another might ha<vuji>u</vuji>e
+		<lb/>both his pulled out. And therefore thinke well of as many
+		<lb/>as you may, lo<vuji>u</vuji>e them that you ha<vuji>u</vuji>e cauſe, heare e<vuji>u</vuji>ery thing
+		<lb/>that they ſay, (; affoord them noddes which make themſel<vuji>u</vuji>es
+		<mw rend="align(center)" type="sig">C4</mw>
+		<mw rend="align(right)break(no)" type="catch">Noddies</mw>
+		<pb n="20"/>
+		<milestone n="C4v" unit="sig"/>
+		<lb/>noddies) but belee<vuji>u</vuji>e very little therof or nothing at all, and
+		<lb/>hate all thoſe, who ſhall ſpeake any thi<choice><sic>u</sic><corr>n</corr></choice>g in the diſpraise or to
+		<lb/>the diſhonor of our ſex.</p>
+        <p>Let the luxurious life of
+		<persName ref="personography.xml#heliogaba.utf">Heliogabalus</persName>,
+		the int<choice><abbr>ē</abbr><expan>em</expan></choice>perate de­
+		<lb/>ſires of
+		<persName ref="personography.xml#commodus.itn">Commodus</persName> and
+		<persName ref="personography.xml#proculus.gpa">Proculus</persName>, the damnable luſt of
+		<persName ref="personography.xml#chilperic.ibl">Chil<choice><sic/><corr>­</corr></choice>
+		  <lb/>pericus</persName> and
+		<persName ref="personography.xml#xerxes.lxr">Xerxees</persName>,
+		<persName ref="personography.xml#boleslaus.odo">Boleſlaus</persName> violent ra<vuji>u</vuji>iſhings, and the
+		<lb/><vuji>v</vuji>nnaturall carnall appetite of
+		<persName ref="personography.xml#smalotest.ogk">Sigiſmundus Maloteſta</persName>, be ex­
+		<lb/>amples ſufficiently probable to perſwade you, that the hearts
+		<lb/>of men are moſt desirous to excell in vice. There were many
+		<lb/>good lawes eſtabliſhed by the
+		<name>Romanes</name> ; other good kinges
+		<lb/>yet they coulde not reſtraine men from lecherie: and there are
+		<lb/>terrible lawes alotted in
+		<placeName>England</placeName> to the offenders therein, all
+		<lb/>which will not ſer<vuji>u</vuji>e to reſtrain man.</p>
+        <p>The Surfeiters phiſike is good could he and his compani­
+		<lb/>ons follow it: but when the Fox preacheth, let the geeſe take
+		<lb/>heede, it is before an execution.
+		<foreign xml:lang="la">Fallere fallentem non eſt
+		  <lb/>fraus</foreign>, and to kill that beaſt, whoſe propertie is onely to ſlay, is
+		<lb/>no ſin: if you wil pleaſe men, you muſt follow their rule, which
+		<lb/>is to flatter: for
+		<mcr>Fidelitie</mcr> and they are biter enemies. Things
+		<lb/>far fetched are excellent, and that experience is beſt which coſt
+		<lb/>moſt: Crownes are coſtly, and that which coſt many crownes
+		<lb/>is wel worth
+		God thank you, or els I know who hath ſp<choice><abbr>ē</abbr><expan>en</expan></choice>t his
+		<lb/>labour and coſt, fooliſhly. Then if any man ge<vuji>u</vuji>eth ſuch deare
+		<lb/>counſell gratfuly, are not they fooles which will refuſe his li­
+		<lb/>beralitie. I know you long to heare what that counſel ſhould
+		<lb/>be, which was bought at ſo hie a price: Where<choice><sic>r</sic><corr/></choice>fore if you
+		<lb/>liſten, the Surfeiter<choice><sic>t </sic><corr> t</corr></choice>his pen with my hande ſhall foorth with
+		<lb/>ſhew you.</p>
+        <p>At the end of mens faire promiſes there is a
+		<mcr>Laberinth</mcr>, ;
+		<lb/>therefore e<vuji>u</vuji>er hereafter ſtoppe your eares when they proteſt
+		<lb/>friendſhip, leſt they come to an end before you are aware wher­
+		<lb/>by you fal without redemption. The path which leadeth ther­
+		<lb/><vuji>v</vuji>nto, is
+		<mcr>Mans wit</mcr>, and the miles ends are marked with theſe
+		<lb/>trees,
+		<mcr>Follie</mcr>,
+		<mcr>Vice</mcr>,
+		<mcr>Miſchiefe</mcr>,
+		<mcr>Luſt</mcr>,
+		<mcr>Deceite</mcr>, ;
+		<mcr>Pride</mcr>.  Theſe
+		<lb/>to decei<vuji>u</vuji>e you ſhall bee clothed in the raimentes of
+		<mcr>Fancie</mcr>,
+		<lb/>
+		<mcr>Vertue</mcr>,
+		<mcr>Modeſtie</mcr>,
+		<rs>Lo<vuji>u</vuji>e</rs>,
+		<mcr>Truemeaning</mcr>, and
+		<mcr>Handſomnes</mcr>.
+		<mw rend="align(right)" type="catch">Follie</mw>
+		<pb n="21"/>
+		<milestone n="D1r" unit="sig"/>
+		<lb/>
+		<mcr>Folly</mcr> wil bid you welcome on your way, ; tel you his fancie,
+		<lb/>concerning the profite which may come to you by this <vuji>i</vuji>orney,
+		<lb/>and direct you to
+		<mcr>Vice</mcr> who is more craftie. He with a compa<choice><sic/><corr>­</corr></choice>
+		<lb/>ny of proteſtations will praiſe the vertues of women, ſhewing
+		<lb/>how many waies men are beholden <vuji>v</vuji>nto <vuji>v</vuji>s: but our backes
+		<lb/>once turned, he fals a railing. Then
+		<mcr>Miſchiefe</mcr> he pries into
+		<lb/>e<vuji>u</vuji>ery corner of <vuji>v</vuji>s, ſeeing if he can eſpy a cranny, that getting
+		<lb/>in his finger into it, he may make it wide enough for his tong
+		<lb/>to wag in. Now being come to
+		<mcr>Luſt</mcr>: he will fall a railing on
+		<lb/>laſci<vuji>u</vuji>ious lookes, ; wil ban
+		<mcr>Lecherie</mcr>, ; with the Collier will
+		<lb/>ſay, the de<vuji>u</vuji>ill take him though he ne<vuji>u</vuji>er means it.
+		<mcr>Deceit</mcr> will
+		<lb/>ge<vuji>u</vuji>e you faire words, ; pick your pockets: nay he will pluck
+		<lb/>out your hearts, if you be not wary. But when you heare one
+		<lb/>cry out againſt lawnes, drawn-workes, Periwigs, againſt the
+		<lb/>attire of Curtizans, ; generally of the pride of al women: then
+		<lb/>know him for a Wolfe clothed in ſheepes raiment, and be ſure
+		<lb/>you are faſt by the lake of deſtruction. Therfore take heed of it,
+		<lb/>which you ſhall doe, if you ſhun mens flattery, the forerunner
+		<lb/>of our <vuji>v</vuji>ndoing. If a <vuji>i</vuji>ade be galled, wil he not winch? and can
+		<lb/>you finde fault with a horſe that ſpringeth when he is ſpurred?
+		<lb/>The one will ſtand quietly when his backe is healed, and the
+		<lb/>other go wel when his ſmart ceaſeth. You muſt beare with
+		<lb/>the olde Lo<vuji>u</vuji>er his ſurfeit, becauſe hee was diſeased when he
+		<lb/>did write it, and perad<vuji>u</vuji>enture hereafter, when he ſhal be well
+		<lb/>amended, he wil repent himſelfe of his ſlanderous ſpeaches a­
+		<lb/>gainſt our ſex, and curse the dead man which was the cauſe of
+		<lb/>it, and make a publique recantation: For the faltering in his
+		<lb/>ſpeach at the latter end of his book affirmeth, <choice><abbr><g ref="#ysupt"/></abbr><expan>that</expan></choice> already he half
+		<lb/>repenteth of his bargaine, ; why? becauſe his melodie is paſt:
+		<lb/>but belee<vuji>u</vuji>e him not, thogh he ſhold out ſwear you, for althogh
+		<lb rend="align(center)"/>a <vuji>i</vuji>ade may be ſtill in a ſtable when his gall backe is hea­
+		<lb rend="align(center)"/>led, yet hee will ſhowe himſelfe in his kind when
+		<lb rend="align(center)"/>he is tra<vuji>u</vuji>elling: and mans flattery bites
+		<lb rend="align(center)"/>ſecretly, from which I pray God
+		<lb rend="align(center)"/>keepe you and me too.
+		<lb rend="align(center)"/>Amen.</p>
+        <trailer>Finis.</trailer>
+      </div>
+      <mw rend="align(center)" type="sig">D</mw>
+      <pb n="22"/>
+      <milestone n="D1v" unit="sig"/>
+      <div rend="face(roman)" type="poem">
+        <lg type="poem" subtype="stanzaic">
+          <head>A ſo<vuji>u</vuji>eraigne Sal<vuji>u</vuji>e, to
+		  <lb/>cure the late Surfeiting Lo<vuji>u</vuji>er.
+		</head>
+          <lg type="quatrain">
+            <l><hi rend="class(#DIC)">I</hi><hi rend="case(allcaps)">f</hi> once the heat, did fore thee beat,</l>
+            <l rend="indent(1)">of fooliſh lo<vuji>u</vuji>e ſo blind:</l>
+            <l>Somtime to ſweat, ſomtime to freat</l>
+            <l rend="indent(1)">as one beſtraught of minde:</l>
+          </lg>
+          <lg type="quatrain">
+            <l>If wits weare take, in ſuch a brake,</l>
+            <l rend="indent(1)">that reaſon was exilde:</l>
+            <l>And woe did wake, but could not ſlake</l>
+            <l rend="indent(1)">thus lo<vuji>u</vuji>e had thee beguilde:</l>
+          </lg>
+          <lg type="quatrain">
+            <l>If any wight, <vuji>v</vuji>nto thy ſight,</l>
+            <l rend="indent(1)">all other did excell:</l>
+            <l>whoſe beautie bright, conſtrained right</l>
+            <l rend="indent(1)">thy heart with her to dwell:</l>
+          </lg>
+          <lg type="quatrain">
+            <l>If thus thy foe, oppreſt thee ſo,</l>
+            <l rend="indent(1)">that backe thou could not ſtart:</l>
+            <l>But ſtill with woe, did ſurfeit thoe,</l>
+            <l rend="indent(1)">yet thankles was thy ſmart:</l>
+          </lg>
+          <lg type="quatrain">
+            <l>If nought but paine, in lo<vuji>u</vuji>e remaine,</l>
+            <l rend="indent(1)">at length this counſell win,</l>
+            <l>That thou refrain, this dangerous pain,</l>
+            <l rend="indent(1)">and come no more therein.</l>
+          </lg>
+          <lg type="quatrain">
+            <l>And ſith the blaſt, is o<vuji>u</vuji>erpaſt,</l>
+            <l rend="indent(1)">it better were certaine:</l>
+            <l>From fleſh to faſt, whilſt life doth laſt,</l>
+            <l rend="indent(1)">then ſurfeit ſo againe.</l>
+          </lg>
+        </lg>
+        <closer rend="align(center)" xml:lang="la">Vi<vuji>u</vuji>endo diſce.
+  <signed rend="break(yes)align(right)right-indent(1)"><persName ref="personography.xml#janger.uys"><vuji>I</vuji>o. A.</persName></signed></closer>
+      </div>
+      <pb n="23"/>
+      <milestone n="D2r" unit="sig"/>
+      <div rend="face(roman)" type="poem">
+        <head xml:lang="la">Eiuſdem ad Lectorem,
+		  <lb/>de Authore.</head>
+        <lg type="poem" subtype="indeterminate">
+          <lg type="indeterminate">
+            <l><hi rend="class(#DIC)">T</hi><hi rend="case(allcaps)">h</hi>ough, ſharpe
+			the ſeede, by <persName ref="personography.xml#janger.uys"> Anger</persName> ſowen,</l>
+            <l rend="indent(1)">we all (almoſt) confeſſe:</l>
+            <l>And hard his hap we aye account,</l>
+            <l rend="indent(1)">who Anger doth poſſeſſe:</l>
+            <l>Yet hapleſſe ſhalt thou (Reader) reape,</l>
+            <l rend="indent(1)">ſuch fruit from <persName ref="personography.xml#janger.uys" rend="case(allcaps)">Angers</persName> ſoile,</l>
+            <l>As may thee pleaſe, and <persName ref="personography.xml#janger.uys" rend="case(allcaps)">Anger</persName> eaſe</l>
+            <l rend="indent(1)">from long and wearie toile</l>
+            <l>Whoſe paines were tooke for thy behoofe,</l>
+            <l rend="indent(1)">to till that cloddye ground,</l>
+            <l>Where ſcarce no place, free from diſgrace,</l>
+            <l rend="indent(1)">of female Sex, was found.</l>
+            <l>If ought offend, which ſhe doth ſend,</l>
+            <l rend="indent(1)">impute it to her moode.</l>
+            <l>For <persName ref="personography.xml#janger.uys" rend="case(allcaps)">Angers</persName> rage muſt that aſſwage,</l>
+            <l rend="indent(1)">as wel is <vuji>v</vuji>nderſtoode</l>
+            <l>If to delight, ought come in ſight,</l>
+            <l rend="indent(1)">then deeme it for the beſt.</l>
+            <l>So you your wil, may well fulfill,</l>
+            <l rend="indent(1)">and ſhe ha<vuji>u</vuji>e her requeſt.</l>
+          </lg>
+        </lg>
+        <trailer>Finis</trailer>
+        <closer rend="break(no)align(right)right-indent(1)">
+          <signed><vuji>I</vuji>o. A.</signed>
+        </closer>
+      </div>
+      <div rend="pre(#ornament)face(blackletter)" type="corrigenda">
+        <p rend="indent(0)">A fault eſcaped in C. the firſt Page, 7 lines
+		  <lb/>from the end.
+		  <lb/>For: it became putrified.
+		  <lb/>Read:
+		  <ref xml:id="ec01" type="correction" target="#er01">it became purified.</ref></p>
+      </div>
+    </body>
+  </text>
+</TEI>

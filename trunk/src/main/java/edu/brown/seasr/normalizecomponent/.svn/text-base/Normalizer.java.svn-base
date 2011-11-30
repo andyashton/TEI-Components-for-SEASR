@@ -1,0 +1,88 @@
+package edu.brown.seasr.normalizecomponent;
+
+import com.hp.hpl.jena.reasoner.test.TestInfPrefixMapping;
+import edu.brown.seasr.ComponentXMLUtils;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+import java.util.Map;
+
+/**
+ * User: mdellabitta
+ * Date: 2011-06-15
+ * Time: 8:19 AM
+ */
+public class Normalizer {
+
+    private ComponentXMLUtils utils = new ComponentXMLUtils();
+
+    public String imposeNormalcy(String xml) throws Exception {
+        Document doc = utils.stringToDocument(xml);
+        String teiPrefix = utils.getTEIPrefix(doc);
+        Map<String, String> namespaces = utils.scrapeNamespaceDeclarations(doc);
+
+        //--within <choice>, use content of <corr>, <expan>, <reg> (suppress <sic>, <abbr>, <orig>).
+        easyChoices(doc);
+
+        //Still choose high-certainty <unclear> and <seg>.
+        highCertaintyChoices(doc, teiPrefix, namespaces);
+
+        //--In a <subst> element, choose the value of the <add> element and not the <del> element.
+        substituteAdd(doc, teiPrefix, namespaces);
+
+        //--Include <supplied> elements
+        supplySupplied(doc, teiPrefix, namespaces);
+
+        return utils.docToString(doc);
+    }
+
+    void supplySupplied(Document doc, String teiPrefix, Map<String, String> namespaces) throws Exception {
+        String findXPath = String.format("//%1$s:supplied", teiPrefix);
+        String replaceXPath = ".";
+        utils.xPathElementFindAndReplace(doc, findXPath, replaceXPath, namespaces);
+    }
+
+    void substituteAdd(Document doc, String teiPrefix, Map<String, String> namespaces) throws Exception {
+        String findXPath = String.format("//%1$s:subst", teiPrefix);
+        String replaceXPath = String.format("./%1$s:add", teiPrefix);
+        utils.xPathElementFindAndReplace(doc, findXPath, replaceXPath, namespaces);
+
+    }
+
+    void highCertaintyChoices(Document doc, String teiPrefix, Map<String, String> namespaces) throws Exception {
+        //Where <unclear> or <seg> appear in <choice>, choose the highest-certainty value if it has a @cert attribute.
+        //probably could do this with xpath if i were guaranteed 2.0 and I had more time.
+        String findXPath = String.format("//%1$s:choice[%1$s:unclear[@cert]] | //%1$s:choice[%1$s:seg[@cert]]", teiPrefix);
+        NodeList unclearChoices = utils.runXPathNodeListResult(findXPath, doc, namespaces);
+
+        for (int i = 0; i < unclearChoices.getLength(); i++) {
+            Element choice = (Element) unclearChoices.item(i);
+            int maxCert = 0;
+            NodeList unclearOptions = choice.getChildNodes();
+            //find the maxcert
+            for (int j = 0; j < unclearOptions.getLength(); j++) {
+                if (unclearOptions.item(j).getNodeType() != Node.ELEMENT_NODE) continue;
+                Element unclearOption = (Element) unclearOptions.item(j);
+                int cert = Integer.parseInt(unclearOption.getAttribute("cert"));
+                maxCert = maxCert > cert ? maxCert : cert;
+            }
+            //do the substitution
+
+            findXPath = String.format("./%1$s:unclear[@cert = '%2$s'] | ./%1$s:seg[@cert = '%2$s']", teiPrefix, "" + maxCert);
+            NodeList replacements = utils.runXPathNodeListResult(findXPath, choice, namespaces);
+            Node parent = choice.getParentNode();
+            parent.insertBefore(replacements.item(0), choice);
+            parent.removeChild(choice);
+        }
+    }
+
+     void easyChoices(Document doc) throws Exception {
+        //within <choice>, choose the content of <sic>, <abbr>, <orig> (suppress   <corr>, <expan>, <reg>).
+        utils.choose(doc, "corr");
+        utils.choose(doc, "expan");
+        utils.choose(doc, "reg");
+    }
+
+}

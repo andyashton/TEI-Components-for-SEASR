@@ -1,0 +1,58 @@
+#
+#
+# @name 	TEI Corpus Example Flow
+# @description
+# @creator 	mdellabi
+# @date 	Thu Jan 13 09:26:17 EST 2011
+# @rights
+# @tags 	xml corpus example brown tei
+# @uri  	http://brown.edu/seasr/tei/flows/examples/tei-corpus-example-flow/
+#
+
+import <http://localhost:1714/public/services/repository.ttl>
+
+alias <meandre://brown.edu/seasr/tei/components/tei-corpus> as TEI_CORPUS
+alias <meandre://seasr.org/components/foundry/print-to-console> as PRINT_TO_CONSOLE
+alias <meandre://seasr.org/components/foundry/push-text> as PUSH_TEXT
+
+push_text1 = PUSH_TEXT()
+push_text2 = PUSH_TEXT()
+push_text3 = PUSH_TEXT()
+print_to_console = PRINT_TO_CONSOLE()
+tei_corpus = TEI_CORPUS()
+
+push_text1.ignore_errors = "false"
+push_text1.debug_level = "info"
+push_text1.message = "<?xml version='1.0' encoding='UTF-8'?><TEI xmlns='http://www.wwp.brown.edu/ns/textbase/storage/1.0'><teiHeader xml:id='TR00372.hdr'><fileDesc><titleStmt><title type='main'>A Speech Made by Queen Elizabeth, 1593 (published 1688)</title><author><persName ref='personography.xml#elizabeth.neu' type='person-female'>Elizabeth I</persName></author><sponsor>Brown University</sponsor><funder>U.S. National Endowment for the Humanities</funder><funder>The Andrew W. Mellon Foundation</funder></titleStmt><publicationStmt><publisher>Brown University Women Writers Project</publisher><date when='2001-04-23'/></publicationStmt><sourceDesc n='OT00372'/></fileDesc><profileDesc><textClass><catRef type='main' target='#G.non-fiction'/><catRef type='other' target='#G.non-fiction.other'/></textClass></profileDesc></teiHeader><text xml:id='TR00372'><text xml:id='TR00372.01'><body><salute rend='slant(italic)'>My Lords and Gentlemen,</salute><p rend='first-indent(0)'><hi rend='class(#DIC)'>T</hi><hi rend='case(allcaps)'>h</hi>is Kingdom hath many Wi&#383;e, Noble, and Victorious Princes; I will<lb/> not compare with any of them in Wi&#383;dom, Fortitude, or any other Ver&#173;<lb/>tues: But &#383;aving the Duty of a Child, that is not to compare with his<lb/>Father in Love, Care , Sincerity, and Ju&#383;tice, I will compare with any<lb/>Prince that ever you had, or &#383;hall have.</p></body></text></text></TEI>"
+push_text1.times = "1"
+push_text1.wrap_stream = "false"
+
+push_text2.ignore_errors = "false"
+push_text2.debug_level = "info"
+push_text2.message = "<?xml version='1.0' encoding='UTF-8' standalone='no'?><TEI xmlns='http://www.wwp.brown.edu/ns/textbase/storage/1.0'><teiHeader xml:id='TR00371.hdr'><fileDesc><titleStmt><title type='main'>The Last Speech and Thanks of Queen Elizabeth, 1601</title><author><persName ref='personography.xml#elizabeth.neu' type='person-female'>Elizabeth I</persName></author><sponsor>Brown University</sponsor><funder>U.S. National Endowment for the Humanities</funder><funder>The Andrew W. Mellon Foundation</funder></titleStmt><publicationStmt><publisher>Brown University Women Writers Project</publisher><date when='2001-04-23'/></publicationStmt><sourceDesc n='OT00371'/></fileDesc><profileDesc><textClass><catRef type='main' target='#G.non-fiction'/><catRef type='other' target='#G.non-fiction.other'/></textClass></profileDesc></teiHeader><text xml:id='TR00371'><pb n='i'/><milestone n='A1r' unit='sig'/><front><titleBlock><titlePart><hi rend='case(mixed)'>The La&#383;t</hi><lb/>Speech                    <lb/>and <lb/>Thanks <lb/>of <lb/><hi rend='case(mixed)'><persName ref='personography.xml#elizabeth.neu'>Queen Elizabeth</persName><lb/>Of ever Ble&#383;&#383;ed Memory, </hi></titlePart><titlePart type='desc'>to her Last <lb/> <orgName>Parliament</orgName>, <lb/>after her <lb/>Delivery <lb/>from the <lb/> <hi rend='case(mixed)'>Popi&#383;h Plots, ;c.</hi> </titlePart><docImprint rend='pre(#rule)'><placeName rend='slant(italic)'>London</placeName>, Printed,<date when='1679'>1679</date>. </docImprint></titleBlock></front></text></TEI>"
+push_text2.times = "1"
+push_text2.wrap_stream = "false"
+
+push_text3.ignore_errors = "false"
+push_text3.debug_level = "info"
+push_text3.message = "<?xml version='1.0' encoding='UTF-8' standalone='no'?> <TEI xmlns='http://www.wwp.brown.edu/ns/textbase/storage/1.0'> <teiHeader xml:id='TR00373.hdr'> <fileDesc> <titleStmt> <title type='main'>Her Majesty's Most Princely Answer (The Golden Speech), 1601</title> <author> <persName ref='personography.xml#elizabeth.neu' type='person-female'>Elizabeth I</persName> </author> <sponsor>Brown University</sponsor> <funder>U.S. National Endowment for the Humanities</funder> </titleStmt> <publicationStmt> <publisher>Brown University Women Writers Project</publisher> <date when='2001-04-23'/> </publicationStmt> <sourceDesc n='OT00373'/> </fileDesc> <profileDesc> <handNotes> <handNote xml:id='unknown.zzx' scribe='unknown.zzx'/> </handNotes> <textClass> <catRef type='main' target='#G.non-fiction'/> <catRef type='other' target='#G.non-fiction.other'/> </textClass> </profileDesc> </teiHeader> <text xml:id='TR00373'> <pb n='i'/> <milestone n='A2r' unit='sig'/> <front> <titleBlock> <titlePart rend='align(center)pre(#ornament)'><hi rend='case(allcaps)'>Her ma<vuji>i</vuji>esties</hi><lb/>mo&#383;t Princelie an&#383;were,</titlePart> <titlePart rend='align(center)' type='desc'>deli<vuji>u</vuji>ered by her &#383;elfe at the Court <lb/>at <placeName rend='slant(italic)'><vuji>VV</vuji>hite-hall</placeName>, on the <date when='1601-11-30'>la&#383;t day of No<vuji>u</vuji>em&#173; <lb/>ber 1601</date>: When the Speaker of the <orgName>Lower <lb/>Hou&#383;e of Parliament</orgName> (a&#383;&#383;i&#383;ted with the greate&#383;t part <lb/>of the Knights, and Burge&#383;&#383;es) had pre&#383;ented their <lb/>humble thanks for her free and gracious fa<vuji>u</vuji>our, <lb/>in pre<vuji>u</vuji>enting and reforming of &#383;undry grie&#173; <lb/><vuji>u</vuji>ances, by abu&#383;e of many Grants, <lb/>commonly called <lb/><term rend='slant(italic)'>Monopolies</term>.</titlePart> <respLine rend='slant(italic)align(center)'>The &#383;ame being taken <foreign rend='slant(upright)' xml:lang='la'>verbatim</foreign> in writing <lb/>by <persName ref='personography.xml#ab.nep' rend='slant(upright)'>A.B.</persName> as neere as he could po&#383;sibly <lb/>&#383;et it downe.</respLine> <docImprint rend='align(center)pre(#ornament)'>Imprinted at <pubPlace>London</pubPlace>. <lb/><docDate xml:lang='la' when='1601'><hi rend='case(smallcaps)'>Anno</hi> 1601.</docDate></docImprint></titleBlock></front></text></TEI>"
+push_text3.times = "1"
+push_text3.wrap_stream = "false"
+
+print_to_console.ignore_errors = "false"
+print_to_console.debug_level = "info"
+print_to_console.wrap_stream = "false"
+
+tei_corpus.ignore_errors = "false"
+tei_corpus.debug_level = "info"
+
+@push_text1_outputs = push_text1()
+@push_text2_outputs = push_text2()
+@push_text3_outputs = push_text3()
+@tei_corpus_outputs = tei_corpus()
+
+tei_corpus(xml: push_text1_outputs.text)
+tei_corpus(xml: push_text2_outputs.text)
+tei_corpus(xml: push_text3_outputs.text)
+print_to_console(object: tei_corpus_outputs.xml)
+

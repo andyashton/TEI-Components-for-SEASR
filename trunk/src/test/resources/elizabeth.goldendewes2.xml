@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?oxygen RNGSchema="../schema/wwp-store.rnc" type="compact"?>
+<!-- $Header: /tmp/improvement/RCS/elizabeth.goldendewes2.xml,v 1.39 2010-01-24 20:54:51-05 sbauman Exp $ -->
+<TEI xmlns="http://www.wwp.brown.edu/ns/textbase/storage/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader xml:id="TR00423.hdr">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">The Golden Speech, 1601</title>
+        <author>
+          <persName ref="personography.xml#elizabeth.neu" type="person-female">Elizabeth I</persName>
+        </author>
+        <sponsor>Brown University</sponsor>
+        <funder>U.S. National Endowment for the Humanities</funder>
+        <funder>The Andrew W. Mellon Foundation</funder>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2.0">Second edition: version 2.0</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Brown University Women Writers Project</publisher>
+        <address>
+          <addrLine>Box 1841</addrLine>
+          <addrLine>Brown University</addrLine>
+          <addrLine>Providence, RI  02912-1841</addrLine>
+          <addrLine>USA</addrLine>
+          <addrLine>url:mailto:WWP@brown.edu</addrLine>
+          <addrLine>url:http://www.wwp.brown.edu</addrLine>
+          <addrLine>401-863-3619</addrLine>
+        </address>
+        <idno type="WWP">TR00423</idno>
+        <idno type="URL">http://www.wwp.brown.edu/texts/elizabeth.goldendewes2.html</idno>
+        <xi:include href="availability.xml"/>
+        <date when="2001-04-23"/>
+      </publicationStmt>
+      <sourceDesc n="OT00423">
+        <biblStruct>
+          <analytic>
+            <author>
+              <persName ref="personography.xml#elizabeth.neu" type="titlePage">Queen Elizabeth</persName>
+              <persName ref="personography.xml#elizabeth.neu" type="regularized">Elizabeth I</persName>
+            </author>
+            <title>[The golden speech, 1601]</title>
+          </analytic>
+          <monogr>
+            <title>A compleat journal of the votes, speeches, and debates...</title>
+            <editor>
+              <persName ref="personography.xml#sdewes.zbt" type="titlePage">Sir Simonds D'Ewes, Baronet</persName>
+              <persName ref="personography.xml#sdewes.zbt" type="regularized">D'Ewes, Sir Simonds</persName>
+            </editor>
+            <edition>Second edition</edition>
+            <imprint>
+              <pubPlace>London</pubPlace>
+              <publisher>
+                <persName ref="personography.xml#pbowes.ney" type="titlePage">Paul Bowes</persName>
+                <persName ref="personography.xml#pbowes.ney" type="regularized">Bowes, Paul</persName>
+              </publisher>
+              <date when="1693">1693</date>
+            </imprint>
+            <biblScope type="part">[The golden speech, 1601]</biblScope>
+            <biblScope type="pages">pp. 658-661</biblScope>
+            <extent>
+              <measure unit="page" quantity="6"/>
+            </extent>
+            <extent>
+              <dimensions>
+                <format>folio</format>
+              </dimensions>
+            </extent>
+          </monogr>
+          <idno type="L">unknown</idno>
+          <idno type="Wing">D1248</idno>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <xi:include href="projectDesc.xml"/>
+      <xi:include href="samplingDecl.xml"/>
+      <xi:include href="editorialDecl.xml"/>
+      <tagsDecl>
+        <rendition xml:id="rend.break">break(yes)</rendition>
+        <rendition xml:id="rend.upright">slant(upright)</rendition>
+        <namespace name="http://www.wwp.brown.edu/ns/textbase/storage/1.0">
+          <tagUsage gi="p" render="#rend.break"/>
+          <tagUsage gi="mw" render="#rend.break"/>
+          <tagUsage gi="label" render="#rend.upright"/>
+        </namespace>
+      </tagsDecl>
+      <classDecl>
+        <xi:include href="taxonomy.xml"/>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef type="main" target="#G.non-fiction"/>
+        <catRef type="other" target="#G.non-fiction.other"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change n="RCS:1.35" when="2008-12-10" who="personography.xml#mrymszapa.mvu">looked for persname placename nesteds</change>
+      <change n="RCS:1.20" when="1999-08-13" who="personography.xml#jflanders.lfw">updated header names</change>
+      <change n="RCS:1.18" when="1999-08-10" who="personography.xml#jflanders.lfw">updated sourcedesc: now includes analytic with Elizabeth I as author.</change>
+      <change when="1999-02-10" who="personography.xml#pcaton.xzc">Retagged publishers and booksellers with appropriate
+          DOCROLE/PERSNAME combinations. Validated against DTD 1.1.23a
+          and supravalidated.</change>
+      <change when="1999-01-25" who="personography.xml#jrussom.zxg">corrected the representation of date in the WWP title and
+          part title; made filedesc appropriate to an excerpt since
+          the speech is not an explicitly named part of the
+          journal.</change>
+      <change when="1999-01-13" who="personography.xml#jrussom.zxg">Revised TEI header FILEDESC element names, ordering, and
+          contents</change>
+      <change when="1998-05-19" who="personography.xml#pcaton.xzc">Added reason attribute to 'gap' tags; moved some 'milestone'
+          tags to be next to 'pb'.</change>
+      <change when="1998-05-12" who="personography.xml#cmah.dci">Fixed tagging of NOTEs and GAP to correspond for validation
+          against most current DTD, 1.1.10a</change>
+      <change when="1997-09-15" who="personography.xml#anavot.nel">Finished entering encoding review corrections.</change>
+      <change when="1997-09-05" who="personography.xml#pcaton.xzc">Changed the quote ids to make them unique in textbase. Added
+          id for header.</change>
+      <change when="1997-08-25" who="personography.xml#anavot.nel">Finished single proofing and entered corrections.</change>
+      <change when="1997-08-19" who="personography.xml#anavot.nel">Finished capture using psgml/emacs on Unix with version
+          1.1.5a of wwp-store DTD, did supra-validation, and
+          printed.</change>
+      <change when="1997-08-06" who="personography.xml#anavot.nel">DTD version updated to 1.1.5a of wwp-store DTD.</change>
+      <change when="1997-07-29" who="personography.xml#anavot.nel">Began capture using psgml/emacs on Unix with version 1.1.4a
+          of wwp-store DTD.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="TR00423">
+    <front>
+      <pb n="i"/>
+      <milestone n="π1r" unit="sig"/>
+      <pb n="ii"/>
+      <milestone n="π1v" unit="sig"/>
+      <div type="frontispiece">
+        <figure>
+          <figDesc>Queen Elizabeth I seated in Parliament surrounded
+	    by members of the House. Each group is identified by a
+	    letter, which is explained in the caption. The words <said>The
+	    Chancellors Seat</said> appear (in italics) on a seat in the upper center.
+</figDesc>
+        </figure>
+        <head rend="case(smallcaps)align(center)"><persName ref="personography.xml#elizabeth.neu">Queen Elizabeth</persName> in
+	  Parliament</head>
+        <p>
+          <list rend="slant(italic)">
+            <item><label>A.</label>L. Chancellor.</item>
+            <item><label>B.</label>Marquiſes,
+		  Earles ;<hi rend="sup()">c.</hi>.</item>
+            <item><label>C.</label>Barons.</item>
+            <item><label>D.</label>Biſhops.</item>
+            <item><label>E.</label><vuji>I</vuji>udges.</item>
+            <item><label>F.</label>Maſters of Chancery.</item>
+            <item><label>G.</label>Clerks.</item>
+            <item><label>H.</label>Speaker
+		  of <g ref="#ysupe"/> Co<choice><abbr>m̄</abbr><expan>mm</expan></choice>ons</item>
+            <lb/>
+            <item><label>I.</label>Black Rod.</item>
+            <item><label>K.</label>Sergeant at Armes.</item>
+            <item><label>L.</label>Members of the Commons houſe.</item>
+            <item><label>M.</label><choice><abbr>S.<hi rend="sup()">r</hi></abbr><expan>Sir</expan></choice>
+		  Francis Walsingham Secretary of State.</item>
+          </list>
+        </p>
+      </div>
+      <pb n="iii"/>
+      <milestone n="π2r" unit="sig"/>
+      <mw rend="place(fullPageSurround)" type="border">#rule</mw>
+      <titleBlock rend="slant(upright)align(center)face(roman)">
+        <titlePart>A Compleat
+	    <lb/><hi rend="case(allcaps)">Journal
+	    <lb/>of the</hi>
+	    <lb/><hi rend="face(blackletter)">Votes, Speeches and Debates,</hi>
+	    <lb/><hi rend="case(allcaps)">both of the</hi>
+	    <lb/><orgName><hi rend="case(allcaps)">House</hi> of <hi rend="case(allcaps)">Lords</hi></orgName>
+	    <lb/><hi rend="case(allcaps)">and</hi>
+	    <lb/><orgName><hi rend="case(allcaps)">House</hi> of <hi rend="case(allcaps)">Commons</hi></orgName>
+</titlePart>
+        <titlePart type="desc"><lb/>Throughout the whole Reign of
+	    <lb/><persName ref="personography.xml#elizabeth.neu">Queen <hi rend="case(allcaps)">Elizabeth</hi></persName>,
+	    <lb/>Of Glorious Memory.
+</titlePart>
+        <respLine rend="post(#rule)">Collected by that Eminent Member of Parliament;
+ <lb/><persName ref="personography.xml#sdewes.nep">Sir <hi rend="case(allcaps)">Simonds D'Ewes</hi>, Baronet</persName>.</respLine>
+        <docImprint rend="post(#rule)">
+Publiſhed
+<lb/>By <docRole type="printer"><persName xml:id="TR00423p1" rend="slant(italic)case(allcaps)" next="#TR00423p2" ref="personography.xml#pbowes.ney">Paul Bowes</persName>,
+	  of the <placeName>Middle-Temple</placeName><persName xml:id="TR00423p2" prev="#TR00423p1" ref="personography.xml#pbowes.ney">Eſq</persName></docRole>;</docImprint>
+        <docImprint rend="post(#rule)"><pubPlace rend="case(allcaps)slant(italic)">London,</pubPlace><lb rend="align(left)"/>Printed for <docRole><persName rend="slant(italic)" ref="personography.xml#jrobinson.nem">Jonathan
+	    Robinſon</persName></docRole> in <placeName>St. <hi rend="slant(italic)">Pauls</hi> Church-yard</placeName>,
+	  <docRole><persName ref="personography.xml#jtonson.neh">Jacob
+	    Tonſon</persName></docRole> in
+	  <lb rend="align(left)indent(1)"/><placeName rend="slant(italic)">Chancery-lane</placeName>, <docRole><persName ref="personography.xml#achurchil.nex jchurchil.inu">A. ;
+	    J. Churchil</persName></docRole> in <placeName rend="slant(italic)">Pater-noſter-Row</placeName>, and
+	  <docRole><persName ref="personography.xml#jwyat.ing">John Wyat</persName></docRole> in
+	  <lb rend="align(left)indent(1)"/><placeName>St. <hi rend="slant(italic)">Pauls</hi> Church-yard</placeName>,
+	  <docDate when="1693">MDCXCIII</docDate>.
+</docImprint>
+      </titleBlock>
+      <pb n="iv"/>
+      <milestone n="π2v" unit="sig"/>
+      <pb n="v"/>
+      <milestone n="π3r" unit="sig"/>
+      <mw rend="place(fullPageSurround)" type="border">#rule</mw>
+      <titleBlock rend="slant(upright)align(center)face(roman)">
+        <titlePart><gap desc="handwriting" reason="omitted"/><hi rend="case(allcaps)">The</hi><gap desc="handwriting" reason="omitted"/><lb/><hi rend="case(allcaps)">Journals
+<lb/>of all the
+<lb/>Parliaments</hi><lb/>During the <hi rend="case(allcaps)">Reign</hi> of
+	    <lb/><persName ref="personography.xml#elizabeth.neu">Queen <hi rend="case(allcaps)">Elizabeth</hi></persName>,
+</titlePart>
+        <titlePart type="desc"><hi rend="case(allcaps)">both of
+	      the</hi><lb/><orgName><hi rend="case(allcaps)">House</hi> of
+	      <hi rend="case(allcaps)">Lords</hi></orgName><lb/><hi rend="case(allcaps)">and</hi><lb/><orgName><hi rend="case(allcaps)">House</hi> of <hi rend="case(allcaps)">Commons</hi></orgName>.</titlePart>
+        <respLine rend="post(#rule)">Collected By
+<lb/><persName ref="personography.xml#sdewes.nep">Sir <hi rend="case(allcaps)slant(italic)">Simonds
+	      D'Ewes</hi></persName> of <placeName rend="slant(italic)">Stow-Hall</placeName> in the County
+	    <lb/>of <placeName rend="case(allcaps)">Suffolk</placeName>, Knight and Baronet.</respLine>
+        <docImprint rend="post(#rule)">Reviſed and Publiſhed
+	  <lb/>By <docRole type="printer"><persName xml:id="TR00423p01" rend="slant(italic)case(allcaps)" next="#TR00423p02" ref="personography.xml#pbowes.ney">Paul
+	    Bowes</persName>, of the <placeName rend="case(allcaps)">Middle-Temple</placeName><lb/><placeName rend="case(allcaps)slant(italic)">London</placeName>, <persName xml:id="TR00423p02" prev="#TR00423p01" ref="personography.xml#pbowes.ney">Eſq</persName></docRole>;</docImprint>
+        <docImprint rend="post(#rule)"><pubPlace rend="case(allcaps)slant(italic)">London,</pubPlace><lb/>Printed for <docRole><persName ref="personography.xml#jstarkey.nef">John
+	    Starkey</persName></docRole> at the <placeName rend="slant(italic)">Mitre</placeName> in <placeName rend="slant(italic)">Fleetſtreet</placeName> near
+	  <lb/><placeName rend="slant(italic)">Temple-Bar</placeName>. <docDate when="1682">1682</docDate>.
+</docImprint>
+      </titleBlock>
+    </front>
+    <body rend="face(roman)columns(2)">
+      <gap reason="excerpt" desc="printed" extent="π3v,A-Z4,Aa-Zz4,Aaa-Zzz4,Aaaa-Oooo4,Pppp1r;  pp. vi-xvi,1-657"/>
+      <pb n="658"/>
+      <milestone n="Pppp1v" unit="sig"/>
+      <mw type="pageNum">658</mw>
+      <gap reason="excerpt" desc="printed" extent="96 lines"/>
+      <p rend="first-indent(1)">The greateſt part of this Forenoons
+	Paſſage
+<lb/>being thus tranſcribed out of the Original Book
+	<lb/>of the <orgName>Houſe of Commons</orgName>; now follows
+	a que­
+<lb/>ſtion only moved by the Speaker upon the riſing
+	<lb/>of this <orgName>Houſe</orgName>, as alſo his acceſs
+	unto her Majeſty
+	<lb/>in the Afternoon with divers of the ſaid
+	<orgName>Houſe</orgName>
+	<lb/>at <placeName rend="slant(italic)">Whitehall</placeName>,
+	touching Monopolies or Patents of
+<lb/>Priviledge, out of the ſaid private Journal.</p>
+      <p rend="first-indent(1)">The Speaker asked the
+	<orgName>Houſe</orgName>, What it was
+<lb/>their pleaſures he ſhould deliver unto her Ma­
+<lb/>jeſty? and <persName ref="personography.xml#ehobbie.nec">Sir <hi rend="slant(italic)">Edward
+	  Hobbie</hi></persName> ſtood up and ſaid,
+<lb/>it was beſt he ſhould deviſe that himſelf, the whole
+<lb/><orgName>Houſe</orgName> would refer it to him, and all
+	ſaid <said>I, I, I</said>.</p>
+      <p rend="first-indent(1)">In the Afternoon about three of
+	the Clock,
+<lb/>ſome ſevenſcore of the <orgName>Houſe</orgName> met at the great
+<lb/>Chamber before the Council Chamber in <placeName rend="slant(italic)">Whitehall</placeName>.</p>
+      <p rend="first-indent(1)">At length the Queen came into the Council
+<lb/>Chamber where ſitting under the Cloth of State
+<lb/>at the upper end, the Speaker with all the Com­
+<lb/>pany came in, and after three low reverences
+<lb/>made he ſpake to this effect.</p>
+      <p>
+        <said><hi rend="class(#DIC)">M</hi><hi rend="case(allcaps)">ost</hi> Sacred and
+	moſt gracious Sovereign
+<lb/>We your Faithful, Loyal and obedient
+<lb/>Subjects and Commons here preſent, vouchſafed of
+<lb/>your eſpecial goodneſs (to our unſpeakable com­
+<lb/>fort) acceſs to your ſacred preſence, do in all du­
+<lb/>ty and humbleneſs come to preſent that which
+<lb/>no words can expreſs, moſt humble and thank­
+<lb/>ful acknowledgement of your moſt gracious Meſ­
+<lb/>ſage, and moſt bounden and humble thanks for
+<lb/>your Majeſties moſt abundant goodneſs extended
+<mw rend="align(right)" type="catch">and</mw>
+	      <pb n="659"/><milestone n="Pppp2r" unit="sig"/>
+	  <mw type="pageNum">659</mw>
+<cb/>
+<lb/>and performed to us. We cannot ſay, Moſt Gra­
+<lb/>cious Soveraign, We have called and been heard,
+<lb/>we have complained and have been helped;
+<lb/>though in all duty and thankfulneſs we acknow­
+<lb/>ledge, your Sacred Ears are ever open, and ever
+<lb/>bowed down to hear us, and your bleſſed Hands
+<lb/>ever ſtretched out to relieve us; We acknow­
+<lb/>ledge, (Sacred Sovereign) in all duty and thank­
+<lb/>fulneſs we acknowledge, that before we call,
+<lb/>your preventing Grace and All-deſerving Good­
+<lb/>neſs doth watch over us for our good, more rea­
+<lb/>dy to give than we can deſire, much leſs de­
+<lb/>ſerve. That Attribute which is moſt proper unto
+<lb/><mcr>God</mcr>, to perform all he promiſeth, appertaineth
+<lb/>alſo unto you our Moſt Gracious Soveraign Queen,
+<lb/>of all Truth, of all Conſtancy, of all Goodneſs,
+<lb/>never wearied in doing good unto us (the Deeds
+<lb/>themſelves do ſpeak) moſt careful to provide all
+<lb/>good things for us, moſt gracious, moſt tender to
+<lb/>remove all grievances from us, which all your
+<lb/>Princely Actions have ever ſhewed, and even
+<lb/>now your moſt gracious publiſhed Proclamation
+<lb/>of your own only meer Motion and ſpecial
+<lb/>Grace for the good of all your People doth wit­
+<lb/>neſs to us. We come not, Sacred Sovereign, one
+<lb/>of ten to render thanks, and the reſt to go away
+<lb/>unthankful; but all of us, in all duty and thank­
+<lb/>fulneſs do throw down our ſelves at the Feet of
+<lb/>your Majeſty, do praiſe <mcr>God</mcr>
+	  and bleſs your Ma­
+<lb/>jeſty. Neither do we preſent our thanks in words
+<lb/>or any outward thing which can be no ſufficient
+<lb/>retribution for ſo great goodneſs; but in all duty
+<lb/>and thankfulneſs, proſtrate at your Feet, we pre­
+<lb/>ſent our moſt loyal and thankful hearts, even the
+<lb/>laſt drop of Blood in our Hearts, and the laſt
+<lb/>ſpirit of breath in our Noſtrills to be poured out,
+<lb/>to be breathed up for your ſafety.
+	</said>
+      </p>
+      <p rend="first-indent(1)">And after three low Reverences made he
+      with
+<lb/>the reſt kneeled down, and her Majeſty began
+	<lb/>thus to anſwer her Self, <hi rend="slant(italic)">viz</hi>.</p>
+      <p>
+        <said xml:id="TR00423q01" next="#TR00423q02"><hi rend="class(#DIC)">M</hi><hi rend="case(allcaps)">r</hi> Speaker, We have heard your Decla­
+<lb/>ration and perceive your care of our
+<lb/>State, by falling into the conſideration of a grate­
+<lb/>ful acknowledgment of ſuch benefits as you have
+<lb/>received; And that your coming is to preſent
+<lb/>thanks unto us, which I accept with no leſs Joy
+<lb/>than your Loves can have deſire to offer ſuch a
+<lb/>Preſent. I do aſſure you, that there is no Prince
+<lb/>that loveth his Subjects better, or whoſe Love
+<lb/>can countervail our Love; There is no Jewel,
+<lb/>be it of never ſo rich a prize, which I prefer be­
+<lb/>fore this Jewel, I mean your Love; for I do more
+<lb/>eſteem it than any Treaſure or Riches: for that
+<lb/>we know how to prize, but Love and Thanks I
+<lb/>count ineſtimable. And though <mcr>God</mcr> hath raiſed
+<lb/>me High, yet this I count the Glory of my
+<lb/>Crown, that I have Reigned with your Loves.
+<lb/>This makes me that I do not ſo much rejoice
+<lb/>that <mcr>God</mcr> hath made me to be a Queen, as to be
+<lb/>a Queen over ſo thankful a People. Therefore
+<lb/>I have cauſe to wiſh nothing more than to con­
+<lb/>tent the Subject, and that is a duty which I owe.
+	      <cb/>
+<lb/>Neither do I deſire to live longer dayes, than
+<lb/>that I may ſee your Proſperity, and that's my
+<lb/>only deſire. And as I am that Perſon that ſtill,
+<lb/>yet under <mcr>God</mcr>, hath delivered you, ſo I truſt,
+<lb/>by the Almighty Power of <mcr>God</mcr>, that I ſtill ſhall
+<lb/>be his Inſtrument to preſerve you from Envy,
+<lb/>Peril, Diſhonour, Shame, Tyranny and Oppreſ­
+<lb/>ſion, partly by means of your intended helps,
+<lb/>which we take very acceptably, becauſe it mani­
+<lb/>feſteth the largeneſs of your Loves, and Loyal­
+<lb/>ties unto your Sovereign. Of my ſelf I muſt ſay
+<lb/>this, I never was any greedy, ſcraping Graſper,
+<lb/>nor a ſtrait faſt-holding Prince, nor yet a Waſter;
+<lb/>My heart was never ſet on Wordly Goods, but
+<lb/>only for my Subjects good. What you do be­
+<lb/>ſtow on me, I will not hoard it up, but receive
+<lb/>it to beſtow on you again. Yea mine own pro­
+<lb/>perties I count yours to be expended for your
+<lb/>good. Therefore render unto them from me I
+<lb/>beſeech you, M<hi rend="sup()">r</hi> Speaker,
+	      ſuch thanks as you ima­
+<lb/>gine my Heart yieldeth, but my Tongue cannot
+<lb/>expreſs.
+</said>
+      </p>
+      <p rend="first-indent(1)">
+Note that all this while they kneeled. Where­
+<lb/>upon her Majeſty ſaid, <said xml:id="TR00423q02" next="#TR00423q03" prev="#TR00423q01">M<hi rend="sup()">r</hi> Speaker, I would wiſh
+<lb/>you and the reſt to ſtand up, for I ſhall yet trou­
+<lb/>ble you with longer Speech,</said> ſo they all ſtood up
+<lb/>and ſhe went on in her Speech, ſaying.
+	  </p>
+      <p rend="first-indent(1)"><said xml:id="TR00423q03" next="#TR00423q04" prev="#TR00423q02">
+Mr. Speaker, You give me thanks, but I doubt
+<lb/>me, I have more cauſe to thank you all than
+<lb/>you me; And I charge you to thank them of
+<lb/>the <orgName>Houſe of Commons</orgName> from me:
+	      for had I not
+<lb/>received a knowledge from you, I might have
+<lb/>fallen into the Lap of an Error, only for lack of
+<lb/>true Information. Since I was Queen, yet did I
+<lb/>never put my Pen to any Grant, but that upon
+<lb/>pretext and ſemblance made unto me, that it
+<lb/>was both good and beneficial to the Subjects in
+<lb/>general, though a private profit to ſome of my
+<lb/>antient Servants who had deſerved well: But
+<lb/>the contrary being found by Experience, I am
+<lb/>exceeding beholding to ſuch Subjects as would
+<lb/>move the ſame at firſt. And I am not ſo ſimple to
+<lb/>ſuppoſe, but that there be ſome of the <orgName>Lower
+<lb/>Houſe</orgName> whom theſe grievances never touched;
+<lb/>And for them I think they ſpeak out of Zeal to
+<lb/>their Countries, and not out of Spleen or male­
+<lb/>volent Affection, as being Parties grieved; and
+<lb/>I take it exceeding grateful from them, becauſe
+<lb/>it gives us to know that no reſpects or intereſſes
+<lb/>had moved them, other than the minds they
+<lb/>bear to ſuffer no diminution of our Honour, and
+<lb/>our Subjects Love unto us. The Zeal of which Af­
+<lb/>fection tending to eaſe my People and knit their
+<lb/>Hearts unto me, I embrace with a Princely Care;
+<lb/>far above all Earthly Treaſure I eſteem my Peo­
+<lb/>ples Love, more than which I deſire not to me­
+<lb/>rit. That my Grants ſhould be grievous to my
+<lb/>People, and Oppreſſions to be Priviledged under
+<lb/>colour of our Patents, our Kingly Dignity ſhall
+<lb/>not ſuffer it; Yea, when I heard it I could
+<lb/>give no reſt to my thoughts until I had reformed
+<lb/>it. Shall they think to eſcape unpuniſhed, that
+	      <mw rend="align(center)" type="sig">Pppp2</mw><mw rend="align(right)break(no)" type="catch">have</mw>
+      <pb n="660"/>
+<milestone n="Pppp2v" unit="sig"/>
+	  <mw type="pageNum">660</mw>
+<lb/>have thus oppreſſed you, and have been reſpect­
+<lb/>leſs of their duty, and regardleſs of our Honour?
+<lb/>No. M<hi rend="sup()">r</hi> Speaker, I aſſure
+	      you, were it not more
+<lb/>for Conſcience ſake, than for any glory or en­
+<lb/>creaſe of Love, that I deſire theſe Errors, Trou­
+<lb/>bles, Vexations and Oppreſſions done by theſe
+<lb/>Varlets and lewd Perſons, not worthy the name
+<lb/>of Subjects, ſhould not eſcape without condign
+<lb/>puniſhment. But I perceive they dealt with me
+<lb/>like Phyſicians, who miniſtring a Drug make it
+<lb/>more acceptable by giving it a good Aromatical
+<lb/>Savour, or when they give Pills do gild them all
+<lb/>over. I have ever uſed to ſet the laſt Judgment
+<lb/>day before mine Eyes, and ſo to Rule as I ſhall
+<lb/>be judged to anſwer before a Higher Judge. To
+<lb/>whoſe Judgment Seat I do Appeal, that never
+<lb/>thought was cheriſhed in my Heart that tended
+<lb/>not to my Peoples good. And now if my Kingly
+<lb/>Bounty have been abuſed, and my Grants turned
+<lb/>to the hurt of my People, contrary to my will
+<lb/>and meaning; or if any in Authority under me,
+<lb/>have neglected or perverted what I have com­
+<lb/>mitted to them, I hope <mcr>God</mcr> will not lay their
+<lb/>Culps and offences to my Charge; and though
+<lb/>there were danger in repealing our Grants, yet
+<lb/>what danger would not I rather incur for your
+<lb/>good, than I would ſuffer them ſtill to conti­
+<lb/>nue? I know the Title of a King is a Glorious
+<lb/>Title; but aſſure your ſelf, that the ſhining glory
+<lb/>of Princely Authority hath not ſo dazled the
+<lb/>Eyes of our underſtanding, but that we will
+<lb/>know and remember, that we alſo are to yield
+<lb/>an Account of our Actions before the great
+<lb/>Judge. To be a King and wear a Crown is more
+<lb/>glorious to them that ſee it, than it is pleaſure to
+<lb/>them that bear it. For my Self, I was never ſo
+<lb/>much enticed with the glorious name of a King,
+<lb/>or Royal Authority of a Queen, as delighted
+<lb/>that <mcr>God</mcr> hath made me this Inſtrument to main­
+<lb/>tain his Truth and Glory, and to defend this
+<lb/>Kingdom (as I ſaid) from Peril, Diſhonor, Ty­
+<lb/>ranny and Oppreſſion. There will never Queen
+<lb/>ſit in my Seat with more Zeal to my Country,
+<lb/>Care to my Subjects, and that will ſooner with
+<lb/>willingneſs yield and venture her Life for your
+<lb/>Good and Safety than my Self. And though you
+<lb/>have had and may have many Princes more
+<lb/>mighty and wiſe ſitting in this Seat, yet you
+<lb/>never had or ſhall have any that will be more
+<lb/>Careful and Loving. Should I aſcribe any thing
+<lb/>to my Self and my Sexly Weakneſs, I were not
+<lb/>worthy to live then, and of all moſt unworthy
+<lb/>of the mercies I have had from <mcr>God</mcr>, who hath
+<lb/>ever yet given me a Heart which never yet feared
+<lb/>Foreign or home Enemies. I ſpeak it to give
+<lb/><mcr>God</mcr> the praiſe as a
+	      Teſtimony before you, and
+<lb/>not to attribute any thing unto my ſelf; For I,
+<lb/>O Lord, what am I, whom practices and perils
+<lb/>paſt ſhould not fear! O what can I do</said> (theſe
+<lb/>ſhe ſpake with a great Emphaſis)<said xml:id="TR00423q04" prev="#TR00423q03"> that
+	      I ſhould
+<lb/>ſpeak for any Glory! <mcr>God</mcr> forbid. This M<hi rend="sup()">r</hi>
+<lb/>Speaker I pray you deliver unto the <orgName>Houſe</orgName>, to
+<lb/>whom heartily recommend me. And ſo I com­
+<lb/>mit you all to your beſt Fortunes, and further
+	      <cb/>
+<lb/>Councels. And I pray you Mr. Comptroller,
+<lb/>Mr. Secretary, and you of my Council, that be­
+<lb/>fore theſe Gentlemen depart into their Countries,
+<lb/>you bring them all to kiſs my Hand.
+</said></p>
+      <gap reason="excerpt" desc="printed" extent="59 lines"/>
+      <mw rend="align(right)slant(italic)" type="catch"><foreign xml:lang="la">Civis</foreign>,</mw>
+      <pb n="661"/>
+      <milestone n="Pppp3r" unit="sig"/>
+      <gap reason="excerpt" desc="printed" extent="Pppp3r,Pppp3v,Pppp4r,Pppp4v,Qqqq-Vvvv4,Xxxx1r,Xxxx1v,Xxxx2r,Xxxx2v; pp. 661-689 + 19 unnumbered pages"/>
+    </body>
+    <back/>
+  </text>
+</TEI>

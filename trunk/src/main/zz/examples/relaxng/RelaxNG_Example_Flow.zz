@@ -1,0 +1,47 @@
+#
+# @name 	RelaxNG Example Flow
+# @description
+# @creator 	mdellabi
+# @date 	Thu Jan 13 09:26:17 EST 2011
+# @rights
+# @tags 	xml relaxng rng example brown tei
+# @uri  	http://brown.edu/seasr/tei/flows/examples/relaxng-example-flow
+#
+
+import <http://localhost:1714/public/services/repository.ttl>
+
+alias <meandre://brown.edu/seasr/tei/components/relaxng-validator> as RELAXNG
+alias <meandre://seasr.org/components/foundry/print-to-console> as PRINT_TO_CONSOLE
+alias <meandre://seasr.org/components/foundry/push-text> as PUSH_TEXT
+
+schema_push_text = PUSH_TEXT()
+xml_push_text = PUSH_TEXT()
+print_to_console = PRINT_TO_CONSOLE()
+relaxng = RELAXNG()
+
+schema_push_text.ignore_errors = "false"
+schema_push_text.debug_level = "info"
+schema_push_text.message = "<element name='addressBook' xmlns='http://relaxng.org/ns/structure/1.0'><zeroOrMore><element name='card'><element name='name'><text/></element><element name='email'><text/></element></element></zeroOrMore></element>"
+schema_push_text.times = "1"
+schema_push_text.wrap_stream = "false"
+
+xml_push_text.ignore_errors = "false"
+xml_push_text.debug_level = "info"
+xml_push_text.message = "<?xml version='1.0'?><addressBook><card><name>John Smith</name><email>js@example.com</email></card><card><name>Fred Bloggs</name><email>fb@example.net</email></card></addressBook>"
+xml_push_text.times = "1"
+xml_push_text.wrap_stream = "false"
+
+print_to_console.ignore_errors = "false"
+print_to_console.debug_level = "info"
+print_to_console.wrap_stream = "false"
+
+relaxng.ignore_errors = "false"
+relaxng.debug_level = "info"
+
+@schema_push_text_outputs = schema_push_text()
+@xml_push_text_outputs = xml_push_text()
+@relaxng_outputs = relaxng()
+
+relaxng(xml: xml_push_text_outputs.text; relax_ng_schema: schema_push_text_outputs.text)
+print_to_console(object: relaxng_outputs.valid)
+

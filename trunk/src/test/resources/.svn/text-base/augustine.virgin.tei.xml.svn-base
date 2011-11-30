@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?oxygen RNGSchema="../schema/wwp-store.rnc" type="compact"?>
+<!-- $Header: /tmp/improvement/RCS/augustine.virgin.xml,v 1.54 2010-01-24 20:54:15-05 sbauman Exp $ -->
+<TEI xmlns="http://www.wwp.brown.edu/ns/textbase/storage/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader xml:id="TR00490.hdr">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">The History of the Angelical Virgin Glorious S. Clare (Introductory Material), 1635</title>
+        <author><persName ref="personography.xml#maugustin.maq" type="person-female">Augustine, Sister Magdalen</persName>, trans. (from <persName ref="personography.xml#lwadding.pdl" type="person-male">Luke Wadding</persName>)</author>
+        <sponsor>Brown University</sponsor>
+        <funder>U.S. National Endowment for the Humanities</funder>
+        <funder>The Andrew W. Mellon Foundation</funder>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2.0">Second edition: version 2.0</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Brown University Women Writers Project</publisher>
+        <address>
+          <addrLine>Box 1841</addrLine>
+          <addrLine>Brown University</addrLine>
+          <addrLine>Providence, RI  02912-1841</addrLine>
+          <addrLine>USA</addrLine>
+          <addrLine>url:mailto:wwp@brown.edu</addrLine>
+          <addrLine>url:http://www.wwp.brown.edu</addrLine>
+          <addrLine>401-863-3619</addrLine>
+        </address>
+        <idno type="WWP">TR00490</idno>
+        <idno type="URL">http://www.wwp.brown.edu/texts/augustine.virgin.html</idno>
+        <xi:include href="availability.xml"/>
+        <date when="2001-04-23"/>
+      </publicationStmt>
+      <notesStmt>
+        <note type="textual">
+          <p>The title page of this text attributes its translation to 
+<persName>Sister Magdalen Augustine</persName>, which according to ESTC is the 
+religious name of <persName>Catherine Bentley</persName>. However, the author,
+<persName>Luke Wadding</persName>, in another place apparently attributes the
+translation to <mentioned rend="pre(“)post(”)"><persName>Sister 
+Catherine of St. Magdalen</persName></mentioned> (i.e. <persName>Elizabeth 
+Evelinge</persName>). See <bibl><author><persName type="person-female">Allison</persName></author> and <author><persName type="person-female">Rogers</persName></author>, 
+<title>Contemporary Printed Literature of the English Counter-Reformation
+between <date when="1558">1558</date> and <date when="1640">1640</date></title>, 
+Scolar Press, <date when="1994">1994</date>.</bibl></p>
+        </note>
+      </notesStmt>
+      <sourceDesc n="OT00490">
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName ref="personography.xml#lwadding.pdl" type="titlePage">Luke Wadding</persName>
+              <persName ref="personography.xml#lwadding.pdl" type="regularized">Wadding, Luke</persName>
+            </author>
+            <author>
+              <persName ref="personography.xml#maugustin.maq" type="titlePage">Magdalen Augustine</persName>
+              <persName ref="personography.xml#maugustin.maq" type="regularized">Augustine, Sister Magdalen</persName>
+            </author>
+            <respStmt>
+              <persName ref="personography.xml#maugustin.maq" type="titlePage">Magdalen Augustine</persName>
+              <persName ref="personography.xml#maugustin.maq" type="regularized">Augustine, Sister Magdalen</persName>
+              <resp type="translator"/>
+            </respStmt>
+            <title>The history of the angelical virgin glorious S. Clare [introductory material]</title>
+            <edition>Sole early edition</edition>
+            <imprint>
+              <pubPlace>Douai</pubPlace>
+              <publisher>
+                <persName ref="personography.xml#unknown.zzx" type="person">s.n.</persName>
+              </publisher>
+              <date when="1635">1635</date>
+            </imprint>
+            <extent>
+              <measure unit="page" quantity="20"/>
+            </extent>
+            <extent>
+              <dimensions>
+                <format>octavo</format>
+              </dimensions>
+            </extent>
+          </monogr>
+          <idno type="WF">STC 24924</idno>
+          <idno type="STC">24924</idno>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <xi:include href="projectDesc.xml"/>
+      <xi:include href="samplingDecl.xml"/>
+      <xi:include href="editorialDecl.xml"/>
+      <tagsDecl>
+        <rendition xml:id="r.it">slant(italic)</rendition>
+        <rendition xml:id="r.up">slant(upright)</rendition>
+        <rendition xml:id="r.break">break(yes)</rendition>
+        <rendition xml:id="r.nobreak">break(no)</rendition>
+        <rendition xml:id="r.head">break(yes)align(center)case(allcaps)</rendition>
+        <rendition xml:id="r.right">align(right)</rendition>
+        <rendition xml:id="r.para">break(yes)indent(0)first-indent(+1)</rendition>
+        <namespace name="http://www.wwp.brown.edu/ns/textbase/storage/1.0">
+          <tagUsage gi="head" render="#r.head"/>
+          <tagUsage gi="salute" render="#r.break"/>
+          <tagUsage gi="note" render="#r.it"/>
+          <tagUsage gi="bibl" render="#r.break"/>
+          <tagUsage gi="persName" render="#r.up"/>
+          <tagUsage gi="orgName" render="#r.up"/>
+          <tagUsage gi="placeName" render="#r.up"/>
+          <tagUsage gi="signed" render="#r.break"/>
+          <tagUsage gi="salute" render="#r.break"/>
+          <tagUsage gi="hi" render="#r.up"/>
+          <tagUsage gi="label" render="#r.break"/>
+          <tagUsage gi="mcr" render="#r.up"/>
+          <tagUsage gi="p" render="#r.para"/>
+        </namespace>
+      </tagsDecl>
+      <classDecl>
+        <xi:include href="taxonomy.xml"/>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef type="main" target="#G.non-fiction"/>
+        <catRef type="other" target="#G.non-fiction.other"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change n="RCS:1.50" when="2008-10-05" who="personography.xml#npeterson.gwx">improvement</change>
+      <change n="RCS:1.42" when="2001-02-23" who="personography.xml#jrussom.zxg">corrected typos and clarified a few items formerly tagged unclear.</change>
+      <change n="RCS:1.36" when="1999-08-25" who="personography.xml#jrussom.zxg">Finished vuji.</change>
+      <change n="RCS:1.33" when="1999-08-18" who="personography.xml#jflanders.lfw">fixed header errors</change>
+      <change n="RCS:1.29" when="1999-08-16" who="personography.xml#jrussom.zxg">Updated header names.</change>
+      <change n="RCS:1.23" when="1999-08-12" who="personography.xml#jrussom.zxg">Corrected some vuji words.</change>
+      <change n="RCS:1.22" when="1999-08-11" who="personography.xml#jflanders.lfw">updated header names</change>
+      <change n="RCS:1.15" when="1999-08-06" who="personography.xml#jflanders.lfw">added textual note</change>
+      <change n="RCS:1.10" when="1999-07-23" who="personography.xml#esalius.aki">Correx entry for checking round; removed placename tags from
+		  heaven/hell; regularized case of tags; ran spam,
+		  ediff.</change>
+      <change n="RCS:1.5" when="1999-06-17" who="personography.xml#esalius.aki">Begun capture using psgml/emacs on Unix with version 1.1.29a
+		  of wwp-store DTD.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="TR00490">
+    <hyperDiv>
+<notes>
+<note xml:id="n001" target="#a001">
+        <bibl>
+          <regMe>Exod.25</regMe>
+        </bibl>
+      </note>
+<note xml:id="n002" target="#a002">
+        <bibl>
+          <regMe>Luc. I.</regMe>
+        </bibl>
+      </note>
+<note xml:id="n003" target="#a003">
+        <bibl>
+          <regMe>Pſal.71</regMe>
+        </bibl>
+      </note>
+<note xml:id="n004" target="#a004">
+        <bibl>
+          <regMe>Pſal.33</regMe>
+        </bibl>
+      </note>
+<note xml:id="n005" target="#a005">
+        <bibl>
+          <regMe>Pro<vuji>u</vuji>.22</regMe>
+        </bibl>
+      </note>
+<note xml:id="n006" target="#a006">
+        <bibl>
+          <regMe>Pſal.71</regMe>
+        </bibl>
+      </note>
+<note xml:id="n007" target="#a007">
+        <bibl>
+          <regMe>2.Cor.8</regMe>
+        </bibl>
+      </note>
+<note xml:id="n008" target="#a008">
+        <bibl>
+          <regMe>4.Reg.
+	    <lb/>24.</regMe>
+        </bibl>
+      </note>
+<note xml:id="n009" target="#a009">
+        <bibl>
+          <regMe>Pſ.39</regMe>
+        </bibl>
+      </note>
+</notes></hyperDiv>
+    <front>
+      <pb n="01"/>
+      <milestone n="ár" unit="sig"/>
+      <mw rend="place(fullpagesurround)" type="border">#rule</mw>
+      <titleBlock rend="align(center)">
+        <titlePart rend="case(allcaps)">The history
+	    <lb/>of the angelicall virgin
+	    <lb/>glorio<vuji>v</vuji>s
+	    <lb/><persName>S. Clare</persName>,</titlePart>
+        <titlePart rend="case(allcaps)" type="desc">Dedicated to the Q<vuji>v</vuji>eens
+	    <lb/>most excellent ma<vuji>i</vuji>esty.</titlePart>
+        <respLine rend="post(#ornament)"><hi rend="case(allcaps)">Extracted o<vuji>v</vuji>t of the</hi><docRole><persName ref="personography.xml#lwadding.pdl"><hi rend="case(allcaps)slant(italic)">R. F. L<vuji>v</vuji>ke</hi><lb/>Wadding</persName></docRole><hi rend="slant(italic)">his Annalls of the <orgName rend="slant(italic)">Freer Minors</orgName>
+	    <lb/>chiefly by <persName rend="slant(upright)">Francis Hendricq</persName> and now
+	  <lb/>donne into English</hi>,
+	  <lb/>By ſiſter <persName rend="slant(italic)">Magdalen Augustine</persName>, of the
+	  <lb/><orgName>holy Order of the <hi rend="slant(italic)">Poore Clares</hi></orgName>
+	  <lb/>in <placeName>Aire</placeName>.</respLine>
+        <docImprint rend="align(center)">Imprinted at <pubPlace rend="case(allcaps)">Do<vuji>v</vuji>ay</pubPlace>, by <docRole type="printer"><persName rend="case(smallcaps)">Martin Bocart</persName><lb/><vuji>v</vuji>nder the ſigne of <placeName>Paris</placeName>.</docRole>
+	<lb/><docDate rend="pre(#rule)post(#rule)" when="1635">M.DC.XXXV.</docDate>
+</docImprint>
+      </titleBlock>
+      <pb n="02"/>
+      <milestone n="á2v" unit="sig"/>
+      <pb n="03"/>
+      <milestone n="á2r" unit="sig"/>
+      <mw rend="place(fullpagesurround)" type="border">#rule</mw>
+      <div type="ded">
+        <head>To the most high
+	  <lb/>and mighty princesse,
+	  <lb/><persName>Mary Henriette,
+	  <lb/>q<vuji>v</vuji>een of <placeName>Great 
+	    <lb/>Britaine</placeName>,
+	  <lb/><placeName>France</placeName> and <placeName>Ireland</placeName>:
+	  <lb/>and so<vuji>v</vuji>veraigne lady
+	  <lb/>of the iles of the 
+	  <lb/><placeName>British Ocean</placeName></persName>.</head>
+        <opener>
+          <salute rend="first-indent(0)"><hi rend="class(#DIC)">M</hi><hi rend="case(allcaps)">ay</hi> it pleaſe your moſt gracious
+	  <lb/>Ma<vuji>i</vuji>eſtie;</salute>
+        </opener>
+        <p rend="slant(italic)"><hi rend="case(smallcaps)">Being</hi> to publish to the vie<hi rend="slant(upright)">w</hi>
+	  <lb/>of the <hi rend="slant(upright)">W</hi>orld, the Life of the Mi­
+	  <lb/>rour and Princeſſe of Religious Foundreſſes <persName>S. Cla­
+	    <lb/>re</persName>; and being, according to the Cuſtome no leſſe
+	  <lb/>frequented than laudable, to bethink our ſel<vuji>u</vuji>es of
+	  <lb/>ſome grand Perſonage, <vuji>v</vuji>nder <hi rend="slant(upright)">w</hi>hoſe Protection it
+	  <lb/>might paſſe, it ſeemed to <vuji>v</vuji>s impertinent to entertai­
+	  <lb/>ne any long Conſult, to that purpoſe, ſeeing your
+	  <lb/>Ma<vuji>i</vuji>estie, did at the very firſt deliberation, occurse
+	  <lb/>to our thoughts, accompanied with many Titles
+	  <lb/>clayming to your matchles Excellencie, the Dedica­
+	  <lb/>tory addreſſe and Protection of the <hi rend="slant(upright)">w</hi>orke.  For firſt,
+	  <lb/>if <hi rend="slant(upright)">w</hi>eed<gap desc="printed" reason="flawed-reproduction" extent="approx. 1 word"/> the Royall and thrice reno<hi rend="slant(upright)">w</hi>­
+<mw rend="align(center)" type="sig">á2</mw>
+<mw rend="align(right)break(no)" type="catch">ned</mw>
+<pb n="04"/>
+<milestone n="á2v" unit="sig"/>
+<mw rend="place(fullpagesurround)" type="border">#rule</mw>
+	  <lb/>ned Progenie of <placeName rend="slant(upright)">France</placeName>, from <hi rend="slant(upright)">w</hi>hence your Ma­
+	  <lb/><vuji>i</vuji>eſtie is extracted, it ſeemeth a thing proper, if not
+	  <lb/>hereditary, to that Princely familie, to be addicted to
+	  <lb/>the children of our <mcr rend="slant(upright)">Seraphical</mcr> Father, <persName rend="slant(upright)">S. Francis</persName>.
+	  <lb/>To whom God communicated <persName>Abraham's</persName> pri<vuji>u</vuji>i­
+	  <lb/>ledge (<bibl><regMe>Geneſ. 12.)</regMe></bibl> <quote rend="slant(upright)">I will bleſſe them that
+	    <lb/>bleſſe thee and curſe them that curſe thee.</quote> In 
+	  <lb/>ſo much, as that great Honour of <placeName rend="slant(upright)">France</placeName>, and
+	  <lb/>glory of Kings, <persName>S. Lewis</persName> <hi rend="slant(upright)">w</hi>ho (being by his Mo­
+	  <lb/>ther, for her ſingular De<vuji>u</vuji>otion to our holy Father,
+	  <lb/>tendred to the <orgName rend="slant(upright)">Freers</orgName> to be educated by them in
+	  <lb/>their Monaſtery) ſayd: that yf he could part and 
+	  <lb/>di<vuji>u</vuji>ide himſelfe in two, he <hi rend="slant(upright)">w</hi>ould bequeath one part
+	  <lb/>of himſelfe to the <orgName rend="slant(upright)">Freers</orgName>: but being he <hi rend="slant(upright)">w</hi>as not able,
+	  <lb/>for the important affaires of his Cro<hi rend="slant(upright)">w</hi>ne in ſo ſtrict
+	  <lb/>a manner to become a child of our holy Father, he
+	  <lb/>made himſelfe a Member of his <orgName>Third Order</orgName>; for
+	  <lb/><hi rend="slant(upright)">w</hi>hich reaſon, he hath merited an immortall glory
+	  <lb/>in the Roll of the ſaints of that Order. And <unclear reason="flawed-reproduction">indeed,</unclear>
+	  <lb/><hi rend="slant(upright)">w</hi>hat your Ma<vuji>i</vuji>eſties De<vuji>u</vuji>otion hath been towards
+	  <lb/><persName>S. Francis</persName>, you ha<vuji>u</vuji>e yeelded ſufficient proof and
+	  <lb/>teſtimonie <unclear reason="flawed-reproduction">t</unclear>hereof; <hi rend="slant(upright)">w</hi>hen before your comming into
+	  <lb/><placeName>England</placeName> (<unclear reason="flawed-reproduction">as <hi rend="slant(upright)">w</hi>e are</unclear> informed) together with your
+	  <lb/>Royall Brother <persName>K. Lewis</persName>, now prepotent Monarch
+	  <lb/>of <placeName>France</placeName>, you publicly at <placeName>Paris</placeName>, with him, re­
+	  <lb/>cei<vuji>u</vuji>ed <persName>S. Francis</persName> <unclear reason="flawed-reproduction">Cord</unclear>, a <hi rend="slant(upright)">Symbole</hi> and <hi rend="slant(upright)">Reco­
+	    <lb/>gniſance</hi> of the Sacred Paſſion of our Sou<vuji>u</vuji>eraigne
+	  <lb/>Redeemer, for <hi rend="slant(upright)">w</hi>hich this Sodalitie is <unclear reason="flawed-reproduction">enſtiled</unclear> the
+	  <lb/><orgName>Arch confraternitie</orgName>, as ha<vuji>u</vuji>ing a more honorable
+	  <lb/>Inſtitution and Dedica<unclear reason="flawed-reproduction">t</unclear>ion than any other Confra­
+	  <lb/>ternitie <hi rend="slant(upright)">w</hi>hatſoe<vuji>u</vuji>er.  Againe: yf <hi rend="slant(upright)">w</hi>e propoſed to our
+	  <lb/>Conſideration, the ſupereminencie of this firſt <mcr>Plant</mcr>
+<mw rend="align(right)slant(italic)" type="catch">of</mw>
+<pb n="05"/>
+<milestone n="á3r" unit="sig"/>
+<mw rend="place(fullpagesurround)" type="border"/>
+	  <lb/>of <persName>S. Francis</persName>, I meane our holy Mother <persName>S. Clare</persName>:
+	  <lb/><hi rend="slant(upright)">w</hi>e shall find that she by ſingular <mcr>Preroga­
+	    <lb/>ti<vuji>u</vuji>e</mcr> of <mcr>E<vuji>u</vuji>angelicall Po<vuji>u</vuji>ertie</mcr>, both in proper
+	  <lb/>and in common, (<hi rend="slant(upright)">w</hi>hich ne<vuji>u</vuji>er any other Religious
+	  <lb/>foundreſſe profeſſed before her:) merited to be in that
+	  <lb/>eminent degree ſo eſpouſed to her Lord <persName>Chriſt <vuji>I</vuji>eſus</persName>
+	  <lb/>though <mcr>Poore</mcr>, yet a <mcr>King</mcr>, that she muſt needs con­
+	  <lb/>ſequently alſo be (as <hi rend="slant(upright)">w</hi>e may ſo ſay) a <mcr>Princeſſe</mcr>
+	  <lb/>and <mcr>Queen</mcr>.  <hi rend="slant(upright)">W</hi>hich being ſo, she would eſteeme
+	  <lb/><unclear reason="flawed-reproduction">it</unclear> an abridgment or diſparagement to her Honour, to
+	  <lb/>be recommended to the fa<vuji>u</vuji>orable acceptance of any
+	  <lb/>other than a Queen and eſpecially to ſuch a one as
+	  <lb/><hi rend="slant(upright)">w</hi>e ha<vuji>u</vuji>e formerly delineated and repreſented.  Fi­
+	  <lb/>nally: if we did but ſet before our eyes the mani­
+	  <lb/>fold ſtarres of virtues, <hi rend="slant(upright)">w</hi>hich render this ſaint moſt
+	  <lb/>illustrious, <hi rend="slant(upright)">w</hi>e shall find alſo your Ma<vuji>i</vuji>eſtie, by a 
+	  <lb/><unclear reason="flawed-reproduction">cer</unclear>taine ſemblance, to be alſo conſpicuous for the va­
+	  <lb/><unclear reason="flawed-reproduction">ni</unclear>tie of your many perfections en<vuji>u</vuji>ironning and com­
+	  <lb/><unclear reason="flawed-reproduction">paſsing</unclear> your Princely Robes. For should <hi rend="slant(upright)">w</hi>e w<hi rend="slant(upright)">i</hi>th <persName>S.
+	    <lb/>Bona<vuji>u</vuji>enture</persName>, <mcr>Seraphical Doctour</mcr> of the Church,
+	  <lb/>proclaime her <said rend="slant(upright)">moſt endeared to God, the flo­
+	    <lb/>wer of the Spring, yeelding a moſt fragrant
+	    <lb/>odour, and a moſt refulgent bright-shining
+	    <lb/><unclear reason="flawed-reproduction">sta</unclear>rre.</said> The ſame (<hi rend="slant(upright)">w</hi>ithout offence) <hi rend="slant(upright)">w</hi>e <hi rend="slant(upright)">w</hi>ould pro­
+	  <lb/><unclear reason="flawed-reproduction">port</unclear>ionably depredicate of your Ma<vuji>i</vuji>estie.  If <unclear reason="flawed-reproduction">ra<vuji>u</vuji>is</unclear>hed
+	    <lb/><hi rend="slant(upright)">w</hi>ith her eminencie, <hi rend="slant(upright)">w</hi>e should breake forth, <hi rend="slant(upright)">w</hi>ith
+	    <lb/><persName>Pope <hi rend="slant(upright)">Alexander</hi> the <hi rend="slant(upright)">Fourth</hi></persName>, into that admira­
+	    <lb/><unclear reason="flawed-reproduction">tion</unclear>, <said rend="slant(upright)">O admirable glorie or Claritie of <persName>B.S.
+		<lb/>Clare</persName>, which by how much the more ſtudi­
+	      <lb/><unclear reason="flawed-reproduction">ouſly</unclear> in all things she is contemplated: by ſo
+	      <lb/>much the more she appeares Cleare, Renow­
+	      <lb/>ned ; Reſplendent:</said> The ſame admiracion of your
+<mw rend="align(center)" type="sig">á3</mw>
+<mw rend="align(right)break(no)slant(italic)" type="catch">Highnes</mw>
+<pb n="06"/>
+<milestone n="á3v" unit="sig"/>
+<mw rend="place(fullpagesurround)" type="border">#rule</mw>
+	    <lb/>Highnes Excellencie in perfection, obſer<vuji>u</vuji>ing a due
+	    <lb/>proportion, would <hi rend="slant(upright)">w</hi>e <vuji>v</vuji>tter and promulge: did <hi rend="slant(upright)">w</hi>e
+	    <lb/>not kno<hi rend="slant(upright)">w</hi> your Ma<vuji>i</vuji>eſties <mcr>Feminine</mcr> and Religious
+	    <lb/><mcr>Modeſtie</mcr>, not to delight to vie<hi rend="slant(upright)">w</hi> the Regiſter
+	    <lb/>of your incomparable and indeed <vuji>v</vuji>nſpeakable<choice><sic>s</sic><corr/></choice>
+	    <lb/>praiſes.  And likewiſe, did <hi rend="slant(upright)">w</hi>e not <vuji>v</vuji>nderſtand full
+	    <lb/>well, that our Profeſſion is not to celebrate (Rheto­
+	    <lb/>rically) or praiſe, but to pray inceſſantly. <hi rend="slant(upright)">W</hi>e <hi rend="slant(upright)">w</hi>ill
+	    <lb/>therefore, e<vuji>u</vuji>er pray the only Ruler of <mcr>Princes</mcr>,
+	    <lb/><hi rend="slant(upright)">w</hi>hich hath ſet a <mcr>Diademe</mcr> of pure gold <vuji>v</vuji>pon your
+	    <lb/>head, to pre<choice><sic>u</sic><corr>s</corr></choice>ent you <hi rend="slant(upright)">w</hi>ith the bleſſings of his goodnes,
+	    <lb/>and grant <vuji>v</vuji>nto your Ma<vuji>i</vuji>estie a long and proſperous
+	    <lb/><vuji>i</vuji>oynt-reigne <hi rend="slant(upright)">w</hi>ith our So<vuji>u</vuji>eraigne Liege-Lord, <persName rend="slant(upright)">King
+	      <lb/>Charles</persName> and a glorious Race from your Royall
+	    <lb/><unclear reason="flawed-reproduction">loynes</unclear> to the Cro<hi rend="slant(upright)">w</hi>ne.  The en<vuji>i</vuji>oyance of w<hi rend="slant(upright)">h</hi>ich happi­
+	    <lb/>nes that yo<choice><sic><g ref="#invertedu"/></sic><corr>u</corr></choice> may, by the po<hi rend="slant(upright)">w</hi>erfull interceſſion of
+	    <lb/>our <mcr>All-Immaculate</mcr> Lady, the Bleſſed Virgin <persName>Ma­
+	      <lb/>ry</persName>: his great ſer<vuji>u</vuji>ant the <mcr>Seraphicall</mcr> Father, and
+	    <lb/>the Angelicall Virgin our holy Mother <persName rend="slant(upright)">S. Clare</persName>,
+	    <lb/>(<hi rend="slant(upright)">w</hi>hoſe Life heer <hi rend="slant(upright)">w</hi>ee<choice><sic/><corr>,</corr></choice> proſtrate in al<choice><sic>,</sic><corr/></choice> humility, tender
+	    <lb/>to your Gracious hands) <hi rend="slant(upright)">w</hi>hich happines (<hi rend="slant(upright)">w</hi>e ſay)
+	    <lb/>that your Ma<vuji>i</vuji>eſtie may long heer, and in the future
+	    <lb/>for e<vuji>u</vuji>er and e<vuji>u</vuji>er, in full poſſeſsion obtaine, <hi rend="slant(upright)">w</hi>ee shall
+	    <lb/>profeſſe our <vuji>v</vuji>n<hi rend="slant(upright)">w</hi>orthy ſel<vuji>u</vuji>es e<vuji>u</vuji>er to be, and remaine.
+</p>
+        <closer>
+          <salute rend="align(right)right-indent(3)case(allcaps)">Yo<vuji>v</vuji>r Ma<vuji>i</vuji>esties
+	    <lb rend="right-indent(1)"/><hi rend="slant(upright)case(mixed)">Moſt humble, and dayly
+	      <lb rend="right-indent(2)"/>de<vuji>u</vuji>oted Beadſ-women</hi></salute>
+          <signed rend="align(right)"><orgName>The English poore-Clares
+	      <lb rend="right-indent(3)"/>of <placeName>Aire</placeName></orgName>.</signed>
+        </closer>
+      </div>
+      <pb n="07"/>
+      <milestone n="á4r" unit="sig"/>
+      <mw rend="place(fullpagesurround)" type="border"/>
+      <div rend="pre(#ornament)" type="prefatory">
+        <head>To the Reader.</head>
+        <opener>
+          <salute><hi rend="class(#DIC)slant(upright)">G</hi><hi rend="slant(upright)case(allcaps)">e</hi>ntle Reader:</salute>
+        </opener>
+        <p>Loe heer preſented to thy
+	  <lb/>view, the Life of a Saint; of <mcr rend="slant(italic)">Fe­
+	    <lb/>minine</mcr> Sexe, but <mcr rend="slant(italic)">Maſculine</mcr> Vir­
+	  <lb/>tue.  I will not, by fore ſpeaking
+	  <lb/>her praiſes, pre<vuji>u</vuji>ent the Book, but to prepare
+	  <lb/>thee, to reade it with better profit, is my pre­
+	  <lb/><unclear reason="flawed-reproduction">ſe</unclear>nt Deſſigne.  Thou mayſt (haply) find therein
+	  <lb/><unclear reason="flawed-reproduction">it</unclear> pleaſe thy curioſitie, and to polish thy <vuji>v</vuji>n
+	  <lb/>derſtanding; but the mortified <mcr rend="slant(italic)">Recluſe</mcr>, that tra­
+	  <lb/><unclear reason="flawed-reproduction">velled</unclear> in this Tranſlation, had an ayme at thy
+	  <lb/><unclear reason="flawed-reproduction">gr</unclear>eater Benefit. God Almighty hath made His
+	  <lb/><unclear reason="flawed-reproduction">sa</unclear>ints renowned for Virtue, that they might be
+	  <lb/><unclear reason="flawed-reproduction">ex</unclear>emplary; and they which commended their
+	  <lb/>beings to Poſteritie, or do repreſent them to
+	  <lb/>the view of preſent tymes, wish this only Re­
+	  <lb/>ward of their Induſtry, that others be excited
+	  <lb/><unclear reason="flawed-reproduction">by</unclear> the imitation of their Heroicke actions:
+	  <lb/><unclear reason="flawed-reproduction">s</unclear>adly ad<vuji>u</vuji>enturing on the Cenſure of Many, yf
+	  <lb/><unclear reason="flawed-reproduction">the</unclear>y may procure the ſpirituall c<choice><abbr>ō</abbr><expan>om</expan></choice>moditie of a 
+	  <lb/><gap extent="1 word" reason="flawed-reproduction" desc="printed"/> Say not, I am <vuji>v</vuji>nwilling to walk this way,
+	  <lb/><unclear reason="flawed-reproduction">for</unclear> I am not bound to perfection: rather eſteem
+	  <lb/><unclear reason="flawed-reproduction">th</unclear>y ſelfe bound, and deferre not thy endea­
+	  <lb/><vuji>u</vuji>ours to become perfect. It is true, their obli­
+<mw rend="align(right)" type="catch">gation</mw>
+<pb n="08"/>
+<milestone n="á4v" unit="sig"/>
+<mw rend="place(fullpagesurround)" type="border">#rule</mw>
+	  <lb/>gation this <gap desc="printed" reason="flawed-reproduction" extent="approx. 2 words"/>greater, that lye <vuji>v</vuji>nder the
+	  <lb/>Command <unclear reason="flawed-reproduction">of a so</unclear>lemne Vow; but for as much
+	  <lb/>as all are obliged to walke in the wayes of vir­
+	  <lb/>tue, and it is not lawfull to ſtop, til we arri<vuji>u</vuji>e to
+	  <lb/>the higheſt point, therefore to Perfection all
+	  <lb/>are bound.  And becauſe Perfection can not be
+	  <lb/>attained, without fit meanes; and a prudent
+	  <lb/>choiſe is requiſite in this regard: therefore, al­
+	  <lb/>beit None, of <mcr rend="slant(italic)">Neceſsitie</mcr>, yet in <mcr rend="slant(italic)">Congruitie</mcr>, All
+	  <lb/>are bound, to make ſuch election as may moſt
+	  <lb/>readily conduct them to that Noble end where­
+	  <lb/>unto they aſpire.  It is no diſparagement to o­
+	  <lb/>ther Religious Foundreſſes, or the de<vuji>u</vuji>out and
+	  <lb/>zealous followers of their holy Inſtitutes, to
+	  <lb/>affirme, that (herein) <persName>B. S. <hi rend="slant(italic)">Clare</hi></persName> hath ſurpaſſed
+	  <lb/>them all: and in Her (though a wonder of wo­
+	  <lb/>men) it is leſſe admirable, yf we recount from
+	  <lb/>whom she recei<vuji>u</vuji>ed Her Forme of Li<vuji>u</vuji>ing.  For
+	  <lb/>as that great Deli<vuji>u</vuji>erer of the Law of Nature
+	  <lb/>ha<vuji>u</vuji>ing held fourtie dayes conference with
+	  <lb/>God in <placeName rend="slant(italic)">Mount Sinai</placeName>, was pri<vuji>u</vuji>iledged from er­
+	  <lb/>ring in his directions to the People, ſo long as
+	  <lb/>he <choice><sic>h</sic><corr>k</corr></choice>ept him to the <quote xml:id="a001" rend="slant(italic)" corresp="#n001">patterne that <hi rend="slant(upright)">w</hi>as she<hi rend="slant(upright)">w</hi>ed him
+	    <lb/>in the Mount</quote>: ſo that greater <mcr rend="slant(italic)">Patriarck</mcr> <persName rend="slant(italic)"><hi rend="slant(upright)">S</hi>. Francis</persName>
+	  <lb/>after fourtie dayes familiar entercourſe with
+	  <lb/>the World's Redeemer, in <placeName rend="slant(italic)">Mont-Al<vuji>u</vuji>erne</placeName>, ha<unclear reason="flawed-reproduction">d</unclear>
+	  <lb/>ha<vuji>u</vuji>ing recei<vuji>u</vuji>ed a better Law, a <mcr rend="slant(italic)">Rule</mcr> of higher
+	  <lb/>perfection, and deſcending from the Mount
+	  <lb/>(not only with glory in his face, but the ſacred
+	  <lb/>Wounds of our Sa<vuji>u</vuji>iours dread Paſſion in his
+	  <lb/>hands, feet and ſide) deli<vuji>u</vuji>ered to his Brethren
+	  <lb/>and followers to the World's end, the ſublime
+<mw rend="align(right)" type="catch">Inſtitute</mw>
+<pb n="09"/>
+<milestone n="ć1r" unit="sig"/>
+<mw rend="place(fullpagesurround)" type="border">#rule</mw>
+	  <lb/><orgName>Inſtitute of <hi rend="slant(italic)">E<vuji>u</vuji>angelicall po<vuji>u</vuji>ertie</hi></orgName>: and accor­
+	    <lb/>ding to this <mcr rend="slant(italic)">Patterne</mcr>, and by ad<vuji>u</vuji>iſe of this
+	    <lb/><mcr rend="slant(italic)"><vuji>V</vuji>nerring</mcr> Directour <persName rend="slant(italic)">B. S. Clare</persName> began Her <mcr rend="slant(italic)">Or­
+	      <lb/>der</mcr>, which hath ſince beene propagated as
+	    <lb/>farre as the World is Chriſtned.  It is this tranſ­
+	    <lb/>cendent <mcr rend="slant(italic)">Po<vuji>u</vuji>ertie</mcr> (courteous Reader) this per<choice><sic/><corr>­</corr></choice>
+	    <lb/>fect abdication of all manner of proprietie, not
+	    <lb/>only in proper (which other Religious Or­
+	    <lb/>ders ha<vuji>u</vuji>e) but in common alſo (the diſtincti<vuji>u</vuji>e
+	    <lb/>cogniſance of <persName rend="slant(italic)">S. Francis</persName> children) which I ha<vuji>u</vuji>e
+	    <lb/>to commend to Thee, as the moſt comp<choice><abbr>ē</abbr><expan>en</expan></choice>dious
+	    <lb/>way to perfection heer, and immortalitie here­
+	    <lb/>after.  Is it not a wonder, that this Angelicall
+	    <lb/>Virgin, ha<vuji>u</vuji>ing caſt away all care of temporall
+	    <lb/>things, should be in continuall care, how she
+	    <lb/>might lea<vuji>u</vuji>e this <mcr rend="slant(italic)">Patrimonie</mcr> to her children,
+	    <lb/>that they might enjoy <mcr rend="slant(italic)">Nothing</mcr>; making this
+	    <lb/>Her inſtant Suite to the See Apoſtolique and 
+	    <lb/>greatly exulting, when she had gained this
+	    <lb/><mcr rend="slant(italic)">Pri<vuji>u</vuji>iledge</mcr>?  And yet they will ceaſe to wonder,
+	    <lb/>that conſider, what extraordinary <mcr rend="slant(italic)">pri<vuji>u</vuji>iledges</mcr>
+	    <lb/>this ſacred <mcr rend="slant(italic)">Po<vuji>u</vuji>erty</mcr> hath annexed to it.  There
+	    <lb/>would be no end in reciting the many Elogies
+	    <lb/>gi<vuji>u</vuji>en by pious and de<vuji>u</vuji>out Perſons to this
+	    <lb/>So<vuji>u</vuji>eraigne Lady, this <mcr rend="slant(italic)">E<vuji>u</vuji>angelicall po<vuji>u</vuji>erty</mcr>: but 
+	    <lb/>let it not ſeeme tedious that I recount ſome of
+	    <lb/>Her <mcr rend="slant(italic)">Prerogati<vuji>u</vuji>es</mcr>, confirmed to Her by <mcr rend="slant(italic)">Pattent</mcr>
+	    <lb/>of holy writ.</p>
+        <label rend="align(left)">1.</label>
+        <p rend="break(no)">Art thou Poore? then thou art <mcr rend="slant(italic)">Rich</mcr>. A Pa­
+	  <lb/>radoxe, you ſay. 'Tis eaſily pro<vuji>u</vuji>ed <mcr rend="slant(italic)">Po<vuji>u</vuji>ertie</mcr> is
+	  <lb/>the <mcr rend="slant(italic)">Riches</mcr> which purchaſeth Hea<vuji>u</vuji>en <quote xml:id="a002" rend="slant(italic)" corresp="#n002">The Hun­
+	    <lb/>gry <mcr rend="slant(upright)">(the poore)</mcr> he hath filled <hi rend="slant(upright)">w</hi>ith good things,
+<mw rend="align(center)" type="sig">ć</mw>
+<mw rend="align(right)break(no)slant(italic)" type="catch">and</mw>
+<pb n="10"/>
+<milestone n="ć1v" unit="sig"/>
+<mw rend="place(fullpagesurround)" type="border">#rule</mw>
+	    <lb/>and the Rich he hath ſent a<hi rend="slant(upright)">w</hi>ay empty</quote>.</p>
+        <label rend="align(left)">2.</label>
+        <p rend="break(no)">Art thou <mcr rend="slant(italic)">Poore</mcr>? by relinquishing all. <quote rend="slant(italic)">Not
+	    <lb/>only in preparation of mynd, but alſo effectually for
+	    <lb/>the lo<vuji>u</vuji>e of God</quote>.  It is an Argument of thy perfe­
+	  <lb/>ction, <quote rend="slant(italic)">If Thou <hi rend="slant(upright)">w</hi>ilt be perfect goe and ſell all ;c.</quote>
+	  <lb/><bibl><regMe>Matth.19.</regMe></bibl></p>
+        <label rend="align(left)">3.</label>
+        <p rend="break(no)">Art thou <mcr rend="slant(italic)">Poore</mcr>? thy prayers ha<vuji>u</vuji>e ready
+	  <lb/>acceſſe and preſent ſpeed at the Throne of 
+	  <lb/>Grace. <quote rend="slant(italic)">The poore man hath cried and our Lord
+	    <lb/>hath heard him.</quote></p>
+        <label rend="align(left)">4.</label>
+        <p rend="break(no)">Art thou <mcr rend="slant(italic)">Poore</mcr>? Thou shalt obtaine par­
+	  <lb/>don and mercy at God's hand. <quote rend="slant(italic)">He will ſpare the
+	    <lb/>poore and the needy.</quote></p>
+        <label rend="align(left)">5.</label>
+        <p rend="break(no)">Art thou <mcr rend="slant(italic)">Poore</mcr>? Thou art highly dignifyed
+	  <lb/>and ennobled. <quote xml:id="a003" rend="slant(italic)" corresp="#n003">Their name shalbe honorable before
+	    <lb/>him.</quote> To which ſenſe our B. Sa<vuji>u</vuji>iour spake,
+	  <lb/>when ha<vuji>u</vuji>ing gi<vuji>u</vuji>en <persName>S. Peter</persName> his reward of po­
+	  <lb/>vertie <bibl><regMe>Matth.19.</regMe></bibl> he addeth: <quote rend="slant(italic)">and many shalbe
+	    <lb/><mcr>firſt</mcr>, that are <mcr>laſt</mcr>, and <mcr>laſt</mcr></quote> (that is, in celeſtiall re­
+	  <lb/>nowne) <quote rend="slant(italic)">that are <mcr>firſt</mcr></quote> (to withere in temporall
+	      <lb/>riches and dignities.)</p>
+        <label rend="align(left)">6.</label>
+        <p rend="break(no)">Art thou <mcr rend="slant(italic)">Poore</mcr>? Thou shalt be filled with
+	  <lb/>all manner of comfort. <quote rend="slant(italic)">Thou haſt prepared in thy
+	    <lb/>ſ<hi rend="slant(upright)">w</hi>eetnes for the Poore of God.</quote></p>
+        <label rend="align(left)">7.</label>
+        <p rend="break(no)">Art thou <mcr rend="slant(italic)">Poore</mcr>? Thou shalt be protected
+	  <lb/>from violence; and they shalbe ſmitten that
+	  <lb/>offer in<vuji>i</vuji>ury to thee. <quote xml:id="a004" rend="slant(italic)" corresp="#n004">Doe not violence to the poore,
+	    <lb/>neither oppreſſe the needy in the gate, becauſe our
+	    <lb/>Lord <hi rend="slant(upright)">w</hi>ill <vuji>i</vuji>udge his cauſe, and <hi rend="slant(upright)">w</hi>ill pierce them
+	    <lb/>that ha<vuji>u</vuji>e pierced his ſoule.</quote> And, <quote xml:id="a005" rend="slant(italic)" corresp="#n005">He shall ſa<vuji>u</vuji>e
+	    <lb/>the children of the <mcr>Poore</mcr></quote>, <quote xml:id="a006" rend="slant(italic)" corresp="#n006">and humble the calum­
+	    <lb/>niator.</quote>
+</p>
+        <mw rend="align(right)" type="catch">8. Art</mw>
+        <pb n="11"/>
+        <milestone n="ć2r" unit="sig"/>
+        <mw rend="place(fullpagesurround)" type="border">#rule</mw>
+        <label rend="align(left)">8.</label>
+        <p rend="break(no)">Art thou <mcr rend="slant(italic)">Poore</mcr>? Then art thou like to
+	  <lb/><persName>Chriſt</persName>, <quote xml:id="a007" corresp="#n007" rend="slant(italic)">who</quote> (as witneſſeth the Apoſtle) <quote rend="slant(italic)">for you
+	    <lb/><hi rend="slant(upright)">w</hi>as made <mcr>poore</mcr>, <hi rend="slant(upright)">w</hi>hereas he <hi rend="slant(upright)">w</hi>as <mcr>rich</mcr>, that by his
+	    <lb/><mcr>po<vuji>u</vuji>ertie</mcr> you might <mcr>be rich</mcr>.</quote> And, heare <persName>Chriſt</persName>
+	  <lb/>himſelfe: <quote rend="slant(italic)"><vuji>V</vuji>nles e<vuji>u</vuji>ery one of you renounceth all that
+	    <lb/><unclear reason="flawed-reproduction">h</unclear>e poſſeſſeth he can not be my diſciple.</quote> <bibl><regMe>Luc.14.</regMe></bibl></p>
+        <label rend="align(left)">9.</label>
+        <p rend="break(no)">Art thou <mcr rend="slant(italic)">Poore</mcr>? Thou haſt gained a ha<vuji>u</vuji>en
+	  <lb/>of ſecuritie; thou art freed from cares in the
+	  <lb/><anchor xml:id="a008" corresp="#n008"/>houſe, and impediments in the way.  When <persName>K.
+	    <lb/><hi rend="slant(italic)"><vuji>I</vuji>oachim</hi></persName> was led into Capti<vuji>u</vuji>ity, all the Princes
+	  <lb/>and Noblemen were caryed away alſo, <quote rend="slant(italic)">and 
+	    <lb/>nothing was left</quote> (ſayth the Scripture) <quote rend="slant(italic)">ſa<vuji>u</vuji>e the
+	    <lb/><mcr>Poore</mcr> ſort of the People of the Land.</quote>
+</p>
+        <label rend="align(left)">10.</label>
+        <p rend="break(no)">Art thou <mcr rend="slant(italic)">Poore</mcr>? Thou art freed from that 
+	  <lb/>Curſe. <quote rend="slant(italic)"><hi rend="slant(upright)">W</hi>oe <vuji>v</vuji>nto you that are Rich, for you ha<vuji>u</vuji>e
+	    <lb/>our conſolation.</quote>
+</p>
+        <label rend="align(left)">11.</label>
+        <p rend="break(no)">Art thou <mcr rend="slant(italic)">Poore</mcr>? God will himſelfe be ſoli­
+	  <lb/>citous of thee, ; will inſpire others to relee<vuji>u</vuji>e
+	  <lb/>thee, to their <vuji>v</vuji>nſpeakable benefit. <quote xml:id="a009" rend="slant(italic)" corresp="#n009">But I am a
+	    <lb/>begger and poore: our Lord is carefull of me.</quote> <bibl><regMe>pſalm.
+	      <lb/>39.</regMe></bibl> (a pri<vuji>u</vuji>iledge which the Royall Prophet
+	  <lb/>calleth <foreign rend="slant(italic)" xml:lang="la">memoriam mirabilium</foreign>: <bibl><regMe>pſalm.110.</regMe></bibl>)
+	  <lb/>And, <quote rend="slant(italic)">Bleſſed is the man that <vuji>v</vuji>nderſtandeth con­
+	    <lb/>cerning the needy and the poore: in the E<vuji>u</vuji>ill day our
+	    <lb/>Lord <hi rend="slant(upright)">w</hi>ill deli<vuji>u</vuji>er him</quote> <bibl><regMe>Pſal.40</regMe></bibl>. Whence <persName rend="slant(italic)">Tobit</persName> ani­
+	  <lb/>mateth his Sonne: ſaying, <quote rend="slant(italic)">Thou dost treaſure <vuji>v</vuji>p
+	    <lb/>to thy ſelfe a good re<hi rend="slant(upright)">w</hi>ard in the day of neceſſitie:
+	    <lb/>becauſe Almes deli<vuji>u</vuji>ereth from all ſinne and from
+	    <lb/>Death, and <hi rend="slant(upright)">w</hi>ill not ſuffer the ſoule to goe into Dark<choice><sic/><corr>­</corr></choice>
+<lb/><unclear reason="flawed-reproduction">nes</unclear>.</quote> <bibl><regMe>Chap.4.</regMe></bibl>
+</p>
+        <label rend="align(left)">12.</label>
+        <p rend="break(no)">Art thou <mcr rend="slant(italic)">Poore</mcr>? Th<unclear reason="flawed-reproduction">ou ſha</unclear>lt aſſuredly at­
+	  <lb/>taine <mcr rend="slant(italic)">Sal<vuji>u</vuji>ation</mcr>, and yf by <gap desc="printed" reason="flawed-reproduction" extent="approx.2 words"/> renunciation
+<mw rend="align(center)" type="sig">ć2</mw>
+<mw type="catch" rend="align(right)break(no)">of</mw>
+<pb n="12"/>
+<milestone n="ć2v" unit="sig"/>
+<mw rend="place(fullpagesurround)" type="border">#rule</mw>
+	  <lb/>of All, the prerogati<vuji>u</vuji>e of eminent glory. <quote rend="slant(italic)">And
+	    <lb/>e<vuji>u</vuji>ery one that hath left houſe or brethren ;c. for my
+	    <lb/>Names ſake, shall recei<vuji>u</vuji>e an hundred fold and shall
+	    <lb/>poſſeſſe life e<vuji>u</vuji>erlasting.</quote> <bibl><regMe>Matth 19.</regMe></bibl> <quote rend="slant(italic)">and you shall</quote>
+	  <lb/>(verſ. precedent) <quote>ſit <vuji>v</vuji>pon t<hi rend="slant(upright)">w</hi>el<vuji>u</vuji>e ſeates <vuji>i</vuji>udging
+	    <lb/>the t<hi rend="slant(upright)">w</hi>el<vuji>u</vuji>e Tribes of <placeName>Iſrael</placeName>.</quote>
+</p>
+        <p>Nay, theirs is the kingdome of Hea<vuji>u</vuji>en.
+	  <lb/><bibl><regMe>Matt.5</regMe></bibl>. <quote rend="slant(italic)">Bleſſed are Poore for theirs is the kingdome
+	    <lb/>of Hea<vuji>u</vuji>en.</quote> Ponder the word, <mentioned rend="slant(italic)">is</mentioned>: He ſpeaketh
+	  <lb/>not in the <mcr rend="slant(italic)">Future</mcr>, as in the other beatitudes.
+	  <lb/>Whence <persName>S. Bernard</persName>. <said rend="slant(italic)">What a ſtrong <hi rend="slant(upright)">w</hi>ing is Po<vuji>u</vuji>er­
+	    <lb/>tie, <hi rend="slant(upright)">w</hi>herby <hi rend="slant(upright)">w</hi>e ha<vuji>u</vuji>e a ſudden flight to Hea<vuji>u</vuji>en? For
+	    <lb/>in the other virtues <hi rend="slant(upright)">w</hi>hich follow, the promiſe run­
+	    <lb/>nes in the <mcr>future</mcr> tenſe, but to <mcr>Po<vuji>u</vuji>ertie</mcr> it is rather
+	    <lb/><mcr>gi<vuji>u</vuji>en</mcr> than <mcr>promiſed</mcr>, <hi rend="slant(upright)">w</hi>hence it is ſaid in the <hi>pre­
+	      <lb/>ſent</hi> tenſe, becauſe theirs is the kingdome of <placeName rend="slant(italic)">Hea<vuji>u</vuji>en</placeName>:
+	    <lb/>but in the reſt, they <mcr>shall</mcr> inherit: they <mcr>shall</mcr> be com­
+	    <lb/>forted: they <mcr>shall</mcr> poſſeſſe, ;c.</said> So He.</p>
+        <p>Loe heer the <mcr rend="slant(italic)">Patrimonie</mcr> of the Poore:
+	  <lb/><mcr rend="slant(italic)">t<hi rend="slant(upright)">w</hi>elve</mcr> Honours or <mcr rend="slant(italic)">Pri<vuji>u</vuji>iledges</mcr>: an ample pro<vuji>u</vuji>i­
+	  <lb/>ſion. So well aſſured, that you may call them
+	  <lb/>the <mcr rend="slant(italic)">twel<vuji>u</vuji>e Articles of the <mcr>Poore</mcr> man Cred</mcr>: ra­
+	  <lb/>ther, <foreign rend="slant(italic)" xml:lang="la">Symbolum Apoſtolorum</foreign>, the <mcr rend="slant(italic)">Badge</mcr> and cog­
+	  <lb/>niſance of the <mcr rend="slant(italic)">Apoſtles</mcr>: the contents of their <mcr rend="slant(italic)">O­
+	    <lb/>bedience</mcr>, when they were diſmiſſed by their
+	  <lb/>grand Ma<unclear reason="flawed-reproduction">i</unclear>ſter and Superior, on their Embaſſie
+	  <lb/>to all quarters of the World. <quote rend="slant(italic)">Poſſeſſe neither Sil­
+	    <lb/><vuji>u</vuji>er nor gold nor mony in your purſe, neither a <hi rend="slant(upright)">w</hi>al­
+	    <lb/>let nor ſtaffe nor shoes to your feet. ;c.</quote> Hence it is 
+	  <lb/>that our Holy Mother <unclear reason="flawed-reproduction">of</unclear> the Church hath graced
+	  <lb/>the <orgName rend="slant(italic)">Inſtitute <hi>of the</hi> Seraphicall Father</orgName>, with the 
+	  <lb/>Title of <mcr>Apoſt<unclear reason="flawed-reproduction">olorum</unclear></mcr>, calling their manner of
+<mw rend="align(right)" type="catch">Li<vuji>u</vuji>ing</mw>
+<pb n="13"/>
+<milestone n="ć3r" unit="sig"/>
+<mw rend="place(fullpagesurround)" type="border">#rule</mw>
+	  <lb/>Li<vuji>u</vuji>ing, the <mcr rend="slant(italic)">Rule of most eminent perfection</mcr>, and
+	  <lb/>their <mcr rend="slant(italic)">Po<vuji>u</vuji>ertie, E<vuji>u</vuji>angelicall</mcr>, that tread in the ſteps
+	  <lb/>of holy <persName rend="slant(italic)"><hi rend="slant(upright)">S</hi>. Francis</persName>, ſo neerly aſſimilating them
+	  <lb/>to <persName>Chriſt</persName> and his Apoſtles, that no Rank of
+	  <lb/>poore, Religious or others, can ſo <vuji>i</vuji>uſtly claime
+	  <lb/>to that high pri<vuji>u</vuji>iledge, the greateſt of thoſe
+	  <lb/>formerly recited.</p>
+        <p>Now Belo<vuji>u</vuji>ed yf this diſcourſe ha<vuji>u</vuji>e gi<vuji>u</vuji>en
+	  <lb/>thee any rellish of the way of Perfection, at­
+	  <lb/>tend to thy Vocation. Thou wanteſt not glo­
+	  <lb/>rious Precedents to ſet before thee. Conſider
+	  <lb/>Him, who (as yf Earth afforded ſomething
+	  <lb/>more precious than Hea<vuji>u</vuji>en) ca<hi rend="slant(italic)">m</hi>e to ſeek Po­
+	  <lb/><vuji>u</vuji>erty heer, which there was not to be found.
+	  <lb/>Whence <persName>S Benard</persName>, sweetly: <said rend="slant(italic)">Po<vuji>u</vuji>ertie could not
+	    <lb/>be found in Hea<vuji>u</vuji>en. No<hi rend="slant(upright)">w</hi> on earth <hi rend="slant(upright)">w</hi>as abundance
+	    <lb/>of this kind, and man kne<hi rend="slant(upright)">w</hi> not the <hi rend="slant(upright)">w</hi>orth of it. Our
+	    <lb/>Lord (therfore) the Sonne of God, enamoured on this
+	    <lb/>Po<vuji>u</vuji>ertie, deſcended from Hea<vuji>u</vuji>en, to Eſpouſe Her to
+	    <lb/>himſelfe, and by the account <hi rend="slant(upright)">w</hi>hich he held of Her, to
+	    <lb/>make her deare and amiable to <vuji>v</vuji>s alſo.</said> (O worthy
+	  <lb/>of worthies which the world ſets ſo little by and
+	  <lb/>is not worthy of!) And be ſecure, that this thy
+	  <lb/><name>Chriſtian</name> fortitude shall be gloriouſly crow<choice><sic/><corr>­</corr></choice>
+	  <lb/>ned. For yf his <mcr rend="slant(italic)">Po<vuji>u</vuji>ertie</mcr> made <vuji>v</vuji>s <mcr rend="slant(italic)">Rich</mcr> (as teſti­
+	  <lb/>fieth the Apoſtle) what shall his <mcr rend="slant(italic)">Riches</mcr> doe?
+	  <lb/>Doubtless, He that was <mcr rend="slant(italic)">Rich</mcr> with his Father,
+	  <lb/>but <mcr rend="slant(italic)">poore</mcr> with <vuji>v</vuji>s, <mcr rend="slant(italic)">Rich</mcr> in Hea<vuji>u</vuji>en, but <mcr rend="slant(italic)">poore</mcr> on
+	  <lb/>Earth, a <mcr rend="slant(italic)">Rich</mcr> God, but a <mcr rend="slant(italic)">poore</mcr> man: shall ſoone
+	  <lb/>change our <mcr rend="slant(italic)">Po<vuji>u</vuji>ertie</mcr> into <mcr rend="slant(italic)">Riches</mcr>, our Sack-cloth
+	  <lb/>into Stoles of immortalitie, our teares into <vuji>i</vuji>oy
+	  <lb/>and exultation, our momenta<unclear reason="flawed-reproduction">r</unclear>ie ſuffering into
+<mw rend="align(center)" type="sig">´3</mw>
+<mw rend="align(right)break(no)" type="catch">Bliſſe</mw>
+<pb n="14"/>
+<milestone n="ć3v" unit="sig"/>
+<mw rend="place(fullpagesurround)" type="border">#rule</mw>
+	  <lb/>Bliſſe World without end.</p>
+        <p>There occurreth now to ad<vuji>u</vuji>ertiſe thee of 
+	  <lb/>ſome things before I take my penne from the
+	  <lb/>paper: firſt that there are ſome ſworne enemies
+	  <lb/>(howſoe<vuji>u</vuji>er they diſguiſe themſel<vuji>u</vuji>es) of 
+	  <lb/>Poore Religio<choice><sic>u</sic><corr>n</corr></choice>s; that can not endure to ſee
+	  <lb/>them <unclear reason="flawed-reproduction">meritoriouſly</unclear> exerciſe their humble pro­
+	  <lb/>feſſion e<vuji>u</vuji>en to begge only that which is neceſ­
+	  <lb/>ſary for clothing and foode to ſuſtaine life in
+	  <lb/>the ſer<vuji>u</vuji>ice of God, as though this, were to
+	  <lb/>ſeeke after riches, to heape <vuji>v</vuji>p treaſures ; the
+	  <lb/>like: which Religio<choice><sic>u</sic><corr>n</corr></choice>s no leſſe abhorre ; con­
+	  <lb/>temne then they <gap desc="printed" reason="flawed-reproduction" extent="1 word"/> impoſe <vuji>v</vuji>p<choice><abbr>ō</abbr><expan>on</expan></choice> them,
+	  <lb/>to impaire their Credits <unclear reason="flawed-reproduction">viciating</unclear> according
+	  <lb/>to their <vuji>v</vuji>ſuall manner that which is truly lau­
+	  <lb/>dable: to whom appertaineth thoſe words of
+	  <lb/><persName>S Baſile <unclear reason="flawed-reproduction">Conſt</unclear></persName> <bibl><regMe><unclear reason="flawed-reproduction">Mon</unclear>. c7</regMe></bibl>. That ſuch ſeculars
+	  <lb/>hath he knowes not what ſtrange conceit of
+	  <lb/>Religious as if together with there ſtate
+	  <lb/>they had preſently changed their nature, and
+	  <lb/>were not men, but of ſome other farre diffe­
+	  <lb/>rent mold: and conſequently they wrong the
+	  <lb/>ſer<vuji>u</vuji>ants of God, ; think ſometimes, that they
+	  <lb/>muſt ſcarce eate meate, as if they were not
+	  <lb/>made of flesh and blood: and if they ſee anie
+	  <lb/>of them attend to the neceſſities of their bodie,
+	  <lb/>they load them with reproaches and ſlanders
+	  <lb/>and <unclear reason="flawed-reproduction">turning</unclear> their calumniations from one <vuji>v</vuji>p<choice><sic/><corr>­</corr></choice>
+	  <lb/>on all the reſt, they cal them all gluttons and
+	  <lb/><unclear reason="flawed-reproduction">hellie-Gods</unclear>, ; think not how themſel<vuji>u</vuji>es doe
+	  <lb/>dayly feaſt it, and though they eate of ten in <unclear reason="flawed-reproduction">a</unclear>
+	  <lb/>day, and cram themſel<vuji>u</vuji>es with a great deale of
+<mw rend="align(right)" type="catch">flesh</mw>
+<pb n="15"/>
+<milestone n="ć4r" unit="sig"/>
+<mw rend="place(fullpagesurround)" type="border">#rule</mw>
+	  <lb/>flesh meate, ; powre downe wine by whole
+	  <lb/>bowle-fuls, yet they gape after meate, as dogs
+	  <lb/>that are let looſe out of their chayne halfe
+	  <lb/>ſtar<vuji>u</vuji>ed. Thus ſpeaketh <persName rend="slant(italic)">S. Baſil</persName> in defence
+	  <lb/>of Religious people.</p>
+        <p>Secondly, I truſt, that as the deſire of thy
+	  <lb/>ſpirituall profit cauſed the <vuji>v</vuji>ndertaking of
+	  <lb/>this tranſlation (which is totally out of the
+	  <lb/><persName rend="slant(italic)">R. F. Francis Hendriques</persName>) that thou wilt be
+	  <lb/>pleaſed, of thy courteſie, to correct patiently,
+	  <lb/>and co<vuji>u</vuji>er charitably the faults eſcaped, both
+	  <lb/>in the print, and English. Thus, wishing
+	  <lb/>thee (deare Reader, by the peruſall of this
+	  <lb/>little volume, all fartherance in vertue, ei­
+	  <lb/>ther by admiring Gods goodneſſe, and power
+	  <lb/>in his Saints, (in whom he is admirable) or
+	  <lb/>by reducing to practiſe that which with pro­
+	  <lb/>portion ſutes with thy ſex, or ſtate; minde­
+	  <lb/>full of that of <persName rend="slant(italic)">S. Augustine</persName>, that, <said rend="slant(italic)">the examples
+	    <lb/>of the <vuji>I</vuji>ust are not propoſed to our vie<hi rend="slant(upright)">w</hi> that <vuji>vv</vuji>ee
+	    <lb/>should be <vuji>I</vuji>uſtifyed by them, but that by imita­
+	    <lb/>tion of them, <hi rend="slant(upright)">w</hi>e may likewiſe merit to be <vuji>I</vuji>uſti­
+	    <lb/>fyed by their <vuji>I</vuji>uſtifyer</said>: I will ſurceaſe to de­
+	  <lb/>taine you any longer.</p>
+        <closer rend="align(right)right-indent(2)case(allcaps)">
+          <salute xml:lang="fr">Adie<vuji>v</vuji>.</salute>
+        </closer>
+      </div>
+    </front>
+    <body>
+      <div type="body">
+        <gap desc="printed" reason="excerpt" extent="pp.1-258"/>
+        <p/>
+      </div>
+    </body>
+    <back>
+      <div type="contents">
+        <p>
+          <gap desc="printed" reason="excerpt" extent="pp.1-6"/>
+        </p>
+      </div>
+      <div type="section">
+        <p>
+          <gap desc="printed" reason="excerpt" extent="1p"/>
+        </p>
+      </div>
+      <div type="corrigenda">
+        <p>
+          <gap desc="printed" reason="excerpt" extent="1p"/>
+        </p>
+      </div>
+    </back>
+  </text>
+</TEI>

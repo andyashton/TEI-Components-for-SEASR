@@ -1,0 +1,66 @@
+package edu.brown.seasr.normalizecomponent;
+
+import edu.brown.seasr.AbstractXMLStreamComponent;
+import edu.brown.seasr.QueueBlock;
+import edu.brown.seasr.normalizecomponent.Normalizer;
+import org.meandre.annotations.Component;
+import org.meandre.annotations.ComponentOutput;
+import org.meandre.core.ComponentContext;
+import org.seasr.datatypes.core.Names;
+
+import java.util.Queue;
+
+/**
+ * User: mdellabitta
+ * Date: 2011-06-10
+ * Time: 6:15 PM
+ */
+
+@Component(
+        creator = "Michael Della Bitta",
+        description = "This component renders a normalized view of the TEI document.",
+        name = "Normalizer Component",
+        tags = "xml tei",
+        dependency = {"protobuf-java-2.2.0.jar", "saxon9he.jar"},
+        baseURL = "meandre://brown.edu/seasr/tei/components/",
+        firingPolicy = Component.FiringPolicy.any,
+        mode = Component.Mode.compute,
+        rights = Component.Licenses.Other)
+
+public class NormalizerComponent extends AbstractXMLStreamComponent {
+
+    @ComponentOutput(description = "Normalized Result", name = Names.PORT_XML)
+    final static String OUT_XML = Names.PORT_XML;
+
+    public void setNormalizer(Normalizer normalizer) {
+        this.normalizer = normalizer;
+    }
+
+    private Normalizer normalizer = new Normalizer();
+
+    @Override
+    protected void processSidechainInputs(ComponentContext cc) throws Exception {
+        //do nothing
+    }
+
+    @Override
+    protected void processQueued(final ComponentContext cc, Queue<String> queue) {
+        foreachDoc(new QueueBlock() {
+            @Override
+            public void process(String xml) throws Exception {
+                String normalized = normalizer.imposeNormalcy(xml);
+                cc.pushDataComponentToOutput(OUT_XML, normalized);
+            }
+        });
+    }
+
+    @Override
+    protected boolean isSidechainReady() {
+        return true;
+    }
+
+    @Override
+    protected String[] getStreamOutputPorts() {
+        return new String[] {OUT_XML};
+    }
+}

@@ -1,0 +1,77 @@
+package edu.brown.seasr.diplomaticcomponent;
+
+import edu.brown.seasr.ComponentXMLUtils;
+import edu.brown.seasr.xpathfindandreplacecomponent.XPathFindAndReplace;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+import java.util.Map;
+
+/**
+ * User: mdellabitta
+ * Date: 2011-06-10
+ * Time: 6:18 PM
+ */
+public class Diplomat {
+
+    private ComponentXMLUtils utils = new ComponentXMLUtils();
+
+    public String imposeDiplomacy(String xml) throws Exception {
+        Document doc = utils.stringToDocument(xml);
+        doc.normalize();
+        String teiPrefix = utils.getTEIPrefix(doc);
+        Map<String, String> namespaces = utils.scrapeNamespaceDeclarations(doc);
+        removeNoteWithResp(doc, teiPrefix, namespaces);
+        easyChoices(doc);
+        highCertaintyChoices(doc, teiPrefix, namespaces);
+        removeSuppliedAndSubst(doc, teiPrefix, namespaces);
+
+        return utils.docToString(doc);
+    }
+
+    void removeSuppliedAndSubst(Document doc, String teiPrefix, Map<String, String> namespaces) throws Exception {
+        //--Remove <supplied> and <subst> elements.
+        utils.xPathElementFindAndReplace(doc, String.format("//%1$s:supplied | //%1$s:subst", teiPrefix), null, namespaces);
+    }
+
+    void highCertaintyChoices(Document doc, String teiPrefix, Map<String, String> namespaces) throws Exception {
+        //Where <unclear> or <seg> appear in <choice>, choose the highest-certainty value if it has a @cert attribute.
+        //probably could do this with xpath if i were guaranteed 2.0 and I had more time.
+        String findXPath = String.format("//%1$s:choice[%1$s:unclear[@cert]] | //%1$s:choice[%1$s:seg[@cert]]", teiPrefix);
+        NodeList unclearChoices = utils.runXPathNodeListResult(findXPath, doc, namespaces);
+
+        for (int i = 0; i < unclearChoices.getLength(); i++) {
+            Element choice = (Element) unclearChoices.item(i);
+            int maxCert = 0;
+            NodeList unclearOptions = choice.getChildNodes();
+            //find the maxcert
+            for (int j = 0; j < unclearOptions.getLength(); j++) {
+                if (unclearOptions.item(j).getNodeType() != Node.ELEMENT_NODE) continue;
+                Element unclearOption = (Element) unclearOptions.item(j);
+                int cert = Integer.parseInt(unclearOption.getAttribute("cert"));
+                maxCert = maxCert > cert ? maxCert : cert;
+            }
+            //do the substitution
+
+            findXPath = String.format("./%1$s:unclear[@cert = '%2$s'] | ./%1$s:seg[@cert = '%2$s']", teiPrefix, "" + maxCert);
+            NodeList replacements = utils.runXPathNodeListResult(findXPath, choice, namespaces);
+            Node parent = choice.getParentNode();
+            parent.insertBefore(replacements.item(0), choice);
+            parent.removeChild(choice);
+        }
+    }
+
+    void easyChoices(Document doc) throws Exception {
+        //within <choice>, choose the content of <sic>, <abbr>, <orig> (suppress   <corr>, <expan>, <reg>).
+        utils.choose(doc, "sic");
+        utils.choose(doc, "abbr");
+        utils.choose(doc, "orig");
+    }
+
+    void removeNoteWithResp(Document doc, String teiPrefix, Map<String, String> namespaces) throws Exception {
+        //no <note> with a @resp attribute
+        utils.xPathElementFindAndReplace(doc, String.format("//%1$s:note[@resp]", teiPrefix), null, namespaces);
+    }
+}

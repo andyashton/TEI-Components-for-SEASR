@@ -1,0 +1,76 @@
+<!-- $Header: /home/sbauman/tb/improvement/RCS/editorialDecl.xml,v 1.2 2010-01-09 12:23:18-05 sbauman Exp $ -->
+<!--
+    ** This file is a fragment of XML (and thus is not well-formed XML by
+    ** itself) that is intended to be the content of the <editorialDecl>
+    ** element in the <teiHeader>s of WWP textbase files. It's full name
+    ** is '-//Brown University Women Writers Project//TEXT Textbase
+    ** Common Editorial Declaration//EN'. 
+    ** -->
+<!--
+    ** Written long ago on a computer not far away by Julia Flanders.
+    ** This header comment added 2003-06-12 by Syd Bauman.
+    ** Changed to include the <editorialDecl> element itself here for
+    ** P5 on 2009-12-29 by Syd Bauman.
+-->
+<editorialDecl xmlns="http://www.wwp.brown.edu/ns/textbase/storage/1.0">
+  <correction status='medium' method='markup'>
+    <p>The text has received two forms of correction. The first is
+    correction of printers errors occurring within the original
+    document. This is done both during initial transcription and
+    during subsequent proofreading. Correction of simple typographical
+    errors is done using <gi>sic</gi> elements, with the corrected
+    reading recorded as the content of its sibling <gi>corr</gi>
+    element. Broken type is not recorded. Words accidentally omitted
+    by the printer have not been supplied. Portions of text which are
+    difficult or impossible to read are marked using <gi>damage</gi>
+    (where the photocopy or the original text is damaged or torn),
+    <gi>unclear</gi> (where the photocopy or the original text is
+    illegible), <gi>gap</gi>, and <gi>supplied</gi>. Repeated words
+    are marked with <gi>sic</gi>. Manuscript additions and corrections
+    to the text are transcribed using the <gi>add</gi> element.</p>
+    <p>The second form of correction is intended to ensure the
+    accuracy of the transcription, and is done by proofreading and
+    correction subsequent to transcription.</p>
+  </correction>
+  <normalization source='WWP' method='markup'>
+    <p>The use of both upper- and lower-case i, j, u, v, and vv has
+    been normalized to modern 20th century typographical practices
+    using a stand-in for the TEI <gi>choice</gi> element:
+    <gi>vuji</gi>. See <ref
+    target="../schema/wwp-store.doc.html#vuji">its documentation</ref>
+    for a table of equivalents in TEI.</p>
+    <p>In addition, regularized values for dates encoded with the
+    <gi>date</gi> element have been encoded using the <att>when</att>
+    attribute, in the format used by the TEI data.temporal datatype
+    (e.g. 'yyyy-mm-dd').</p>
+    <p>All punctuational dashes longer than an em-dash have been
+    regularized to an em-dash. Groups of hyphens or dashes which
+    function punctuationally like an em-dash have been recorded as a
+    sequence of two HORIZONTAL BAR characters (U+2015).</p>
+    <p>Spacing between words and following punctuation has been
+    regularized to zero spaces; spacing between words has been
+    regularized to one space.</p>
+  </normalization>
+  <quotation marks='all' form='rend'>
+    <p>All quotation marks have been encoded using the <att>rend</att>
+    attribute of the element they offset. Marks are recorded
+    faithfully as either single or double, left or right, regardless
+    of whether or not they mirror modern conventions.</p>
+    <p>Apostrophes have been retained as text content using APOSTROPHE
+    character (U+0027), and thus are distinguished from quotation
+    marks.</p>
+  </quotation>
+  <hyphenation eol='all'>
+    <p>The encoding distinguishes between hard and soft hyphens. Hard
+    hyphens, whether at the end-of-line or not, are recorded as a
+    plain-text hyphen character. Soft hyphens are recorded using the
+    SOFT HYPHEN character (U+00AD). Hyphens in catchwords are
+    transcribed as hard hyphens.</p>
+  </hyphenation>
+  <p>This is a documentary transcription of the source document. No
+  variants from other copies or editions have been included. Source
+  lineation has been retained.</p>
+  <p>For more detailed information on transcription and editorial
+  methodology, please see the WWP's documentation page at
+  <ptr target="http://www.wwp.brown.edu/encoding/"/>.</p>
+</editorialDecl>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <google>
+        <foo>
+            <leaf>
+                <xi:include href="elizabeth.goldendewes2.xml"/>
+            </leaf>
+        </foo>
+    </google>
+    <file>
+        <xi:include href="bacon.sermons.tei.xml"/>
+    </file>
+    <file xml:base="file:///Users/mdellabitta/Dropbox/Dev/brown/brown-seasr/src/test/resources/">
+        <xi:include href="anger.protection.xml"/>
+    </file>
+    <file xml:base="file:///Users/mdellabitta/Dropbox/Dev/brown/brown-seasr/src/test/resources/">
+        <hey xml:base="subdir/">
+            <xi:include href="anger.protection.xml"/>
+        </hey>
+    </file>
+</root>

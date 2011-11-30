@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?oxygen RNGSchema="../schema/wwp-store.rnc" type="compact"?>
+<!-- $Header: /tmp/improvement/RCS/fell.thismajor.xml,v 1.61 2010-01-24 20:54:52-05 sbauman Exp $ -->
+<TEI xmlns="http://www.wwp.brown.edu/ns/textbase/storage/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader xml:id="TR00378.hdr">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">This Was Given to Major General Harrison and the Rest, 1660</title>
+        <author>
+          <persName ref="personography.xml#mfell.nep" type="person-female">Fell, Margaret (Askew)</persName>
+        </author>
+        <sponsor>Brown University</sponsor>
+        <funder>U.S. National Endowment for the Humanities</funder>
+        <funder>The Andrew W. Mellon Foundation</funder>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2.0">Second edition: version 2.0</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Brown University Women Writers Project</publisher>
+        <address>
+          <addrLine>Box 1841</addrLine>
+          <addrLine>Brown University</addrLine>
+          <addrLine>Providence, RI  02912-1841</addrLine>
+          <addrLine>USA</addrLine>
+          <addrLine>url:mailto:WWP@brown.edu</addrLine>
+          <addrLine>url:http://www.wwp.brown.edu</addrLine>
+          <addrLine>401-863-3619</addrLine>
+        </address>
+        <idno type="WWP">TR00378</idno>
+        <idno type="URL">http://www.wwp.brown.edu/texts/fell.thismajor.html</idno>
+        <xi:include href="availability.xml"/>
+        <date when="2001-04-23"/>
+      </publicationStmt>
+      <sourceDesc n="OT00378">
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName ref="personography.xml#mfell.nep" type="regularized">Fell, Margaret (Askew)</persName>
+            </author>
+            <title>This was given to Major Generall Harrison and the rest</title>
+            <edition>Sole early edition</edition>
+            <imprint>
+              <pubPlace>London</pubPlace>
+              <publisher>
+                <persName ref="personography.xml#tsimmons.ner" type="titlePage">Thomas Simmons</persName>
+                <persName ref="personography.xml#tsimmons.ner" type="regularized">Simmons, Thomas</persName>
+              </publisher>
+              <date when="1660"/>
+            </imprint>
+            <extent>
+              <measure unit="page" quantity="7"/>
+            </extent>
+            <extent>
+              <dimensions>
+                <format>quarto</format>
+              </dimensions>
+            </extent>
+          </monogr>
+          <idno type="WF">Acc. 150274</idno>
+          <idno type="Wing">F638</idno>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <xi:include href="projectDesc.xml"/>
+      <xi:include href="samplingDecl.xml"/>
+      <xi:include href="editorialDecl.xml"/>
+      <tagsDecl>
+        <rendition xml:id="rend.it">slant(italic)</rendition>
+        <rendition xml:id="rend.break">break(yes)</rendition>
+        <namespace name="http://www.wwp.brown.edu/ns/textbase/storage/1.0">
+          <tagUsage gi="mw" render="#rend.break"/>
+          <tagUsage gi="p" render="#rend.break"/>
+          <tagUsage gi="head" render="#rend.break"/>
+          <tagUsage gi="salute" render="#rend.break"/>
+          <tagUsage gi="closer" render="#rend.break"/>
+          <tagUsage gi="emph" render="#rend.it"/>
+          <tagUsage gi="q" render="#rend.it"/>
+          <tagUsage gi="placename" render="#rend.it"/>
+        </namespace>
+      </tagsDecl>
+      <classDecl>
+        <xi:include href="taxonomy.xml"/>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <handNotes>
+        <handNote xml:id="unknown.zzx" scribe="unknown.zzx"/>
+      </handNotes>
+      <textClass>
+        <catRef type="main" target="#G.non-fiction"/>
+        <catRef type="other" target="#G.non-fiction.letter"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change n="RCS:1.52" when="2004-07-13" who="personography.xml#jmelson.nep">Fixed minor validation errors; file now valid</change>
+      <change n="RCS:1.45" when="1999-10-18" who="personography.xml#jrussom.zxg">corrected capitalization in attribute value</change>
+      <change n="RCS:1.41" when="1999-08-13" who="personography.xml#jflanders.lfw">updated header names</change>
+      <change when="1999-02-26" who="personography.xml#ldodds.rnd">entered proofreading corrections</change>
+      <change when="1999-01-19" who="personography.xml#jrussom.zxg">Revised TEI header. Standardized author name and made
+          ordering of elements consistent.</change>
+      <change when="1998-12-15" who="personography.xml#sbauman.emt">Made valid against 1.1.20a (by changing PUBLISHER to DOCROLE
+          in last TITLEBLOCK); also fixed two instances of minor
+          error: transposing a Q start-tag and a blank.</change>
+      <change when="1998-09-28" who="personography.xml#jflanders.lfw">Updated header to new model</change>
+      <change when="1998-05-26" who="personography.xml#pcaton.xzc">Changed 'div type="colophon"' to 'colophon', with
+          appropriate changes to children. Also added 'desc='
+          attribute to 'gap' tag. Validated against DTD
+          1.1.10a.</change>
+      <change when="1997-04-16" who="personography.xml#lwalton.nen">Made corrections as suggested after proofing re: printout
+          given to me by Carol M.</change>
+      <change when="1997-03-13" who="personography.xml#pcaton.xzc">Added "type=overstrike" to the del tag.</change>
+      <change when="1997-03-13" who="personography.xml#lwalton.nen">Made changes following encoding review: mainly setting extra
+          defaults; deleting redundant tagging.</change>
+      <change when="1997-03-10" who="personography.xml#lwalton.nen">Reread and proofed fourth print copy. Made corrections to
+          copy and printout errors.Removed redundant emph tags within
+          qs and set defaults for placename.</change>
+      <change when="1997-03-07" who="personography.xml#lwalton.nen">Reread and proofed third print copy. Made further
+          corrections.</change>
+      <change when="1997-03-04" who="personography.xml#lwalton.nen">Reread and proofed second print copy. Made further
+          corrections.</change>
+      <change when="1997-03-03" who="personography.xml#lwalton.nen">Reread and proofed first print copy. Made further
+          corrections.</change>
+      <change when="1997-02-28" who="personography.xml#lwalton.nen">Proofread first print copy. Compared to orginial text and
+          made initial corrections.</change>
+      <change when="1997-02-27" who="personography.xml#lwalton.nen">Finished capture, validated and supra validated against
+          version 1.0.13a of wwp-store DTD.</change>
+      <change when="1997-02-26" who="personography.xml#lwalton.nen">Finished capture, validated and supra validated against
+          version 1.0.13a of wwp-store DTD.</change>
+      <change when="1997-02-25" who="personography.xml#lwalton.nen">Continued capture</change>
+      <change when="1997-02-24" who="personography.xml#lwalton.nen">Continued capture</change>
+      <change when="1997-02-21" who="personography.xml#lwalton.nen">Continued capture</change>
+      <change when="1997-02-18" who="personography.xml#lwalton.nen">Began capture using psgml/emacs on Unix with version 1.0.13a
+          of wwp-store DTD.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="TR00378">
+    <hyperDiv>
+</hyperDiv>
+    <pb n="1"/>
+    <milestone n="A1r" unit="sig"/>
+    <add resp="#lwalton.nen" hand="#unknown.zzx" rend="place(headspace)">
+      <gap resp="#lwalton.nen" desc="handwriting" reason="illegible"/>
+    </add>
+    <add resp="#lwalton.nen" hand="#unknown.zzx" rend="place(headspace)break(no)">12th booke</add>
+    <mw type="pageNum" rend="align(center)">1</mw>
+    <front rend="post(#rule)">
+      <head rend="case(allcaps)align(center)">This
+<lb/>Was Given To
+<lb/>Major
+<lb/><hi rend="case(mixed)">Generall Harriſon</hi>
+<lb/>And The
+<lb/>Rest.</head>
+    </front>
+    <body rend="post(#rule)">
+      <head rend="slant(italic)first-indent(0)indent(1)">Read this in
+	the Fear of the
+<lb/>Lord, and in the moderation of Your
+	ſpi­
+<lb/>rits, without prejudice.</head>
+      <salute rend="case(smallcaps)">Friends,</salute>
+      <p><hi rend="class(#DIC)">T</hi><hi rend="case(allcaps)">his</hi> is the day
+    of your viſitation, while ye
+<lb/>have time prize it; <persName ref="personography.xml#god.qia">God</persName> hath long holden
+<lb/>forth a hand of love
+	  unto you, though you
+<lb/>have for ſeveral years paſt
+	  ſlighted and reje­
+<lb/>cted his council, and would have
+	  none of his
+<lb/>wayes, <said>Who is the eternal Light, the
+	  way,
+<lb/>the truth, and the Life</said>, and there is no other way
+	  nor name
+<lb/>under <placeName>Heaven</placeName> by which any ſhall be ſaved, or
+	  come to the 
+<lb/>knowledge of the eternal Truth as it is in
+	<persName ref="personography.xml#jchrist.hjn">Jeſus</persName>, but by the
+<lb/><emph>Light of
+	  <persName ref="personography.xml#jchrist.hjn">Christ
+	    Jeſus</persName></emph> in whom is
+ <emph>Life</emph>, and this <emph>Life is the
+<lb/>Light of men</emph>, and though
+	      you have ſlighted this, and looked
+<lb/>upon it as too
+	      mean and low, yet this ye muſt ſtoop unto,
+<lb/>and come
+	      to, if ever you find peace and reconciliation
+	with
+<lb/>the Lord <persName ref="personography.xml#god.qia">God</persName>, ye muſt have it
+		<emph>in the Light</emph> which bears
+<mw rend="align(center)" type="sig">A</mw>
+<mw rend="align(right)break(no)" type="catch">teſti-</mw>
+<pb n="2"/><milestone n="A1v" unit="sig"/>
+<mw rend="align(center)" type="pageNum">2</mw>
+<lb/>teſtimony againſt
+    all the works and deeds of darkneſſe;
+<lb/>and if ever ye come to
+	know or witneſſe <emph>Life and immor­
+<lb/>tality to be
+	  brought to Light</emph> thorow the Goſpel of <persName ref="personography.xml#jchrist.hjn">Jeſus</persName>,
+<lb/>which is glad tydings to the
+	  poor, and liberty to the cap­
+<lb/>tive, then muſt you
+	  come to the <emph>Light</emph> of <persName ref="personography.xml#jchrist.hjn" rend="slant(italic)">Jeſus</persName> that ſhines
+<lb/>in your
+	Conſciences, for his Immortality <emph>dwells in the
+	  Light</emph>,
+<lb/>and the knowledg of him, and the witneſſe
+	that every one
+<lb/>can bear of him in the real truth, is in the
+    <emph>Light</emph> that ſhines
+<lb/>in their Conſciences, and in this
+	knowledge is <said>Life eternal
+<lb/>to know the only true
+	  <persName ref="personography.xml#god.qia">God</persName>, and <persName ref="personography.xml#jchrist.hjn">Jeſus Christ</persName> whom he hath
+<lb/>ſent
+	      a</said> Light into the world, who hath ſaid,<said>He that
+	  knows
+<lb/>me, knows him that ſent me; I am come a Light,
+	  that he
+<lb/>that believes on me ſhould not periſh, but have
+    everlaſting life</said>;
+<lb/>and this is the record that he hath given us
+    of his Son, even
+<lb/><emph>eternal life</emph>, and this life is in his
+	Son, which is now riſen
+<lb/>in his brightneſſe, and ſhining
+	in the Conſciences of men,
+<lb/>and he is purging the
+	Conſcience from dead works to ſerve
+<lb/>the living <persName ref="personography.xml#god.qia">God</persName>, which all the types and the figures could
+	  not
+<lb/>make <emph>any thing perfect as pertaining to the
+	    conſcience</emph>, No
+<lb/>not the Tabernacle, nor the Golden
+    Pot in which was the
+<lb/><emph>Manna</emph>, they were but a ſhaddow of
+	<emph>the good things to come</emph>,
+<lb/>the <emph>body</emph> and
+	ſubſtance is <persName ref="personography.xml#jchrist.hjn" rend="slant(italic)">Chriſt</persName>, which makes clean
+    the inſide
+<lb/>who is King of the Jews, not outward but inward,
+	and
+<lb/>the Miniſter of that Circumciſion which is of the
+	heart, which
+<lb/>worſhips him in <emph>the Spirit and in the
+	  Truth</emph>, having not
+<lb/>confidence in the fleſh; and this
+    is that you muſt all ſtoop
+<lb/>to, if ever ye know or be
+	partakers of the precious faith,
+<lb/>which was once delivered
+	  to the Saints, which we are con­
+<lb/>tending for, and are
+    to contend for, even to the giving up
+<lb/>our lives, and our
+	  deſire is that ye might partake with us,
+<lb/>and taſt of
+	  that love which is in <persName ref="personography.xml#jchrist.hjn">Chriſt 
+Jeſus</persName>, which neithe<choice><sic>t</sic><corr>r</corr></choice>
+<lb/>heigth nor depth, tribulation, nor
+    anguiſh, Principalityes nor
+<lb/>powers, life nor death can
+	ſepa<choice><sic>t</sic><corr>r</corr></choice>ate from, and that you might
+<lb/>partake of our
+	      life which <emph>is hid with <persName ref="personography.xml#jchrist.hjn">Chriſt</persName> in <persName ref="personography.xml#god.qia">God</persName></emph>, is the de­
+<lb/>ſire of
+	    our ſoules, though you have long ſlighted the day
+	    of
+<lb/>your viſitation, and often rejected the council of
+	    the Lord,
+<lb/>and counted the Light a mean and a
+	    contemptible thing, 
+<mw rend="align(right)" type="catch">by</mw>
+<pb n="3"/>
+<milestone n="A2r" unit="sig"/>
+<mw rend="align(center)" type="pageNum">3</mw>
+<lb/>by which the Lord <persName ref="personography.xml#god.qia">God</persName> doth and ever will teach
+	      his peo­
+<lb/>ple; and this teſtimony I bear unto you
+	      in the preſence of
+<lb/>the Lord
+		<persName ref="personography.xml#god.qia">God</persName>, though you may eſteem high of your
+		ſelves,
+<lb/>and of your knowledge, <said>the living and
+	      the eternal <persName ref="personography.xml#god.qia">God</persName> ye
+	      doe
+<lb/>not know as he is, but as ye know him in the
+	      light, for his im­
+<lb/>mortality dwells in the
+	      light</said>, and if ye know him where he
+<lb/>dwells, ye
+	    muſt know him in the <emph>Light</emph>, and if ye be
+	    the
+<lb/>Children of the Lord, and taught of the Lord, ye
+	    muſt be
+<lb/>taught by the <emph>Light</emph> of him in your
+	    Conſciences, and if ye be
+<lb/>eſtabliſhed in
+	    righteouſneſſe you muſt be eſtabliſhed in
+	    the
+<lb/><emph>Light</emph>, and if ye be far from oppreſſion,
+	    ye muſt be found in 
+<lb/>the <emph>Light</emph>, and if you will
+		be where your peace will be great
+<lb/>ye muſt dwell in
+the <emph>Light</emph>, and if while ye have the <emph>Light</emph>
+<lb/>ye beleeve
+		in the <emph>Light</emph>, ye may <del hand="#unknown.zzx" type="overstrike">may</del> be the children of the
+   
+<lb/><emph>Light</emph>, and this is <persName ref="personography.xml#jchrist.hjn">Chriſts</persName> own words and
+	    exhortations whom
+<lb/>ye highly profeſs, ; yet ſlight
+	    his own words ; exhorration;
+<lb/>Oh! Friends, what wil
+	profeſſion of him in words<choice><sic/><corr>␣</corr></choice>outwardly do
+<lb/>for you now
+	    in the time of your diſtreſſe and ſad
+	    affliction,
+<lb/>when that faith is wanting which ſtands in
+    the power, and
+<lb/>works by love, and is held in the miſtery of a
+	    pure Conſci­
+<lb/>ence, which I know eternally never a
+	    one of you can witneſſe
+<lb/>who denyes the <emph>Light</emph> of
+    <persName ref="personography.xml#jchrist.hjn">Jeſus</persName> that cleanſeth the
+		Conſcience,
+<lb/>which every one muſt walk in; which
+		brings into the fellow­
+<lb/>ſhip one with another,
+		where <said>the blood of <persName ref="personography.xml#jchrist.hjn">Jeſus Chriſt</persName>
+	      clean­
+<lb/>ſes from all ſin</said>; and what will your
+	    juſtification, in that one
+<lb/>act which you ſpeak of,
+	    which was offered up at
+	    <placeName>Jeruſalem</placeName>,
+<lb/>now do for you when
+	    you want your ſeal and your teſtimo­
+<lb/>ny of your
+	    being juſtified by it in your Conſciences? if
+ye
+<lb/>have not your particular aſſurance, by being purged
+purify­
+<lb/>ed, and ſanctified, and ſo juſtified in your own conſcience?
+<lb/>what will
+	    that Act doe for a defiled Conſcience?
+what<lb/>will that
+	    act do for an unclean and an unſanctified heart
+<lb/>being
+	    that he which was offered up at
+	   <placeName>Jeruſalem</placeName> once for all,
+<lb/>thorow
+	    <emph>the eternall Spirit</emph>, is now riſen in his Spirit
+	    and
+<lb/><emph>Light</emph>, in the hearts and Conſciences of
+	    men, there to cleanſe
+<lb/>and to purge, and to waſh by his
+    own blood, and ſo to juſti­
+<lb/>fie and give aſſurance,
+	      <said rend="slant(upright)">that whoſoever believes on him ſhould
+<mw rend="align(center)" type="sig">A2</mw>
+<mw rend="align(right)break(no)" type="catch">be</mw>
+<pb n="4"/>
+<milestone n="A2v" unit="sig"/>
+<mw rend="align(center)" type="pageNum">4</mw>
+<lb/>be ſaved and
+    have <emph>everlaſting life</emph></said>, now what will your
+	      pro­
+<lb/>feſſing and talking of this act doe for
+	      you, while you are
+<lb/>ſlighting and diſobeying, and
+	      tranſgreſſing againſt the Light
+<lb/>(which ſhould
+	      give you teſtimony and true aſſurance) to
+	      your
+<lb/>juſtification, and ſhould purifie your hearts
+	      by faith,
+<lb/>for it is <emph>by the faith of the Son of
+		<persName ref="personography.xml#god.qia">God</persName></emph>, which is
+	      <emph>Light</emph> and
+<lb/><emph>Life</emph> that <emph>the juſt
+		  lives</emph>, its not profeſſion, or high notions
+		by
+<lb/>which the Juſt lives, its not brain wiſdom nor
+	comprehe<choice><sic/><corr>n</corr></choice>ſion
+<lb/>in the underſtanding that raiſes
+		the dead, it was that that
+<lb/>crucified the Juſt;
+		but it is the voyce of the Son of <persName ref="personography.xml#god.qia">God</persName> that
+<lb/>raiſes the
+		dead, and there's nothing that will avail in this
+		day
+<lb/>of the Lord but this new-creature, the image of
+    the inviſible
+<lb/><persName ref="personography.xml#god.qia">God</persName>, the
+		firſt begotten from the dead, and he that doth
+		not
+<lb/>witneſſe this ſtate will ſuffer loſſe,
+		for when his work is
+<lb/>tryed by the fire it will be
+		burned; and though men may ſpeak
+<lb/>with the tongues
+		of men and Angels, and want that love
+		that
+<lb/>paſſeth knowledge, it is but as the
+		<said>ſounding braſſe, and tinck­
+<lb/>ling
+		  cymball</said>, and ſo it will paſſe away and be no
+		more ſeen;
+<lb/>Nay further then that, though there may
+		be propheſies and
+<lb/>faith that could remove
+		Mountains, and want this love that 
+<lb/>gives obedience, and keeps the Commandements of the
+<lb/>Lord it is nothing; though they may give their goods to the
+   
+<lb/>poor, and their bodies to be burned, it is nothing while
+		they
+<lb/>doe not keep the Commandements of the Lord but
+    ſlights
+<lb/>his tenders of love, and his gracious mercies, and is
+		exalted
+<lb/>in a notion, in a conceiving or
+		apprehenſion of a thing, and
+<lb/>wants the ſound and
+		ſure teſtimony of the thing it ſelf; in
+		this
+<lb/>they are utterly betrayd; though they may ſay
+    or apprehend
+<lb/>that their name is written in <placeName>Heaven</placeName>, yet if this
+		<placeName>Heaven</placeName>
+<lb/>be farre off them they may miſſe of their
+    Name, <said>For <persName ref="personography.xml#satan.inz">Satan</persName>
+<lb/>falls from
+    <placeName>Heaven</placeName> like lightning</said>; He that can receive it let
+<lb/>him;
+	There's none that enters into the <rs>Holy City</rs>, but
+    whoſe
+<lb/>name is written in the <said>Lambs book of Life, ſlain
+		  from the
+<lb/>foundation of the world</said>, and this
+		Name is written in <placeName>Hea­
+<lb/>ven</placeName>, and here is Joy
+		witneſſed and the Song of <persName ref="personography.xml#moses.znq" rend="slant(italic)">Moſes</persName> and
+<lb/>the
+		  <emph>Lamb</emph>, but this ſtate is redeemed from the
+		  earth,
+<lb/>and ſo the offering up of the naturall
+		  life in this ſtate is
+<lb/>little.</p>
+      <mw rend="align(right)break(no)" type="catch">Now</mw>
+      <pb n="5"/>
+      <milestone n="A3r" unit="sig"/>
+      <mw rend="align(center)" type="pageNum">5</mw>
+      <p rend="first-indent(1)">Now the
+	deſire of my heart is that you had faith in <persName ref="personography.xml#god.qia">God</persName>,
+<lb/>and might ſee your
+	ſelves in the condemnation, and feele
+<lb/>the hand of his
+	Juſtice and Judgement, and that you are not
+<lb/>come to this
+	condition without the power and providence,
+<lb/>and
+	permiſſion of the Lord, that ſo you may be received
+	in­
+<lb/>to his boſome and mercy; for undoubtedly the ſame
+	<persName ref="personography.xml#god.qia">God</persName> as
+<lb/>brought you to the
+	    ſeat of Juſtice, formerly has alſo brought
+<lb/>you now to
+    the Judgment, therefore now fall down under the
+<lb/>hand of his
+	    Juſtice; whoſe hand of mercy is holden forth
+<lb/>unto
+	    you; and conſider what great mercy you have
+	    abuſed,
+<lb/>and opportunities of doing him ſervice; and
+	    how you
+<lb/>have betrayed him and his cauſe into the hands
+    of ſinners;
+<lb/>and how you have incurred his Juſt hand of
+	    recompence
+<lb/>upon your heads; oh conſider what yee have
+	    done againſt
+<lb/>the Lord, what a great power you have
+	    abuſed, <said>and tur­
+<lb/>ned the ſword againſt the
+	    Innocent</said>, that ſhould have
+<lb/>been for the evill doer,
+    and ſlighted and contemned
+<lb/>his living
+	      truth, and held up a rotten deceitfull
+	      pro­
+<lb/>feſſion which now will faile you in the day
+    of your trou­
+<lb/>bles and tryalls; one houre of worſhipping the
+Lord <persName ref="personography.xml#god.qia">God</persName>
+<lb/>in his Eternall light
+	      and Spirit of Eternall life, were of more
+<lb/>value to
+	      you then all your dayes and nights,
+	      that you have
+<lb/>ſpent in prayers, and teares, and
+	      cryes, whileſt your hearts
+<lb/>are corrupted, and your
+	      Conſciences defiled, and your
+<lb/>minds carnall, where
+	      the Enmity ſtands againſt <persName ref="personography.xml#god.qia">God</persName>
+		and
+<lb/>his Truth, which is not ſbject to the Law of
+		<persName ref="personography.xml#god.qia">God</persName>,
+	      neither
+<lb/>indeed can be, but weepes <persName ref="personography.xml#esau.sfb" rend="slant(italic)">Eſau</persName>s
+	  teares, and ſo muſt have
+<lb/><persName ref="personography.xml#esau.sfb" rend="slant(italic)">Eſau</persName>s portion;
+	  you'l thinke this is hard, but truely you
+<lb/>will finde it
+	  truth, and you will finde that all your good­
+<lb/>neſſe
+	  will paſſe away as the Early due, and your
+	  righte­
+<lb/>ouſneſſe as the filthy raggs. But I feele
+	  ſomething object­
+<lb/>ing in your minds, as if this might
+    be a diſcouragement
+<lb/>to you in your Condition; I anſwer, no;
+	  It's the hand of
+<lb/>his love is reached out unto you, and
+	  his boſome of love <lb/>ſtands open unto you, to receive you
+	  into his mercy, if
+<lb/>you would turne in your minds to the
+	  living witneſſe of the
+<lb/>living <persName ref="personography.xml#god.qia">God</persName> in your Conſciences, to
+	  which you muſt ſtand
+<mw rend="align(right)" type="catch">or</mw>
+<pb n="6"/>
+<milestone n="A3v" unit="sig"/>
+<mw rend="align(center)" type="pageNum">6</mw>
+<lb/>or fall; This is the word which
+	  muſt Judge every one
+<lb/>of you <emph>in the laſt day</emph>, and
+	  this is the word that reconciles
+<lb/>unto <persName ref="personography.xml#god.qia">God</persName>,
+	  and this is his name (who had his veſture dipt
+<lb/>in blood)
+    to which every knee muſt bow, and every tongue
+<lb/>confeſſe; and
+    if yee ſtand committed to this immortall
+<lb/>and Eternall
+	  <emph>ingrafted word, this is able to ſave your
+	    ſoules</emph>;
+<lb/>therefore to this word of faith which is
+	  nigh in the heart,
+<lb/>which faith, <emph>Neither aſcend nor
+	    deſcend</emph>, but preaches righ­
+<lb/>teouſneſſe
+	  <emph>very nigh</emph>; to this come though it were <emph>the
+	    laſt
+<lb/>day that yee had to live</emph>; the call of this
+	  is not in vaine, you
+<lb/>will find more comfort in turning in
+    your minds unto this,
+<lb/>and joyning your hearts and minds to this
+    <emph>living Immortall
+<lb/>word in your hearts</emph>; I ſay, you will
+	  finde more comfort be­
+<lb/>ing with this if it were but
+	  <emph>one houre</emph>, then yee have done
+<lb/>with roving and
+	  rambling after things without you, and <emph>aſ­
+<lb/>cending
+    </emph> and <emph>deſcending</emph> in your Immaginations,
+	  apprehenſions,
+<lb/>and comprehenſions all the dayes of
+	  your life; and whether
+<lb/>yee can believe or no, this you
+	  ſhall finde to be Eternall
+<lb/>truth,<said>and it's <persName ref="personography.xml#god.qia">Gods</persName> love unto you, and
+	    <persName ref="personography.xml#god.qia">Gods</persName> motion</said> that is
+<lb/>the
+	  cauſe of writing this, whether you can <choice><sic>can</sic><corr/></choice> receive it or
+<lb/>no, whoſe mercy and
+	  long ſuffering continues unto you;
+<lb/>and truely you cannot
+	  plead ignorance, nor deny but you
+<lb/>have had many gracious
+	  invitations and tenders of his love.
+<lb/>Oh that you would
+	  conſider in this your day the things that
+<lb/>belongs to
+	  your everlaſting peace, and that you would turne
+<lb/>unto
+	  him that hath ſmitten you, who has brought
+	  ſalvation
+<lb/>neere, and is bringing forth righteouſneſſe
+	  as a light, and
+<lb/>thither muſt you come if ever you finde
+	  peace with the
+<lb/>Lord, yee muſt come to his ſwift
+	  witneſſe that teſtifies a­
+<lb/>gainſt all your wayes,
+	  and all your worſhips, and your beſt
+<lb/>actions, that have
+    not been acted from the <emph>light</emph>, is for con­
+<lb/>demnation
+	  with the <emph>light</emph>; for he is neere that
+	  condemnes,
+<lb/>and he is neere that juſtifies, and then who
+	  can condemne,
+<lb/>for <persName ref="personography.xml#god.qia">God</persName>
+	  is greater who is one with him that juſtifies every
+<lb/>one;
+	  <said>and if the heart condemne, <persName ref="personography.xml#god.qia">God</persName> is alſo greater</said>, and
+	  ſo to
+<lb/>this Maſter muſt you either ſtand or fall; if
+	  this righteous
+<lb/>Judge condemne yee are condemned, and if
+	  this juſtifie,
+<mw rend="align(right)" type="catch">then</mw>
+<pb n="7"/>
+<milestone n="A4r" unit="sig"/>
+<mw rend="align(center)" type="pageNum">7</mw>
+<lb/>then are you juſtified before the Lord;
+	  and if this righte­
+<lb/>ous, juſt and faithfull
+	  witneſſe in you plead your Cauſe,
+<lb/>and you come to be
+	  tryed and proved, ſearched and exami­
+<lb/>ned by this
+	  witneſſe, and you freely ſubmit to the Judge­
+<lb/>ment
+	  of this, and what this condemns condemne, and what
+<lb/>this
+	  Juſtifies Juſtifie no more, and owne no more to be
+	  truth
+<lb/>but what this righteous witneſſe of <persName ref="personography.xml#god.qia">God</persName> in you preſents to
+<lb/>be
+	    truth; here you will come to a cleare conviction,
+	    and
+<lb/>this will alſo worke your converſion, and change
+	    your minds,
+<lb/>and redeeme you up to <persName ref="personography.xml#god.qia">God</persName>, and there you will ſee
+	    when
+<lb/>you are with <persName ref="personography.xml#god.qia">God</persName>, and with his true and
+	    faithfull witneſſe in
+<lb/>you, and that there all things
+	    is poſſible, and ſo your minds
+<lb/>will be changed, out
+	    of the viſible periſhing beggerly rudi­
+<lb/>ments of
+	    outward worſhips, which periſhes in the uſing
+	    of
+<lb/>them, while they are performed by an unſanctified
+	    and an
+<lb/>uncircumciſed heart; and you will come into the
+    inviſible
+<lb/>life. And ſo here I have ſet before you <said>life
+	      and death, light
+<lb/>and darkneſſe, good and evill</said>,
+    the righteous <persName ref="personography.xml#god.qia">God</persName> is ſepara­
+<lb/>ting
+	      betwixt the precious and the vile, betwixt him that
+	      ſer­
+<lb/>veth <persName ref="personography.xml#god.qia">God</persName>
+	      and him that ſerveth him not, by his quicke
+	      and
+<lb/>living powerfull word, <said>which is ſharper then
+		any two edged
+<lb/>ſword, to the diſcerning of the
+		ſecret intents of the heart</said>;
+<lb/>and unto this word
+		  which will give life unto your ſoules,
+<lb/>which he
+		  that believes on, <said>though he were dead, yet
+		    ſhall he
+<lb/>live</said>, unto him that is the
+<emph>reſurrection</emph>, and the life, I commit
+<lb/>you and commend you; and
+    conſider that this ſpirit will not
+<lb/>alwayes ſtrive with man.</p>
+      <closer rend="slant(italic)indent(2)first-indent(1)">I am a true
+      lover of all your ſoules, and deſires
+<lb/>your Eternall peace
+	and comfort of the Lord,
+<lb/>who feeles the weight of your
+	ſufferings and tra­
+<lb/>vells, with the ſeed of the
+	Covenant, who am
+<lb/>knowne by outward name;<signed rend="break(yes)align(right)slant(upright)"><persName ref="personography.xml#mfell.nep">Margret Fell</persName>.</signed></closer>
+    </body>
+    <back>
+      <titleBlock rend="slant(upright)align(center)" type="colophon">
+        <docImprint><pubPlace rend="slant(italic)">London</pubPlace>;
+Printed for <docRole><persName ref="personography.xml#tsimmons.ner">Thomas
+Simmons</persName></docRole>, at the <placeName>Bull
+<hi rend="slant(upright)">and</hi>
+<lb/>Mouth</placeName> neare <placeName>Alderſgate</placeName>.
+<docDate when="1660">1660</docDate>.
+</docImprint>
+      </titleBlock>
+    </back>
+  </text>
+</TEI>

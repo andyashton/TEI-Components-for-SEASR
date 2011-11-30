@@ -1,0 +1,316 @@
+10
+
+dir
+78
+svn+ssh://mdellabi@homer.services.brown.edu/opt/local/projects/teiseasr/trunk/src/main/java/edu/brown/seasr
+svn+ssh://mdellabi@homer.services.brown.edu/opt/local/projects/teiseasr
+
+
+
+2011-06-19T17:48:30.818235Z
+78
+mdellabi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c5ae11c2-5481-11e0-a4c8-d34b973e1b17
+
+AbstractXMLConverterComponent.java
+file
+0
+
+
+add
+
+AbstractXMLStreamComponent.java
+file
+
+
+
+
+2011-04-15T12:45:55.000000Z
+6f15b566aadff6baa80184ad188954e9
+2011-04-18T12:21:09.883071Z
+36
+mdellabi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4093
+
+ComponentXMLUtils.java
+file
+
+
+
+
+2011-06-16T22:18:49.000000Z
+b57e8cff063dba29414dafdab494a398
+2011-06-18T00:46:07.677974Z
+60
+mdellabi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12291
+
+Converter.java
+file
+0
+
+
+add
+
+ExternallyRevisedComponent
+dir
+
+
+
+add
+
+QueueBlock.java
+file
+
+
+
+
+2011-06-15T21:29:23.000000Z
+7f15f44bf67b7a49649ca59ad04b8802
+2011-03-23T12:18:35.234234Z
+3
+mdellabi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+585
+
+authoriallyrevisedcomponent
+dir
+
+
+
+add
+
+authorialtextcomponent
+dir
+
+
+
+add
+
+authorsfirstintentcomponent
+dir
+
+
+
+add
+
+choicecomponent
+dir
+
+dedicationextractorcomponent
+dir
+
+
+
+add
+
+diplomaticcomponent
+dir
+
+editorcomponent
+dir
+
+
+
+add
+
+expandedcomponent
+dir
+
+
+
+add
+
+externallyrevisedcomponent
+dir
+
+
+
+add
+
+filesystemenumeratorcomponent
+dir
+
+geocodingcomponent
+dir
+
+groupbuildercomponent
+dir
+
+lettersextractorcomponent
+dir
+
+
+
+add
+
+linesofverseextractorcomponent
+dir
+
+
+
+add
+
+linesplittercomponent
+dir
+
+modernizecomponent
+dir
+
+
+
+add
+
+normalizecomponent
+dir
+
+personalnameextractorcomponent
+dir
+
+
+
+add
+
+placenameextractorcomponent
+dir
+
+poemextractorcomponent
+dir
+
+
+
+add
+
+relaxngcomponent
+dir
+
+relaxngfiltercomponent
+dir
+
+similejsoncomponent
+dir
+
+speechextractorcomponent
+dir
+
+
+
+add
+
+stagedirectionsextractorcomponent
+dir
+
+
+
+add
+
+tagstripper
+dir
+
+teicorpuscomponent
+dir
+
+witnesscomponent
+dir
+
+
+
+add
+
+xmlincluderesolvercomponent
+dir
+
+xmltojsonconvertercomponent
+dir
+
+xmluriloadercomponent
+dir
+
+xpathcomponent
+dir
+
+xpathfiltercomponent
+dir
+
+xpathfindandreplacecomponent
+dir
+
+xslt2component
+dir
+

@@ -1,0 +1,58 @@
+#
+# @name 	End to End Example Flow
+# @description
+# @creator 	mdellabi
+# @date 	Thu Jan 20 17:15:17 EST 2011
+# @rights
+# @tags 	xml relaxng rng filter example brown tei uri
+# @uri  	http://brown.edu/seasr/tei/flows/examples/end-to-end-example-flow
+#
+
+import <http://localhost:1714/public/services/repository.ttl>
+
+alias <meandre://brown.edu/seasr/tei/components/xml-uri-loader> as XML_URI_LOADER
+alias <meandre://brown.edu/seasr/tei/components/relaxng-filter> as RELAXNG_FILTER
+alias <meandre://brown.edu/seasr/tei/components/xml-include-resolver> as XML_INCLUDE_RESOLVER
+alias <meandre://brown.edu/seasr/tei/components/tei-corpus> as TEI_CORPUS
+alias <meandre://seasr.org/components/foundry/print-to-console> as PRINT_TO_CONSOLE
+alias <meandre://seasr.org/components/foundry/push-text> as PUSH_TEXT
+alias <meandre://brown.edu/seasr/tei/components/saxon-based-xslt2> as XSLT2
+
+schema_uri_push_text = PUSH_TEXT()
+schema_uri_loader = XML_URI_LOADER()
+
+tei1_uri_push_text = PUSH_TEXT()
+tei2_uri_push_text = PUSH_TEXT()
+tei3_uri_push_text = PUSH_TEXT()
+
+tei_uri_loader = XML_URI_LOADER()
+
+relaxng_filter = RELAXNG_FILTER()
+tei_corpus = TEI_CORPUS()
+print_to_console = PRINT_TO_CONSOLE()
+xslt2 = XSLT2()
+
+schema_uri_push_text.message = "http://www.tei-c.org/Vault/P5/1.7.0/xml/tei/custom/schema/relaxng/tei_all.rng"
+tei1_uri_push_text.message = "http://www.gutenberg.org/files/26495/26495-tei/26495-tei.tei"
+tei2_uri_push_text.message = "http://www.gutenberg.org/files/30107/30107-tei/30107-tei.tei"
+tei3_uri_push_text.message = "http://www.gutenberg.org/files/25274/25274-tei/25274-tei.tei"
+
+@schema_uri_push_text_outputs = schema_uri_push_text()
+@schema_uri_loader_outputs = schema_uri_loader()
+@relaxng_filter_outputs = relaxng_filter()
+@tei1_uri_push_text_outputs = tei1_uri_push_text()
+@tei2_uri_push_text_outputs = tei2_uri_push_text()
+@tei3_uri_push_text_outputs = tei3_uri_push_text()
+@tei_uri_loader_outputs = tei_uri_loader()
+@tei_corpus_outputs = tei_corpus()
+@xslt2_outputs = xslt2()
+
+schema_uri_loader(text: schema_uri_push_text_outputs.text)
+relaxng_filter(relax_ng_schema: schema_uri_loader_outputs.xml)
+tei_uri_loader(text: tei1_uri_push_text_outputs.text)
+tei_uri_loader(text: tei2_uri_push_text_outputs.text)
+tei_uri_loader(text: tei3_uri_push_text_outputs.text)
+relaxng_filter(xml: tei_uri_loader_outputs.xml)
+relaxng_filter(relax_ng_schema: schema_uri_loader_outputs.xml)
+tei_corpus(xml: relaxng_filter_outputs.valid)
+print_to_console(object: tei_corpus_outputs.xml)
